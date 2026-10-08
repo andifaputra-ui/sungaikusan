@@ -1,0 +1,241 @@
+{
+  "status": "PASS_ARCHITECTURE_ONLY_NO_RANDOMIZATION",
+  "checks": [
+    {
+      "name": "disjoint tile areas preserve every 10m map cell",
+      "pass": true
+    },
+    {
+      "name": "partial edge tiles retained",
+      "pass": true
+    },
+    {
+      "name": "known full operational grid count",
+      "pass": true
+    },
+    {
+      "name": "new tiles differ explicitly from legacy centre neighbourhoods",
+      "pass": true
+    },
+    {
+      "name": "saved catalogue contains 270 full-envelope eligible entries",
+      "pass": true
+    },
+    {
+      "name": "18 year-halfyear strata all permit at least two dates",
+      "pass": true
+    },
+    {
+      "name": "exhaustive two-stage HT mean is unbiased",
+      "pass": true
+    },
+    {
+      "name": "exact two-stage variance estimator is unbiased",
+      "pass": true
+    },
+    {
+      "name": "all artificial design possibilities enumerated",
+      "pass": true
+    },
+    {
+      "name": "positive first-order inclusion for all artificial units",
+      "pass": true
+    },
+    {
+      "name": "one sampled support cannot estimate within-stratum variance",
+      "pass": true
+    },
+    {
+      "name": "weighted unequal-allocation estimate recovers finite mean",
+      "pass": true
+    },
+    {
+      "name": "ignoring unequal allocation produces bias in constructed case",
+      "pass": true
+    },
+    {
+      "name": "imperfect auxiliary strata do not invalidate weighted selection",
+      "pass": true
+    },
+    {
+      "name": "unknown mass preserved at resolved fraction 111/2000",
+      "pass": true
+    },
+    {
+      "name": "unknown mass preserved at resolved fraction 1/4",
+      "pass": true
+    },
+    {
+      "name": "unknown mass preserved at resolved fraction 1/2",
+      "pass": true
+    },
+    {
+      "name": "unknown mass preserved at resolved fraction 3/4",
+      "pass": true
+    },
+    {
+      "name": "unknown mass preserved at resolved fraction 9/10",
+      "pass": true
+    },
+    {
+      "name": "unknown mass preserved at resolved fraction 19/20",
+      "pass": true
+    },
+    {
+      "name": "no-data not silently removed from area denominator",
+      "pass": true
+    }
+  ],
+  "check_count": 21,
+  "grid": {
+    "width": 4559,
+    "height": 2882,
+    "cells": 13139038,
+    "area_km2": 1313.9038,
+    "tile_rows": 961,
+    "tile_cols": 1520,
+    "tiles": 1460720,
+    "tiles_by_number_of_10m_cells": {
+      "9": 1458240,
+      "6": 2479,
+      "4": 1
+    },
+    "legacy_1955000_centres_fraction_of_grid": 0.14879323737399952
+  },
+  "catalogue": {
+    "eligible_entries": 270,
+    "completeness": "UNVERIFIED_OUTSIDE_SAVED_CATALOGUE",
+    "year_halfyear_counts": {
+      "2017H1": 13,
+      "2017H2": 16,
+      "2018H1": 15,
+      "2018H2": 14,
+      "2019H1": 15,
+      "2019H2": 15,
+      "2020H1": 16,
+      "2020H2": 15,
+      "2021H1": 15,
+      "2021H2": 14,
+      "2022H1": 15,
+      "2022H2": 16,
+      "2023H1": 15,
+      "2023H2": 15,
+      "2024H1": 15,
+      "2024H2": 16,
+      "2025H1": 15,
+      "2025H2": 15
+    }
+  },
+  "exhaustive_artificial_two_stage": {
+    "designs": 243,
+    "truth": 0.5,
+    "exact_variance": 0.027777777777777776,
+    "mean_estimated_variance": 0.027777777777777776
+  },
+  "response_identification_scenarios": [
+    {
+      "resolved_fraction": 0.0555,
+      "unknown_fraction": 0.9445,
+      "accuracy_if_resolved_subset_90_percent": [
+        0.04995,
+        0.99445
+      ],
+      "identification_width": 0.9445
+    },
+    {
+      "resolved_fraction": 0.25,
+      "unknown_fraction": 0.75,
+      "accuracy_if_resolved_subset_90_percent": [
+        0.225,
+        0.975
+      ],
+      "identification_width": 0.75
+    },
+    {
+      "resolved_fraction": 0.5,
+      "unknown_fraction": 0.5,
+      "accuracy_if_resolved_subset_90_percent": [
+        0.45,
+        0.95
+      ],
+      "identification_width": 0.5
+    },
+    {
+      "resolved_fraction": 0.75,
+      "unknown_fraction": 0.25,
+      "accuracy_if_resolved_subset_90_percent": [
+        0.675,
+        0.925
+      ],
+      "identification_width": 0.25
+    },
+    {
+      "resolved_fraction": 0.9,
+      "unknown_fraction": 0.1,
+      "accuracy_if_resolved_subset_90_percent": [
+        0.81,
+        0.91
+      ],
+      "identification_width": 0.1
+    },
+    {
+      "resolved_fraction": 0.95,
+      "unknown_fraction": 0.05,
+      "accuracy_if_resolved_subset_90_percent": [
+        0.855,
+        0.905
+      ],
+      "identification_width": 0.05
+    }
+  ],
+  "planning_scenarios": [
+    {
+      "dates": 18,
+      "supports_per_date": 8,
+      "total": 144,
+      "srs_illustrative_95_halfwidth_at_p_half": 0.08166666666666667,
+      "expected_conditional_at_old_5_55pct_NOT_forecast": 7.992,
+      "slots_if_4_per_support": 576,
+      "charge_GiB_using_old_attempt_average_NOT_provider_quote": 1.8889885203545864
+    },
+    {
+      "dates": 36,
+      "supports_per_date": 6,
+      "total": 216,
+      "srs_illustrative_95_halfwidth_at_p_half": 0.06668055410909762,
+      "expected_conditional_at_old_5_55pct_NOT_forecast": 11.988,
+      "slots_if_4_per_support": 864,
+      "charge_GiB_using_old_attempt_average_NOT_provider_quote": 2.8334827805318796
+    },
+    {
+      "dates": 36,
+      "supports_per_date": 8,
+      "total": 288,
+      "srs_illustrative_95_halfwidth_at_p_half": 0.05774705379690138,
+      "expected_conditional_at_old_5_55pct_NOT_forecast": 15.984,
+      "slots_if_4_per_support": 1152,
+      "charge_GiB_using_old_attempt_average_NOT_provider_quote": 3.777977040709173
+    },
+    {
+      "dates": 54,
+      "supports_per_date": 8,
+      "total": 432,
+      "srs_illustrative_95_halfwidth_at_p_half": 0.047150271983819436,
+      "expected_conditional_at_old_5_55pct_NOT_forecast": 23.976,
+      "slots_if_4_per_support": 1728,
+      "charge_GiB_using_old_attempt_average_NOT_provider_quote": 5.666965561063759
+    }
+  ],
+  "limitations": [
+    "No sample-size sufficiency claim; SRS halfwidths ignore design effects and reference uncertainty.",
+    "Old5.55percent is conditional bridge yield, not fully known response mass; its use here is an optimistic illustrative assumption.",
+    "No pixels, detector outputs, source geometry, real reference rows or final evidence accessed.",
+    "All artificial populations enumerated exactly; no random seed exists."
+  ],
+  "input_hashes": {
+    "REFERENCE_RESPONSE_STAGE1\\FIREWALL.json": "9e5c0bead4d7ada85b7d880462e24b73c0bf34c54728c26c4eb97f9dd4fbc147",
+    "REFERENCE_RESPONSE_STAGE1\\ACQUISITION_FRAME.json": "bc474d96aaa397bc7ff71a813d47518b2a0f28b3ecc7f360e5f9b39f613c221d",
+    "PHYSICAL_CONTEXT_REFERENCE_DESIGN\\FRAME_FEASIBILITY\\OPTICAL_OPPORTUNITY_SUMMARY.json": "ea2e041f44f8eca6f8c577b06ba23e2f1f0415449451853cc1c8475d5130e24d",
+    "REFERENCE_QUALIFICATION_WAVE2\\FINAL_QUALIFICATION\\DECISION_FOR_REVIEW.md": "6c36201ace8750f6241e0f054f640f59502e49678d56023b45fe755a7353ffa0"
+  }
+}

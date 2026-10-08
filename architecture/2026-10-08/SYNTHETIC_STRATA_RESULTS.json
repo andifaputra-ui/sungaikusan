@@ -1,0 +1,130 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "check_count": 27,
+  "checks": [
+    {
+      "name": "all3^9 artificial tile maps assigned exactlyonce",
+      "pass": true
+    },
+    {
+      "name": "allnonwater has its ownstratum",
+      "pass": true
+    },
+    {
+      "name": "any water without abstention includes mixedW/N",
+      "pass": true
+    },
+    {
+      "name": "any abstention without water includes invalid-onlysupport",
+      "pass": true
+    },
+    {
+      "name": "waterandabstention overlap preserved",
+      "pass": true
+    },
+    {
+      "name": "partialtilewith4cells cannotbe dropped",
+      "pass": true
+    },
+    {
+      "name": "partialtilewith6cells cannotbe dropped",
+      "pass": true
+    },
+    {
+      "name": "partialtilewith9cells cannotbe dropped",
+      "pass": true
+    },
+    {
+      "name": "unknowncode cannotbe converted tononwater",
+      "pass": true
+    },
+    {
+      "name": "positiveinclusion orcensus forallnonemptystrata {0: 1000, 1: 50, 2: 30, 3: 20}",
+      "pass": true
+    },
+    {
+      "name": "allocationtotalpreserved {0: 1000, 1: 50, 2: 30, 3: 20}",
+      "pass": true
+    },
+    {
+      "name": "varianceestimabilityorfullcensus {0: 1000, 1: 50, 2: 30, 3: 20}",
+      "pass": true
+    },
+    {
+      "name": "positiveinclusion orcensus forallnonemptystrata {0: 1000}",
+      "pass": true
+    },
+    {
+      "name": "allocationtotalpreserved {0: 1000}",
+      "pass": true
+    },
+    {
+      "name": "varianceestimabilityorfullcensus {0: 1000}",
+      "pass": true
+    },
+    {
+      "name": "positiveinclusion orcensus forallnonemptystrata {0: 1000, 1: 3}",
+      "pass": true
+    },
+    {
+      "name": "allocationtotalpreserved {0: 1000, 1: 3}",
+      "pass": true
+    },
+    {
+      "name": "varianceestimabilityorfullcensus {0: 1000, 1: 3}",
+      "pass": true
+    },
+    {
+      "name": "positiveinclusion orcensus forallnonemptystrata {0: 1, 1: 1000, 2: 1, 3: 100}",
+      "pass": true
+    },
+    {
+      "name": "allocationtotalpreserved {0: 1, 1: 1000, 2: 1, 3: 100}",
+      "pass": true
+    },
+    {
+      "name": "varianceestimabilityorfullcensus {0: 1, 1: 1000, 2: 1, 3: 100}",
+      "pass": true
+    },
+    {
+      "name": "positiveinclusion orcensus forallnonemptystrata {0: 1, 1: 1, 2: 1, 3: 1}",
+      "pass": true
+    },
+    {
+      "name": "allocationtotalpreserved {0: 1, 1: 1, 2: 1, 3: 1}",
+      "pass": true
+    },
+    {
+      "name": "varianceestimabilityorfullcensus {0: 1, 1: 1, 2: 1, 3: 1}",
+      "pass": true
+    },
+    {
+      "name": "positiveinclusion orcensus forallnonemptystrata {}",
+      "pass": true
+    },
+    {
+      "name": "allocationtotalpreserved {}",
+      "pass": true
+    },
+    {
+      "name": "varianceestimabilityorfullcensus {}",
+      "pass": true
+    }
+  ],
+  "all_artificial_9cell_maps_enumerated": 19683,
+  "stratum_counts": {
+    "1": 511,
+    "3": 18660,
+    "0": 1,
+    "2": 511
+  },
+  "code_meanings": {
+    "0": "noW_noA_allN",
+    "1": "anyW_noA",
+    "2": "noW_anyA",
+    "3": "anyW_anyA"
+  },
+  "research_data_read": false,
+  "random_seed_generated": false,
+  "real_sample_drawn": false
+}

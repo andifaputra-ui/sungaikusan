@@ -1,0 +1,21 @@
+{
+  "status": "PASS_EXHAUSTIVE_ARTIFICIAL_INTERVAL_ACCOUNTING",
+  "composition_interval_cases": 3025,
+  "scalar_bound_pairs_checked": 12100,
+  "checks": [
+    "assignederror",
+    "falsepositive",
+    "falsenegative",
+    "waterabstained"
+  ],
+  "equal_half_water_fractions_pixel_error_bounds": [
+    0,
+    1
+  ],
+  "error_lower": "max(0,w-u,l-w-a)",
+  "error_upper": "w+n-max(0,n-u,l-n-a)",
+  "validity": "Fraction-only constraints; spatially located reference evidence can tighten bounds. Separate extrema need not occur jointly.",
+  "unknown_retained": true,
+  "randomization": false,
+  "research_data_read": false
+}

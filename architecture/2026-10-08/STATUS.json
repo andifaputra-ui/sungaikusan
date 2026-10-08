@@ -1,0 +1,16 @@
+{
+  "date_local": "2026-10-08",
+  "status": "DESIGN_COMPLETE_ARCHITECTURE_APPROVAL_PENDING",
+  "main_report": "ARCHITECTURE_DECISION_FOR_REVIEW.md",
+  "short_report": "REVIEW_SUMMARY.md",
+  "recommendation": "Targeted independent-evidence development falsification plus a separately sealed probability audit of one locked fixed-map reconstruction",
+  "primary_population_proposed": "Full existing L1 lowland rectangle by audited eligible acquisition catalogue; not whole catchment or new-geography generalization",
+  "primary_support_proposed": "Disjoint30m tiles on accepted10m lattice, actual partial-edge areas retained",
+  "final_strata_proposed": "Four frozen-map anyW/anyAbstention combinations after evaluation lock; no reference-outcome selection",
+  "planning_scenario_only": {"dates": 36, "tiles": 288},
+  "synthetic_checks": {"architecture":21,"strata":27,"artificial_sample_combinations":243,"artificial_tile_maps":19683,"interval_composition_cases":3025,"interval_bound_pairs":12100},
+  "new_seed":false,"new_sample":false,"research_pixels_read_or_acquired":false,"final_reference_used":false,"AB_executed":false,"new_SAR_processed":false,"paid_order":false,"method_frozen":false,
+  "original_artifacts_unchanged":true,
+  "background_scientific_job":false,
+  "next_action": "Human architecture-freeze decision, then only the documented authorized preparation scope. Do not resume obsolete provider-contract retries or launch a sample automatically."
+}

@@ -1,0 +1,17 @@
+# Explicit allowlist: this public repository is not an imagery/reference store.
+*
+!.gitignore
+!.gitattributes
+!README.md
+!CHECKPOINT.md
+!BACKUP_MANIFEST.json
+!architecture/
+!architecture/**
+__pycache__/
+*.pyc
+.env*
+*.tif
+*.tiff
+*.gpkg
+*.zip
+*.SAFE/

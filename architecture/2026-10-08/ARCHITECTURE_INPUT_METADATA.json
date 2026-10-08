@@ -1,0 +1,33 @@
+{
+  "domain": {
+    "width": 4559,
+    "height": 2882
+  },
+  "year_halfyear_counts": {
+    "2017H1": 13,
+    "2017H2": 16,
+    "2018H1": 15,
+    "2018H2": 14,
+    "2019H1": 15,
+    "2019H2": 15,
+    "2020H1": 16,
+    "2020H2": 15,
+    "2021H1": 15,
+    "2021H2": 14,
+    "2022H1": 15,
+    "2022H2": 16,
+    "2023H1": 15,
+    "2023H2": 15,
+    "2024H1": 15,
+    "2024H2": 16,
+    "2025H1": 15,
+    "2025H2": 15
+  },
+  "input_hashes": {
+    "REFERENCE_RESPONSE_STAGE1\\FIREWALL.json": "9e5c0bead4d7ada85b7d880462e24b73c0bf34c54728c26c4eb97f9dd4fbc147",
+    "REFERENCE_RESPONSE_STAGE1\\ACQUISITION_FRAME.json": "bc474d96aaa397bc7ff71a813d47518b2a0f28b3ecc7f360e5f9b39f613c221d",
+    "PHYSICAL_CONTEXT_REFERENCE_DESIGN\\FRAME_FEASIBILITY\\OPTICAL_OPPORTUNITY_SUMMARY.json": "ea2e041f44f8eca6f8c577b06ba23e2f1f0415449451853cc1c8475d5130e24d",
+    "REFERENCE_QUALIFICATION_WAVE2\\FINAL_QUALIFICATION\\DECISION_FOR_REVIEW.md": "6c36201ace8750f6241e0f054f640f59502e49678d56023b45fe755a7353ffa0"
+  },
+  "purpose": "Portable arithmetic metadata only; no imagery, sample coordinates or reference labels."
+}

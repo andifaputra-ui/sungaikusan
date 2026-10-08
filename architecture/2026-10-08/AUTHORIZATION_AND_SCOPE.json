@@ -1,0 +1,16 @@
+{
+  "date_local": "2026-10-08",
+  "timezone": "Asia/Makassar",
+  "authorization": "Human decision APPROVE MAJOR REDESIGN; compare legacy with strongest independently derived alternative; return at architecture-freeze decision",
+  "allowed_now": ["first-principles architecture design", "primary literature", "metadata verification", "deterministic architecture calculations", "synthetic exhaustive tests", "documentation and checkpointing"],
+  "not_allowed_now": ["new research sample randomization", "research imagery acquisition", "A/B execution", "final reference evidence use", "paid orders", "method freeze"],
+  "later_user_instruction": "Continue; back up work to https://github.com/andifaap/kusan.git",
+  "backup_scope": "Curated architecture documents, reproducible synthetic scripts/results and continuation checkpoint; no credentials, imagery, sealed reference records, reader personal data or software installations",
+  "legacy_disposition": "Original artifacts, labels, responses, exposure records and manifests remain immutable. Proposed replacements are explicitly prospective and require the requested architecture decision.",
+  "new_sample_drawn": false,
+  "new_seed_generated": false,
+  "research_imagery_acquired": false,
+  "final_reference_evidence_used": false,
+  "detector_executed": false,
+  "method_frozen": false
+}

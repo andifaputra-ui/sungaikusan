@@ -1,0 +1,2 @@
+# Preserve exact artifact bytes so BACKUP_MANIFEST hashes survive cloning.
+* -text
