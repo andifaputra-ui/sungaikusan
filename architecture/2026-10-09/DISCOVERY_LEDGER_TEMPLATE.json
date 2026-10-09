@@ -1,0 +1,23 @@
+{
+  "status": "TEMPLATE_ONLY_NO_NEW_CASE_SELECTED",
+  "fields_required_per_case": [
+    "case_id", "role_DEVELOPMENT_ONLY", "discovery_route", "discovery_timestamp_utc",
+    "selecting_artifact_id", "selecting_artifact_sha256", "selection_rationale",
+    "candidate_version_if_applicable", "target_acquisition_instance_id", "target_timestamp_utc",
+    "physical_system_id", "physical_system_basis", "unresolved_parent_group",
+    "support_geometry_crs", "support_geometry", "grid_tile_id", "support_area_m2",
+    "failure_question_tags", "source_observation_ids", "same_overpass_group_ids",
+    "display_contract_id", "radiometry_status", "registration_evidence_status",
+    "planned_interpretation_packet_neutral_id", "packet_sha256", "reader_exposure_declaration",
+    "reference_response_original_hashes", "optical_time_information_status",
+    "temporal_transfer_status", "acquisition_time_interval_status",
+    "resource_receipt_ids", "disposition", "disposition_reason"
+  ],
+  "interpretation_packet_must_omit": [
+    "discovery_route", "selecting_artifact", "selection_rationale", "failure_question_tags",
+    "SAR_values_or_images", "A_B_predictions", "A_B_disagreement", "thresholds",
+    "candidate_components", "prior_reader_responses", "expected_class", "sample_stratum"
+  ],
+  "no_automatic_semantics": "Context and QA do not fill reference labels. State portions and intervals require independent interpretation; UNKNOWN is valid.",
+  "final_status": "No case or derivative in this development ledger may become an independent final-response artifact. A newly sampled measurement of an exposed place is a separate, disclosed fixed-map audit record, not an untouched site."
+}

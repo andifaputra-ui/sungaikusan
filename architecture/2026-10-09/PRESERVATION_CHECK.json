@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "groups": [
+    {
+      "group": "Wave2 final",
+      "files": 17,
+      "failures": []
+    },
+    {
+      "group": "Oct4 frame",
+      "files": 67,
+      "failures": []
+    },
+    {
+      "group": "Oct5 source",
+      "files": 24,
+      "failures": []
+    }
+  ],
+  "legacy_approved_design_preserved": true,
+  "checksums_only": true,
+  "responses_reinterpreted": false
+}

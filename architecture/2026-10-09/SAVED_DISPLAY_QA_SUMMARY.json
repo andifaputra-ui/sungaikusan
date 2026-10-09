@@ -1,0 +1,22 @@
+{
+  "status": "SAVED_LEGACY_DISPLAY_PROXY_TECHNICALLY_REPRODUCED_NOT_CALIBRATED",
+  "guarded_saved_chips": 322,
+  "hash_and_grid_verified": 322,
+  "historical_valid_rgb_transform_reproduced": 322,
+  "offset_conflict_views_retained": 279,
+  "views_with_rgb_mask_change_from_nir_nodata": 0,
+  "rgb_pixels_previously_hidden_only_by_nir_nodata": 0,
+  "qa_only_complete_rgb_support_views": {
+    "10": 322,
+    "30": 322,
+    "50": 322
+  },
+  "warning": "Non-nodata is not clear sky, correct radiometry or observable state. No semantic response was generated.",
+  "existing_eight_sar_date_intersection": [],
+  "existing_sar_date_match_views": 0,
+  "new_reference_responses": 0,
+  "new_imagery_bytes": 0,
+  "new_sar_processing": 0,
+  "elapsed_seconds": 21.891,
+  "next_use": "Prospective development visual inspection may use this explicitly marked proxy. Quantitative optical use stays blocked; old responses and intervals are unchanged."
+}

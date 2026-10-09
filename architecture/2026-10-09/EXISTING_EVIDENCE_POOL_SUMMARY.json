@@ -1,0 +1,44 @@
+{
+  "status": "METADATA_POOL_INDEXED_NOT_PANEL_SELECTED",
+  "legacy_records_preserved": 192,
+  "attempt_receipt_statuses": {
+    "FAILED": 205,
+    "PASS": 322,
+    "TECHNICAL_NONRESPONSE_PRE_READ_GUARD": 11
+  },
+  "saved_views": 322,
+  "distinct_optical_items": 76,
+  "distinct_optical_overpasses": 61,
+  "distinct_source_supports": 171,
+  "distinct_s1_dates_with_saved_views": 23,
+  "new_tile_grid": "disjoint30m anchored accepted10m; historical labels not migrated",
+  "chip_footprint_covers_30m_and_50m_context": 322,
+  "centre_shift_counts_by_view": {
+    "(-10.0, -10.0)": 33,
+    "(-10.0, 0.0)": 35,
+    "(-10.0, 10.0)": 39,
+    "(0.0, -10.0)": 52,
+    "(0.0, 0.0)": 34,
+    "(0.0, 10.0)": 32,
+    "(10.0, -10.0)": 34,
+    "(10.0, 0.0)": 31,
+    "(10.0, 10.0)": 32
+  },
+  "max_centre_shift_m": 14.142135623730951,
+  "pixels_read": 0,
+  "new_imagery_bytes": 0,
+  "new_reference_responses": 0,
+  "new_panel_selections": 0,
+  "interpretation": "Existing development views provide a reusable footprint pool, not demonstrated clear support or acquisition-time truth. Repeated items/overpasses and date-supports are not independent systems. The old responses remain on old supports.",
+  "inputs": [
+    {
+      "path": "E:/Bendungan_Kusan/Thesis_Project/Check_point_2/REFERENCE_QUALIFICATION_WAVE2/SAMPLE.json",
+      "sha256": "e0d3fc1b246ced07b8100831a42a9b5071d0c34c5db283f14176a418e0629203"
+    },
+    {
+      "path": "E:/Bendungan_Kusan/Thesis_Project/Check_point_2/REFERENCE_QUALIFICATION_WAVE2/OPTICAL_SELECTION.json",
+      "sha256": "62d79f272cc330f65b02a78f5b3312ab7dffe5c1b5cac5047af2b343ba78d0a3"
+    }
+  ],
+  "receipt_manifest_sha256": "919db66ce5800a5f63f3017999ae301fffd1ee5c13fbb7ad50e4fc053b18785c"
+}

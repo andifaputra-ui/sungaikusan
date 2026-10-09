@@ -1,0 +1,171 @@
+{
+  "status": "SAVED_CATALOGUE_IDENTITIES_CROSSCHECKED; PROCESSABILITY_NOT_ESTABLISHED",
+  "date": "2026-10-09",
+  "products": 273,
+  "acquisition_instances": 271,
+  "legacy_eligible_instances": 270,
+  "excluded_instances": [
+    {
+      "acquisition_instance_id": "S1A_R105_D_O015052",
+      "date_label_utc": "2017-01-29",
+      "local_start_date_Asia_Makassar": "2017-01-30",
+      "start_utc": "2017-01-29T21:59:27.518905Z",
+      "end_utc": "2017-01-29T22:00:08.809982Z",
+      "spacecraft": "S1A",
+      "relative_orbit": 105,
+      "absolute_orbit": 15052,
+      "direction": "DESCENDING",
+      "mode": "IW",
+      "product": "GRDH",
+      "polarization": "VV+VH",
+      "datatake_ids": [
+        "01898D"
+      ],
+      "constituent_product_names": [
+        "S1A_IW_GRDH_1SDV_20170129T215927_20170129T215952_015052_01898D_AC3D",
+        "S1A_IW_GRDH_1SDV_20170129T215952_20170129T220008_015052_01898D_BCA1"
+      ],
+      "constituent_count": 2,
+      "earthsearch_L1_coverage": 0.9996013762804214,
+      "asf_L1_coverage": 0.9996417621395886,
+      "legacy_full_envelope_eligible": false,
+      "eligible_by_recomputed_EarthSearch_footprint": false,
+      "eligible_by_ASF_footprint": false,
+      "observed_pixel_validity": "NOT_ASSESSED",
+      "orbit_materialization_provenance": "NOT_ASSESSED",
+      "accepted_processing_equivalence": "NOT_ASSESSED_PER_NEW_DATE"
+    }
+  ],
+  "multi_slice_instances": [
+    "S1A_R105_D_O014702",
+    "S1A_R105_D_O015052"
+  ],
+  "duplicate_exact_item_ids": 0,
+  "duplicate_full_SAFE_names": 0,
+  "multiple_processing_crc_versions_per_identity": {},
+  "missing_full_SAFE_ids": [],
+  "metadata_mismatches": [],
+  "EarthSearch_absent_from_ASF": [],
+  "ASF_absent_from_EarthSearch": [],
+  "coverage_eligibility_disagreements": [
+    {
+      "acquisition_instance_id": "S1A_R105_D_O014702",
+      "date_label_utc": "2017-01-05",
+      "local_start_date_Asia_Makassar": "2017-01-06",
+      "start_utc": "2017-01-05T21:59:28.072659Z",
+      "end_utc": "2017-01-05T22:00:09.354895Z",
+      "spacecraft": "S1A",
+      "relative_orbit": 105,
+      "absolute_orbit": 14702,
+      "direction": "DESCENDING",
+      "mode": "IW",
+      "product": "GRDH",
+      "polarization": "VV+VH",
+      "datatake_ids": [
+        "017EC8"
+      ],
+      "constituent_product_names": [
+        "S1A_IW_GRDH_1SDV_20170105T215928_20170105T215953_014702_017EC8_E40F",
+        "S1A_IW_GRDH_1SDV_20170105T215953_20170105T220009_014702_017EC8_96EB"
+      ],
+      "constituent_count": 2,
+      "earthsearch_L1_coverage": 1.0,
+      "asf_L1_coverage": 0.9996366656158187,
+      "legacy_full_envelope_eligible": true,
+      "eligible_by_recomputed_EarthSearch_footprint": true,
+      "eligible_by_ASF_footprint": false,
+      "observed_pixel_validity": "NOT_ASSESSED",
+      "orbit_materialization_provenance": "NOT_ASSESSED",
+      "accepted_processing_equivalence": "NOT_ASSESSED_PER_NEW_DATE"
+    }
+  ],
+  "year_counts": {
+    "2017": {
+      "products": 32,
+      "instances": 30,
+      "eligible": 29
+    },
+    "2018": {
+      "products": 29,
+      "instances": 29,
+      "eligible": 29
+    },
+    "2019": {
+      "products": 30,
+      "instances": 30,
+      "eligible": 30
+    },
+    "2020": {
+      "products": 31,
+      "instances": 31,
+      "eligible": 31
+    },
+    "2021": {
+      "products": 29,
+      "instances": 29,
+      "eligible": 29
+    },
+    "2022": {
+      "products": 31,
+      "instances": 31,
+      "eligible": 31
+    },
+    "2023": {
+      "products": 30,
+      "instances": 30,
+      "eligible": 30
+    },
+    "2024": {
+      "products": 31,
+      "instances": 31,
+      "eligible": 31
+    },
+    "2025": {
+      "products": 30,
+      "instances": 30,
+      "eligible": 30
+    }
+  },
+  "ipf_versions": {
+    "002.72": 8,
+    "002.82": 13,
+    "002.84": 16,
+    "002.90": 9,
+    "002.91": 30,
+    "003.10": 18,
+    "003.20": 12,
+    "003.31": 41,
+    "003.40": 11,
+    "003.51": 4,
+    "003.52": 27,
+    "003.61": 17,
+    "003.71": 20,
+    "003.80": 14,
+    "003.90": 7,
+    "003.91": 9,
+    "003.92": 11,
+    "004.00": 4,
+    "004.01": 1,
+    "004.02": 1
+  },
+  "gap_over_13days_count": 3,
+  "query_scope": "Public ASF holdings matching requested S1/S1A IW GRD_HD R105 DESCENDING and 2017-2025 bbox; not an independent guarantee of all mission acquisitions or orbital coverage",
+  "platform_alias_scope": "ASF Sentinel-1 alias returned identical bytes to explicit Sentinel-1A. Alias coverage of newly added platforms is not independently certified; no platform expansion adopted.",
+  "network": {
+    "scripted_requests": 2,
+    "response_body_bytes": 1401360,
+    "ceiling_bytes": 8388608,
+    "asset_requests": 0,
+    "web_documentation_queries": 1,
+    "web_transport_bytes": "UNMETERED; docs only"
+  },
+  "limitations": [
+    "Catalogue geometry is footprint metadata, not pixel validity or noise support.",
+    "Different catalogue footprints can disagree at a domain boundary; no coverage threshold changed.",
+    "ASF PGE version metadata is retained, not assumed equal to locally materialized SNAP provenance.",
+    "Precise orbit availability, processing success, and checksum download verification are untested for new dates.",
+    "Legacy UTC date labels differ from local Asia/Makassar calendar dates; retain exact UTC time for temporal evidence.",
+    "270 eligible counts retain the pre-existing near-complete-coverage exclusion; this is an explicit population restriction, not absence of water.",
+    "No final randomization, no research imagery/assets, no SAR processing, no source files overwritten."
+  ]
+}

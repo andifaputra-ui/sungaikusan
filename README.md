@@ -2,28 +2,31 @@
 
 This is a **curated scientific-work backup**, not a full copy of the thesis datasets.
 
-Current review package: [Architecture decision, 8 October 2026](architecture/2026-10-08/ARCHITECTURE_DECISION_FOR_REVIEW.md).
+Current status: the [8 October architecture](architecture/2026-10-08/ARCHITECTURE_DECISION_FOR_REVIEW.md) was approved on 9 October, with detector-informed/adversarial discovery allowed during development only. References remain independently interpreted and permanently development-only.
 
-Short version: [Review summary](architecture/2026-10-08/REVIEW_SUMMARY.md).
+Read the [implementation findings](architecture/2026-10-09/IMPLEMENTATION_FINDINGS.md), [development evidence plan](architecture/2026-10-09/DEVELOPMENT_EVIDENCE_PLAN.md), and [continuation checkpoint](CHECKPOINT.md). No new probability sample, semantic A/B run, evaluation SAR, final reference release or method freeze occurred. The proposed acquisition budget is not automatically authorized.
 
-The proposal separates evidence-first development falsification from a separately sealed probability audit of a locked retrospective reconstruction. It explicitly distinguishes fixed-map accuracy from transfer to untouched geography. The architecture awaits human approval; no new sample, imagery acquisition, detector evaluation or method freeze is authorized by these files.
+## Reproduce the software checks
 
-## Reproduce the synthetic checks
+The October 8 arithmetic checks require Python standard library:
 
-Python3 standard library is sufficient:
-
-```text
+```
 python architecture/2026-10-08/architecture_checks.py
 python architecture/2026-10-08/synthetic_strata_checks.py
 python architecture/2026-10-08/interval_accounting_checks.py
 ```
 
-These enumerate artificial cases exactly. They create no random seed, research sample or detector predictions and read no imagery. On this backup, aggregate metadata in `ARCHITECTURE_INPUT_METADATA.json` substitutes for the local project's original metadata. Existing result files are checked rather than overwritten.
+The October 9 role and display tests require NumPy and Shapely (already installed in the project scientific environment):
 
-The source hashes record the local inputs used; the underlying protected datasets are intentionally absent. Synthetic checks establish arithmetic/accounting correctness, not reference adequacy or detector accuracy.
+```
+python architecture/2026-10-09/ROLE_GUARD/test_role_guard.py
+python architecture/2026-10-09/OPTICAL_CONTRACT/test_optical_display_contract.py
+```
+
+These test synthetic cases without imagery, real randomization or classifier output. Results do not establish scientific accuracy, calibration, independent human reliability or reference adequacy. Saved-chip/catalogue audit scripts require local authoritative inputs, intentionally excluded from this repository.
 
 ## Scope
 
-Included: architecture documents, independent supporting analyses, aggregate metadata, synthetic scripts/results, preservation summary and continuation checkpoint. Exact copied-file hashes are in [BACKUP_MANIFEST.json](BACKUP_MANIFEST.json).
+Included: approved design, implementation reports, pure policy/display code, synthetic tests/results, aggregate findings and continuation records. Exact copied-file hashes are in BACKUP_MANIFEST.json.
 
-Excluded: imagery, scientific source datasets, raw reference labels and reader returns, sealed final evidence, credentials, raw account/browser receipts and installed applications. Authoritative SNAP/Python products and historical records remain in the local thesis workspace unchanged.
+Excluded: imagery, source rasters/vectors, detailed reference/discovery records, sealed final evidence, reader returns and identities, credentials, raw account/browser receipts and installations. Authoritative scientific data remain in the local thesis workspace. No source result or original response is overwritten by this backup.

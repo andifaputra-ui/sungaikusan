@@ -1,0 +1,31 @@
+{
+  "tests_run": 22,
+  "errors": 0,
+  "failures": 0,
+  "status": "PASS",
+  "scope": "SYNTHETIC_ONLY_NO_RESEARCH_PIXELS",
+  "test_names": [
+    "test_already_applied_quantitative_rejected",
+    "test_autoscaled_reader_rejected",
+    "test_composite_specific_nodata",
+    "test_display_clipping_separate",
+    "test_fractional_dn_rejected",
+    "test_legacy_dn_one_is_not_missing",
+    "test_legacy_no_double_offset",
+    "test_legacy_prebaseline_consistent",
+    "test_missing_scale_rejected",
+    "test_no_scl_water_label",
+    "test_nodata_before_offset",
+    "test_nodata_grey_not_dark",
+    "test_other_provider_not_silently_accepted",
+    "test_perband_offset",
+    "test_scl2_baseline_semantics",
+    "test_scl7_is_not_cloud",
+    "test_scl_fractional_rejected",
+    "test_scl_outside_legend_rejected",
+    "test_transformed_object_rejected",
+    "test_unknown_encoding_rejected",
+    "test_unproved_quantitative_rejected",
+    "test_valid_negative_not_erased"
+  ]
+}

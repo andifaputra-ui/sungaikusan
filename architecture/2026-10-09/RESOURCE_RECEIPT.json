@@ -1,0 +1,20 @@
+{
+  "date_local": "2026-10-09",
+  "new_research_imagery_bytes": 0,
+  "paid_spend": 0,
+  "planet_quota_consumed": 0,
+  "asf_metadata_response_body_bytes": 1401360,
+  "optical_metadata_response_body_bytes": 30652,
+  "metered_metadata_total_bytes": 1432012,
+  "documentation_web_traffic": "not measured; separate from imagery",
+  "saved_chip_numerical_qa_seconds": 21.891,
+  "new_sar_processing": 0,
+  "ab_execution": 0,
+  "random_seed_generated": false,
+  "real_probability_sample_drawn": false,
+  "saved_development_chips_numerically_audited": 322,
+  "saved_views_in_prospective_first_look": 12,
+  "background_jobs_remaining": 0,
+  "proposed_not_authorized_imagery_ceiling_bytes": 805306368,
+  "proposed_not_authorized_output_ceiling_bytes": 2147483648
+}

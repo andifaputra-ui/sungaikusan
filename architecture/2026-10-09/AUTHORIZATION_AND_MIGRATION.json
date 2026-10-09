@@ -1,0 +1,43 @@
+{
+  "recorded_at_utc": "2026-10-09T01:28:49.247604+00:00",
+  "human_decision_date_local": "2026-10-09",
+  "architecture_status": "APPROVED_WITH_DEVELOPMENT_DISCOVERY_AMENDMENT",
+  "architecture_document": "E:/Bendungan_Kusan/Thesis_Project/Check_point_2/VALIDATION_ARCHITECTURE_REDESIGN_20261008/ARCHITECTURE_DECISION_FOR_REVIEW.md",
+  "architecture_sha256": "c816522d5c80ec4e704cf502140871aae47a89a10369e495feb13ef7a217a72f",
+  "human_instruction_verbatim": "Continue. Architecture approved. One amendment: during development only, detector-informed or A/B-disagreement-based adversarial case discovery is allowed when useful, provided reference interpretation remains independently derived and all such evidence is permanently development-only. Otherwise proceed autonomously with the architecture you recommended and stop only at genuinely consequential scientific decision boundaries.",
+  "supersedes_prospectively": [
+    "architecture approval pending",
+    "mandatory C1-C7 atlas",
+    "single official source dependency",
+    "geographic exclusion for approved sampling-only ancillary access",
+    "ban on detector-informed DEVELOPMENT discovery"
+  ],
+  "preserved": [
+    "historical packages and responses",
+    "source role separation",
+    "current S1 sigma0/C1 primary observation",
+    "persistent and new water eligibility",
+    "UNKNOWN/MIXED and interval responses",
+    "old exposure facts including B0200_0000 and B2000_1100",
+    "final evidence lock and blinded response",
+    "no new-basin or untouched-geography claim from fixed-map audit"
+  ],
+  "authorized_now": [
+    "prospective role policy implementation and synthetic tests",
+    "source/display qualification using saved evidence and metadata",
+    "catalogue metadata reconciliation",
+    "bounded development evidence plan",
+    "development-only detector-informed discovery where useful"
+  ],
+  "not_automatically_authorized": [
+    "new probability draw or seed",
+    "research imagery acquisition",
+    "paid orders or Planet quota",
+    "semantic A/B execution",
+    "new evaluation SAR processing",
+    "final reference release",
+    "final method freeze",
+    "full-series production"
+  ],
+  "amendment_does_not_imply": "Existing nonsemantic split/component diagnostics are not A/B predictions. Any future detector-informed discovery must record the exact selecting output/version and remain development-only; reference readers do not see the selecting output."
+}

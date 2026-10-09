@@ -1,0 +1,73 @@
+{
+  "version": "C2_ROLES_20261009_v1",
+  "effective_human_approval": "AUTHORIZATION_AND_MIGRATION.json",
+  "sources": [
+    {
+      "id": "S1_CATALOGUE_METADATA",
+      "role": "POPULATION_METADATA",
+      "scope": "All enumerated L1/S1A acquisition metadata; no pixel permission",
+      "registry": "CATALOGUE_AUDIT/ELIGIBLE_ACQUISITION_INSTANCES.json",
+      "limitations": "270 legacy eligible acquisition instances; Jan5 2017 source-footprint disagreement retained; per-date processing/orbit/validity not established by metadata"
+    },
+    {
+      "id": "ACCEPTED_CURRENT_VV_AND_SEPARATE_VALIDITY",
+      "role": "CURRENT_PRIMARY_DETECTOR_OBSERVATION",
+      "scope": "Existing accepted development products only until later processing authorization",
+      "limitations": "sigma0/C1 full-source precise-orbit write/read route unchanged; excluded from reference-reader packets; absence remains UNKNOWN/abstention"
+    },
+    {
+      "id": "FROZEN_SPLIT_AND_COMPONENT_PROTOTYPE",
+      "role": "DEVELOPMENT_ENGINEERING",
+      "scope": "56 existing nonsemantic context/date units",
+      "limitations": "May nominate development challenges; no A/B class output exists; cannot be reference truth or final validation evidence"
+    },
+    {
+      "id": "WAVE2_SAVED_OPTICAL",
+      "role": "DEVELOPMENT_REFERENCE",
+      "scope": "322 previously acquired PASS chips only, source hashes and full cached footprints checked",
+      "registry": "EXISTING_DEVELOPMENT_EVIDENCE_POOL.json",
+      "limitations": "Visual display proxy; 279 offset conflicts retained; no original response or interval overwritten; no transfer of centred-neighbourhood responses to shifted disjoint tiles"
+    },
+    {
+      "id": "LEGACY_NINE_CONFLICT_RESPONSES",
+      "role": "DEVELOPMENT_RESPONSE_HISTORY",
+      "scope": "Immutable old responses and conditional intervals",
+      "limitations": "No repeat semantic adjudication without new independent evidence; never final answers"
+    },
+    {
+      "id": "STATIC_AUXILIARY_GEOGRAPHY",
+      "role": "SAMPLING_DISCOVERY_AUXILIARY",
+      "scope": "Whole population after declared source/version and authorized acquisition; complete authoritative atlas not required",
+      "limitations": "No acquisition-time truth; missing coverage stays residual; no automatic source-feature fusion"
+    },
+    {
+      "id": "JRC_PRE_ACQUISITION_HISTORY",
+      "role": "OPTIONAL_DETECTOR_CONTEXT_AND_DECLARED_SAMPLING_AUXILIARY",
+      "scope": "Accepted independently versioned history; any sampling use must be explicitly registered",
+      "limitations": "Cannot veto new water, force persistent water or replace current VV; C class output remains equal to B; not independent current-date truth"
+    },
+    {
+      "id": "GEOMETRY_GHSL_JAXA",
+      "role": "DIAGNOSTIC_DEFERRED",
+      "scope": "Accepted bounded diagnostics",
+      "limitations": "No new radiometry, sensor processing or detector feature promotion"
+    },
+    {
+      "id": "FUTURE_FINAL_REFERENCE",
+      "role": "SEALED_FINAL_REFERENCE",
+      "scope": "Not acquired or released by this implementation",
+      "limitations": "Requires locked candidate/protocol, separate probability authorization, blinded new measurement and response lock; old development responses cannot be reused"
+    },
+    {
+      "id": "INCIDENTAL_UNVIEWED_PROVIDER_CONTENT",
+      "role": "UNVIEWED_EXTENT_UNKNOWN",
+      "scope": "Historical metadata binary/catalogue-preview incident records",
+      "limitations": "No decode, preview, clearing or recategorization performed"
+    }
+  ],
+  "development_discovery_amendment": {
+    "allowed": ["INDEPENDENT_GEOGRAPHY", "INDEPENDENT_OPTICAL_CONTEXT", "ENGINEERING_SENSITIVITY", "DETECTOR_INFORMED", "AB_DISAGREEMENT"],
+    "required": ["exact selecting source/output version and hash", "permanent development-only status", "independently derived reference interpretation", "reader exposure declaration", "no whole-population accuracy claim", "no reuse as final response"],
+    "not_authorized_by_discovery": ["new A/B run", "new SAR processing", "final-label access", "new paid/quota acquisition"]
+  }
+}

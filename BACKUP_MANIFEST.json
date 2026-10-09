@@ -1,47 +1,23 @@
 {
-  "date_local": "2026-10-08",
-  "scope": "Curated C2 architecture design, supporting reports and synthetic reproduction",
+  "date_local": "2026-10-09",
+  "scope": "Curated approved architecture and development implementation",
   "not_a_full_dataset_backup": true,
-  "repository_visibility": "public_at_verification",
+  "repository_visibility": "public_at_previous_verification",
   "excluded": [
     "imagery",
     "source rasters/vectors",
-    "sealed final/reference material",
-    "reader returns and personal identities",
+    "detailed reference and discovery records",
+    "sealed final evidence",
+    "reader returns/identities",
     "credentials",
-    "software installations",
-    "raw browser/account receipts"
+    "raw browser/account receipts",
+    "installations"
   ],
   "files": [
     {
-      "path": "architecture/2026-10-08/ARCHITECTURE_DECISION_FOR_REVIEW.md",
-      "bytes": 33934,
-      "sha256": "c816522d5c80ec4e704cf502140871aae47a89a10369e495feb13ef7a217a72f"
-    },
-    {
-      "path": "architecture/2026-10-08/REVIEW_SUMMARY.md",
-      "bytes": 3276,
-      "sha256": "79c191c6a398b9bfbb527276040c8b32f283de661eead085df4f6909d67eb2ce"
-    },
-    {
-      "path": "architecture/2026-10-08/LEGACY_AND_ADVERSARIAL_REVIEW.md",
-      "bytes": 22456,
-      "sha256": "8ac2747471222d94536ee8e8d669783dc673b782145b9fb5d1caee44f9831201"
-    },
-    {
-      "path": "architecture/2026-10-08/SOURCE_AND_RESPONSE_RECOMMENDATION.md",
-      "bytes": 26390,
-      "sha256": "78940d5284f7f0737a869cbdbd24e24dcc0277981d141b9efbf60d401912c054"
-    },
-    {
-      "path": "architecture/2026-10-08/STATUS.json",
-      "bytes": 1465,
-      "sha256": "53513b613fe8c7e2849b59006cb644de9f9ccfeab01d030060e96aab1b8ec8fd"
-    },
-    {
-      "path": "architecture/2026-10-08/AUTHORIZATION_AND_SCOPE.json",
-      "bytes": 1339,
-      "sha256": "c7dc4463c60526b9568fdfd6677c692453881bcd68c5986a0e7ad36a71c27ff6"
+      "path": "architecture/2026-10-08/ARCHITECTURE_CHECK_RESULTS.json",
+      "bytes": 7107,
+      "sha256": "dc43dcb1e1b42593f3310969b051d6f92f414ef0d3f341f0b758d5ed0533d69d"
     },
     {
       "path": "architecture/2026-10-08/architecture_checks.py",
@@ -49,9 +25,9 @@
       "sha256": "857b5004746fc92e358852e82d4742812c0c5116a1b7c29c4c7b6e89fae9aebf"
     },
     {
-      "path": "architecture/2026-10-08/ARCHITECTURE_CHECK_RESULTS.json",
-      "bytes": 7107,
-      "sha256": "dc43dcb1e1b42593f3310969b051d6f92f414ef0d3f341f0b758d5ed0533d69d"
+      "path": "architecture/2026-10-08/ARCHITECTURE_DECISION_FOR_REVIEW.md",
+      "bytes": 33934,
+      "sha256": "c816522d5c80ec4e704cf502140871aae47a89a10369e495feb13ef7a217a72f"
     },
     {
       "path": "architecture/2026-10-08/ARCHITECTURE_INPUT_METADATA.json",
@@ -59,14 +35,9 @@
       "sha256": "54f776278c3ad028495b66fc498f09c4b4489555672253bc7d5692f1b8a73083"
     },
     {
-      "path": "architecture/2026-10-08/synthetic_strata_checks.py",
-      "bytes": 2842,
-      "sha256": "234f0706866b669a0afff8aae45777d15da96d0f6743b5cda5ca0201c79e990d"
-    },
-    {
-      "path": "architecture/2026-10-08/SYNTHETIC_STRATA_RESULTS.json",
-      "bytes": 3230,
-      "sha256": "e170b1d0fd1e3baf623f36c78deffd1776e7a65e4773232cfa98907a54d1a00e"
+      "path": "architecture/2026-10-08/AUTHORIZATION_AND_SCOPE.json",
+      "bytes": 1339,
+      "sha256": "c7dc4463c60526b9568fdfd6677c692453881bcd68c5986a0e7ad36a71c27ff6"
     },
     {
       "path": "architecture/2026-10-08/interval_accounting_checks.py",
@@ -79,9 +50,159 @@
       "sha256": "ca31aba69a03a9604a463467d65512044dfcd3675fe8eece95835f24c08a32fd"
     },
     {
+      "path": "architecture/2026-10-08/LEGACY_AND_ADVERSARIAL_REVIEW.md",
+      "bytes": 22456,
+      "sha256": "8ac2747471222d94536ee8e8d669783dc673b782145b9fb5d1caee44f9831201"
+    },
+    {
       "path": "architecture/2026-10-08/PRESERVATION_CHECK.json",
       "bytes": 416,
       "sha256": "0bc5d8063d9ae92c088d755073d4549f035016c63d33d449be317021710fe6a1"
+    },
+    {
+      "path": "architecture/2026-10-08/REVIEW_SUMMARY.md",
+      "bytes": 3276,
+      "sha256": "79c191c6a398b9bfbb527276040c8b32f283de661eead085df4f6909d67eb2ce"
+    },
+    {
+      "path": "architecture/2026-10-08/SOURCE_AND_RESPONSE_RECOMMENDATION.md",
+      "bytes": 26390,
+      "sha256": "78940d5284f7f0737a869cbdbd24e24dcc0277981d141b9efbf60d401912c054"
+    },
+    {
+      "path": "architecture/2026-10-08/STATUS.json",
+      "bytes": 1465,
+      "sha256": "53513b613fe8c7e2849b59006cb644de9f9ccfeab01d030060e96aab1b8ec8fd"
+    },
+    {
+      "path": "architecture/2026-10-08/synthetic_strata_checks.py",
+      "bytes": 2842,
+      "sha256": "234f0706866b669a0afff8aae45777d15da96d0f6743b5cda5ca0201c79e990d"
+    },
+    {
+      "path": "architecture/2026-10-08/SYNTHETIC_STRATA_RESULTS.json",
+      "bytes": 3230,
+      "sha256": "e170b1d0fd1e3baf623f36c78deffd1776e7a65e4773232cfa98907a54d1a00e"
+    },
+    {
+      "path": "architecture/2026-10-09/APPROVED_ARCHITECTURE_PRESERVATION.json",
+      "bytes": 61,
+      "sha256": "5ef51c2f34cb6d41308eebe65d020ef7d6d72413d83b4309a0d1893aede61032"
+    },
+    {
+      "path": "architecture/2026-10-09/audit_saved_display.py",
+      "bytes": 8108,
+      "sha256": "82cff2c9b2cb4670da48336ca44e417c9e97f0883999fcdfd45f1440f7caa8d4"
+    },
+    {
+      "path": "architecture/2026-10-09/AUTHORIZATION_AND_MIGRATION.json",
+      "bytes": 2496,
+      "sha256": "7cf6228e9be5d60e4bf141de386690a586e28fe9255c11c65746455ea75fcf12"
+    },
+    {
+      "path": "architecture/2026-10-09/CATALOGUE_AUDIT/AUDIT_SUMMARY.json",
+      "bytes": 5735,
+      "sha256": "35fc11da4d4416f34280353eb8681f53f7792efdededc44d7071fc05cdaad870"
+    },
+    {
+      "path": "architecture/2026-10-09/CATALOGUE_AUDIT/AUDIT_TESTS.json",
+      "bytes": 900,
+      "sha256": "a64920dae182c567e7d50f607f5d782e54b7ccaa3b3fe4a7d8973ff69cebfcb5"
+    },
+    {
+      "path": "architecture/2026-10-09/CATALOGUE_AUDIT/CATALOGUE_AUDIT_REPORT.md",
+      "bytes": 6519,
+      "sha256": "ec343dc2ddb9c48d110f2e536dce7cfc4595f01a3e67b67b08abca4bd64702e9"
+    },
+    {
+      "path": "architecture/2026-10-09/DEVELOPMENT_EVIDENCE_PLAN.md",
+      "bytes": 11494,
+      "sha256": "0e3a0dfd3cb5facc26b2642ba3d7a8dff6855aa64ecd69f2c40f38bbfc4e0228"
+    },
+    {
+      "path": "architecture/2026-10-09/DISCOVERY_LEDGER_TEMPLATE.json",
+      "bytes": 1689,
+      "sha256": "fa5c6f67067fd8086a6604c272c2adffde1f042fa38f6d04792dfe481a97282e"
+    },
+    {
+      "path": "architecture/2026-10-09/EXISTING_DISCOVERY/DISCOVERY_FINDINGS.md",
+      "bytes": 5051,
+      "sha256": "ed19d3f150faf5fb08e0565cf6babce1e06e92d483d47c81553b6a6c8e39a0e5"
+    },
+    {
+      "path": "architecture/2026-10-09/EXISTING_EVIDENCE_POOL_SUMMARY.json",
+      "bytes": 1763,
+      "sha256": "22c94e956985e6757428dc56f6379491c3058d079365fbe8d1d3c5e71ef76dba"
+    },
+    {
+      "path": "architecture/2026-10-09/IMPLEMENTATION_FINDINGS.md",
+      "bytes": 8450,
+      "sha256": "1a470600a1178919eae5b1430a3f1d4d40d1fdbaabdaea44cecf2b46b5a3a07a"
+    },
+    {
+      "path": "architecture/2026-10-09/OPTICAL_CONTRACT/optical_display_contract.py",
+      "bytes": 6779,
+      "sha256": "bb0bfc78d335a9e4cf64f48c75101cb184ca54cfb73a1ca478e42eb9bf142642"
+    },
+    {
+      "path": "architecture/2026-10-09/OPTICAL_CONTRACT/OPTICAL_DISPLAY_CONTRACT_FINDINGS.md",
+      "bytes": 12072,
+      "sha256": "9df73f4287cce7e1a21a4b7feb2e5e177098e93ee9c14b121ede89de2de0b5c8"
+    },
+    {
+      "path": "architecture/2026-10-09/OPTICAL_CONTRACT/SYNTHETIC_TEST_RESULTS.json",
+      "bytes": 1001,
+      "sha256": "5369c7d1ab46241009de65ee562be51d97e41f9e2862fac63e932f0ca8fdcb71"
+    },
+    {
+      "path": "architecture/2026-10-09/OPTICAL_CONTRACT/test_optical_display_contract.py",
+      "bytes": 5431,
+      "sha256": "29e52f0060e052671fb7ca8db1444d794ad238e33e57e764aefb2af6c4bffabb"
+    },
+    {
+      "path": "architecture/2026-10-09/PRESERVATION_CHECK.json",
+      "bytes": 416,
+      "sha256": "0bc5d8063d9ae92c088d755073d4549f035016c63d33d449be317021710fe6a1"
+    },
+    {
+      "path": "architecture/2026-10-09/record_approval_and_inventory.py",
+      "bytes": 8263,
+      "sha256": "5b9fbf59c067ec1d6a426824e3b350fd3b732a865228e49931f6a4969656a7ee"
+    },
+    {
+      "path": "architecture/2026-10-09/RESOURCE_RECEIPT.json",
+      "bytes": 774,
+      "sha256": "2cd4e35837a4cf3b7685e9d8bff42e565f8044868c4555c8d41b9fc31f2ea9a5"
+    },
+    {
+      "path": "architecture/2026-10-09/ROLE_GUARD/role_guard.py",
+      "bytes": 14765,
+      "sha256": "fc1eaad8ca06a28dd6075586fa91248fd88b2691e750109bfb49a4eefc7eec34"
+    },
+    {
+      "path": "architecture/2026-10-09/ROLE_GUARD/ROLE_GUARD_REPORT.md",
+      "bytes": 8273,
+      "sha256": "a3a5bad3510bbf4e28e4e9439a3b2c2df83969a57f74d2059e305cd3e965e27c"
+    },
+    {
+      "path": "architecture/2026-10-09/ROLE_GUARD/SYNTHETIC_ROLE_GUARD_RESULTS.json",
+      "bytes": 4673,
+      "sha256": "114d68fd17f330b80175cae369a996d67391fad602db3ccb4139eb3532d19819"
+    },
+    {
+      "path": "architecture/2026-10-09/ROLE_GUARD/test_role_guard.py",
+      "bytes": 17734,
+      "sha256": "66e33865fc7449d365a0abcf04e91ddf63d86160cb716756d85576a86fcb91f7"
+    },
+    {
+      "path": "architecture/2026-10-09/SAVED_DISPLAY_QA_SUMMARY.json",
+      "bytes": 958,
+      "sha256": "fd9a9bc66e4ba69f66c85ce077ae3b733b52beeec0bbc34f86bdd3a09555f087"
+    },
+    {
+      "path": "architecture/2026-10-09/SOURCE_ROLE_REGISTER.json",
+      "bytes": 4118,
+      "sha256": "d1b463977eab07d8856ab1fc0407c4991fd0898ce9a43a535c12d798cbfe318a"
     }
   ]
 }

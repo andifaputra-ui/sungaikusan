@@ -1,0 +1,37 @@
+{
+  "tests": [
+    {
+      "name": "Processing CRC variants do not create new acquisition",
+      "result": "PASS"
+    },
+    {
+      "name": "Adjacent slices do not create new acquisition",
+      "result": "PASS"
+    },
+    {
+      "name": "Different absolute orbit never merges by same calendar date",
+      "result": "PASS"
+    },
+    {
+      "name": "Different spacecraft never merges by same orbit number",
+      "result": "PASS"
+    },
+    {
+      "name": "All 273 saved full SAFE identities match official ASF",
+      "result": "PASS"
+    },
+    {
+      "name": "Recomputed legacy coverage and all 270 eligible states unchanged",
+      "result": "PASS"
+    },
+    {
+      "name": "Saved metadata source hashes unchanged",
+      "result": "PASS"
+    },
+    {
+      "name": "No result truncation ceiling hit",
+      "result": "PASS"
+    }
+  ],
+  "passed": 8
+}
