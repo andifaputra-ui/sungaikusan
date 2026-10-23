@@ -1,6 +1,6 @@
 {
-  "date_local": "2026-10-09",
-  "scope": "Curated approved architecture and development implementation",
+  "date_local": "2026-10-23",
+  "scope": "Curated C2 architecture, approved implementation and method reassessment",
   "not_a_full_dataset_backup": true,
   "repository_visibility": "public_at_previous_verification",
   "excluded": [
@@ -203,6 +203,41 @@
       "path": "architecture/2026-10-09/SOURCE_ROLE_REGISTER.json",
       "bytes": 4118,
       "sha256": "d1b463977eab07d8856ab1fc0407c4991fd0898ce9a43a535c12d798cbfe318a"
+    },
+    {
+      "path": "architecture/2026-10-23/AEF_AVAILABILITY_SUMMARY.json",
+      "bytes": 1479,
+      "sha256": "bf145ccf68bc97fd270d29f007d98fc8fef72d57798cbb7903d301f52a2da8f8"
+    },
+    {
+      "path": "architecture/2026-10-23/AVAILABILITY_SUMMARY.json",
+      "bytes": 2019,
+      "sha256": "75ad7e0ddeded2536e9e477aec7b1c269776d9678610bd42ae3e7a73b3819b14"
+    },
+    {
+      "path": "architecture/2026-10-23/earth_engine_metadata_probe.py",
+      "bytes": 1834,
+      "sha256": "ed251c434235f7ab5d9860a26755eeff4f9ef036cf9a3174a55d20a53c3e6fdc"
+    },
+    {
+      "path": "architecture/2026-10-23/METHOD_DIRECTION.md",
+      "bytes": 15100,
+      "sha256": "f9e59147097a31a5513151b8afc76ced8a4e4d9ca99ec3c292e8083c7856efbe"
+    },
+    {
+      "path": "architecture/2026-10-23/MODEL_RELEASE_AUDIT.json",
+      "bytes": 5052,
+      "sha256": "f2cd37120894df200bf5893a040dced692f687a3ab184623b0788fb933458e0d"
+    },
+    {
+      "path": "architecture/2026-10-23/SOURCES_AND_READ_SCOPE.md",
+      "bytes": 3276,
+      "sha256": "6332cbcdbc7e2f2e02e603fe82fbc20241d42ce9a55bcb61f21094a134fa35cb"
+    },
+    {
+      "path": "architecture/2026-10-23/STATUS.json",
+      "bytes": 927,
+      "sha256": "cccad1e08e8a424dfd50966c0ab27c4dd9a6e577d4f66f6cdb0264c92ca25412"
     }
   ]
 }

@@ -1,0 +1,113 @@
+{
+  "retrieval_date_local": "2026-10-23",
+  "repository": "Rohit18/surfaceWaterMappingGlobal",
+  "status": "PUBLIC_SOURCE_AND_RELEASE_DECLARATIONS_READ; NO_WEIGHTS_OR_CODE_EXECUTION",
+  "files": [
+    {
+      "path": "README.md",
+      "git_blob_sha": "4f8699634f65803429692fa3cb3476dfe6635341"
+    },
+    {
+      "path": "models/model_registry.json",
+      "git_blob_sha": "7e58b4a280456ad23983666ffd3513ca5873ad38"
+    },
+    {
+      "path": "src/infer.py",
+      "git_blob_sha": "7b94ecb76b8f753e0c7648f9bf4cff3c44055f3f",
+      "read_lines": [
+        1,
+        105
+      ]
+    }
+  ],
+  "registry": {
+    "s1aef_resnet34": {
+      "status": "available",
+      "hugging_face_repo": "rohitm9/surfaceWaterGlobal",
+      "hugging_face_revision": "v2-labelclass",
+      "checkpoint": "models/s1aef_bottleneck_resnet34_best.pth",
+      "checkpoint_sha256": "dd0252e2d08c693e3f88949a0a34a846f91dc7ab1668d91ba7ac0ddb688b06ec",
+      "normalization": "band_stats.npz",
+      "normalization_sha256": "35c28cac98892702999847e721d7e63721056a754a0c1b016a25b641ba32fbaa",
+      "model": "S1+AEF ResNet34 U-Net with a 64-to-16 AEF bottleneck, acquisition-year embedding",
+      "training_target": "Dynamic World label band, class 0 (water)",
+      "training_run": {
+        "slurm_job": "58321212",
+        "task": "width_k16_seed42",
+        "seed": 42,
+        "aef_embedding_year": "acquisition-year",
+        "training_tiles": 5278,
+        "train_tiles": 4222,
+        "valid_tiles": 1056,
+        "trainer": "src/train.py at the Hugging Face tag (SHA-1 cd991e7424ae8d74c4737bd339f1ca66e563e506)"
+      },
+      "output": "Dynamic World-like binary water probability",
+      "paper_threshold": 0.3,
+      "validation_selected_threshold": 0.5
+    },
+    "s1_only_resnet34": {
+      "status": "available",
+      "hugging_face_repo": "rohitm9/surfaceWaterGlobal",
+      "hugging_face_revision": "v2-labelclass",
+      "checkpoint": "variants/s1_only_k0_seed42/models/s1dw_resnet34_best.pth",
+      "checkpoint_sha256": "a5eab4f07d68256d5a7922a8943efb1b0a14cbc0a513315aff737426a57b6e68",
+      "normalization": "variants/s1_only_k0_seed42/band_stats.npz",
+      "normalization_sha256": "5e8aa167a4447887ca49fd1dac257e4df6911136277bf72e81ab9ef74b67c54d",
+      "model": "Matched S1-only ResNet34 U-Net control",
+      "training_target": "Dynamic World label band, class 0 (water)",
+      "training_run": {
+        "slurm_job": "58321212",
+        "task": "width_k0_seed42",
+        "seed": 42,
+        "aef_embedding_year": null,
+        "training_tiles": 5278,
+        "train_tiles": 4222,
+        "valid_tiles": 1056,
+        "trainer": "src/train.py at the Hugging Face tag (SHA-1 cd991e7424ae8d74c4737bd339f1ca66e563e506)"
+      },
+      "output": "Dynamic World-like binary water probability",
+      "paper_threshold": 0.3,
+      "validation_selected_threshold": 0.5
+    },
+    "s1aef_previous_year_resnet34": {
+      "status": "available",
+      "hugging_face_repo": "rohitm9/surfaceWaterGlobal",
+      "hugging_face_revision": "v2-labelclass",
+      "checkpoint": "variants/s1_aef_previous_year_k16_seed42/models/s1aef_bottleneck_resnet34_best.pth",
+      "checkpoint_sha256": "5bd312409fcf86e0a49258c37aa95a53867a5a6b2cef4f73d2e527a3d6fb2717",
+      "normalization": "variants/s1_aef_previous_year_k16_seed42/band_stats.npz",
+      "normalization_sha256": "fd15d29aefbab433ca3e02939822ef611ee4e213c871f26ed825e5ba6c2f7f6f",
+      "model": "S1+AEF ResNet34 U-Net trained with previous-year embeddings",
+      "training_target": "Dynamic World label band, class 0 (water)",
+      "training_run": {
+        "slurm_job": "58321217",
+        "task": "width_k16_seed42",
+        "seed": 42,
+        "aef_embedding_year": "previous-year",
+        "training_tiles": 5140,
+        "train_tiles": 4119,
+        "valid_tiles": 1021,
+        "trainer": "src/train.py at the Hugging Face tag (SHA-1 cd991e7424ae8d74c4737bd339f1ca66e563e506)"
+      },
+      "output": "Dynamic World-like binary water probability",
+      "paper_threshold": 0.3,
+      "validation_selected_threshold": 0.5
+    },
+    "superseded": {
+      "s1aef_resnet34_mixed_labels": {
+        "hugging_face_revision": "v1-mixed-labels",
+        "checkpoint_sha256": "3b89c5b768be8d8b5a00260693ca5d2a051ec63969234702903677b9e326138f",
+        "reason": "trained on a mixture of binarized Dynamic World water probability and the DW label class",
+        "google_drive_mirror": "https://drive.google.com/drive/folders/1XglzIDtyI_H7780rkFn3WZRAj0itZjz_?usp=sharing",
+        "note": "The Google Drive mirror holds the v1 checkpoint; it has not been updated to v2."
+      }
+    }
+  },
+  "inference_cpu_flag_present": true,
+  "weight_payload_access": "NOT_ATTEMPTED",
+  "runtime": "NOT_INSTALLED_OR_BENCHMARKED",
+  "exact_native_input_compatibility": "UNVERIFIED",
+  "trained_source_geometry_overlap_with_Kusan": "UNASSESSED",
+  "annual_embedding_source_encoding_equivalence": "UNVERIFIED",
+  "reported_threshold_policy": "Publisher0.30 primary and0.50 declared sensitivity; no Kusan tuning authorized"
+}

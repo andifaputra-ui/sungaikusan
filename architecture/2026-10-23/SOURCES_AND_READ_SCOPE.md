@@ -1,0 +1,16 @@
+# Sources examined on 23 October 2026
+
+Primary sources and saved project reports informed the reassessment. Published metrics are not Kusan measurements. No paywalled paper was needed from the user for this review.
+
+- [Mukherjee et al., October2026 preprint](https://arxiv.org/html/2610.06704v1): methods, external evaluation, limitations and code availability. This is a preprint. Read the full-text methodological passages; no independent reproduction claimed.
+- [Author code/release repository](https://github.com/Rohit18/surfaceWaterMappingGlobal): README lines1–175, model registry, requirements, inference lines1–105, downloader lines1–90, accessed through GitHub tools. Immutable blob identities and checkpoint hashes are in MODEL_RELEASE_AUDIT.json. Payload download and execution were not tested. Metadata agreement is not a model security audit.
+- [Official OPERA Earth Engine catalogue](https://developers.google.com/earth-engine/datasets/catalog/OPERA_DSWX_L3_V1_S1): product date range, target classes, source radiometry and support/masks. Independently executed four small metadata queries, preserved in local receipts. No pixel values, model output rasters or map tiles were requested.
+- [Official annual embedding catalogue](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL): annual semantics and dataset/version notes. Two small metadata queries checked actual Kusan records and version/type fields. The static description and live availability differ; record both.
+- [Wagner et al.,2025, DLR publication record](https://elib.dlr.de/218412/): abstract, target, archive and published status; prior local targeted full-text review remains in CONTEXTUAL_DETECTOR_ARCHITECTURE. Publisher DOI access returned403. That endpoint failure did not block the primary repository record or require repeating earlier full-paper work.
+- [Microsoft AI4G paper](https://arxiv.org/html/2411.01411v3): change-model inputs, processing and limitations; [repository](https://github.com/microsoft/ai4g-flood) confirms native RTC requirements. This supplies the basis for deferring an event-change detector as the primary persistent-water method.
+- [DLR SWIM product page](https://b.geoservice.dlr.de/web/datasets/swim): public service scope, neural architecture family and explicit developmental-validation warning. Kusan asset coverage was not queried.
+- [OPERA cal/val repository](https://github.com/OPERA-Cal-Val/DSWx-Requirement-Verification): README describes an independent Planet reference approach, but its S1 data section remains marked forthcoming. Do not infer that every paper reference scene is directly downloadable there.
+
+The USGS Jung publication endpoint also returned403; the earlier local full-paper architecture review was available. Three web click attempts failed because numbered links changed across parsed pages; direct primary URLs and the GitHub connector supplied the required material. No failed imagery request, package installation or new sensor processing occurred.
+
+This review did not revisit Sentinel-2/Landsat/Planet searches for the old January2018 objects, read old reader-response CSVs, change the final reserve, inspect held-out reference evidence or reinterpret the nine old conflicts.

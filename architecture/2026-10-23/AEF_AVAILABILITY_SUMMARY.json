@@ -1,0 +1,74 @@
+{
+  "date_local": "2026-10-23",
+  "status": "METADATA_AVAILABLE_ENCODING_EQUIVALENCE_UNVERIFIED",
+  "collection": "GOOGLE/SATELLITE_EMBEDDING/V1/ANNUAL",
+  "aoi": [
+    115.63,
+    -3.65,
+    116.04,
+    -3.39
+  ],
+  "result": {
+    "first_band_count": 64,
+    "records": 9,
+    "year_histogram": {
+      "2017": 1,
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 1,
+      "2025": 1
+    }
+  },
+  "version_metadata": {
+    "dataset_versions": [
+      "1.1",
+      "1.0",
+      "1.0",
+      "1.0",
+      "1.1",
+      "1.0",
+      "1.0",
+      "1.0",
+      "1.0"
+    ],
+    "first_band_type": {
+      "A00": {
+        "type": "PixelType",
+        "precision": "double"
+      }
+    },
+    "ids": [
+      "xd7t4zka3onek8gh9",
+      "xfeeojw77qoa0zhgf",
+      "xfq6bwzn7kjnlw4l7",
+      "xmftbw3w52ppchebx",
+      "xnymbdfqvksdyzrbu",
+      "xp21itbhx9hlxnz9v",
+      "xx0ym1auh28i6wyme",
+      "xze3qvwamztnu6r49",
+      "xzfkfctwgaa7yfwap"
+    ],
+    "start_times": [
+      1483228800000,
+      1577836800000,
+      1704067200000,
+      1609459200000,
+      1735689600000,
+      1546300800000,
+      1514764800000,
+      1672531200000,
+      1640995200000
+    ]
+  },
+  "static_catalogue_description_years": [
+    2017,
+    2024
+  ],
+  "live_catalogue_includes_2025": true,
+  "source_cooperative_encoding_match": "UNVERIFIED; model expects exact published int8 source, GEE first band is double",
+  "new_pixels": 0
+}

@@ -1,0 +1,81 @@
+{
+  "status": "METADATA_OPPORTUNITY_CONFIRMED_NOT_PIXEL_SUPPORT_OR_ACCURACY",
+  "aoi_lonlat": [
+    115.63,
+    -3.65,
+    116.04,
+    -3.39
+  ],
+  "date_start_inclusive": "2024-08-01",
+  "date_end_exclusive": "2026-01-01",
+  "collection": "OPERA/DSWX/L3_V1/S1",
+  "intersecting_records": 185,
+  "distinct_utc_days": 78,
+  "first_utc_day": "2024-08-27",
+  "last_utc_day": "2025-12-25",
+  "legacy_catalogue_date_intersections": 41,
+  "intersection_utc_days": [
+    "2024-09-01",
+    "2024-09-13",
+    "2024-09-25",
+    "2024-10-07",
+    "2024-10-19",
+    "2024-10-31",
+    "2024-11-12",
+    "2024-11-24",
+    "2024-12-06",
+    "2024-12-18",
+    "2024-12-30",
+    "2025-01-11",
+    "2025-01-23",
+    "2025-02-04",
+    "2025-02-16",
+    "2025-02-28",
+    "2025-03-12",
+    "2025-03-24",
+    "2025-04-05",
+    "2025-04-17",
+    "2025-04-29",
+    "2025-05-11",
+    "2025-05-23",
+    "2025-06-04",
+    "2025-06-16",
+    "2025-06-28",
+    "2025-07-10",
+    "2025-07-22",
+    "2025-08-03",
+    "2025-08-15",
+    "2025-08-27",
+    "2025-09-08",
+    "2025-09-20",
+    "2025-10-02",
+    "2025-10-14",
+    "2025-10-26",
+    "2025-11-07",
+    "2025-11-19",
+    "2025-12-01",
+    "2025-12-13",
+    "2025-12-25"
+  ],
+  "source_orbit_scene_identity": "NOT_CONFIRMED_BY_DATE_MATCH",
+  "MGRS_tiles": {
+    "T50MLA": 93,
+    "T50MLB": 92
+  },
+  "pass_direction": {
+    "descending": 185
+  },
+  "DSWx_product_version": {
+    "1.0": 185
+  },
+  "research_pixels_read": 0,
+  "exports_or_training": 0,
+  "scientific_target_match": "Use open-water class; binary union includes inundated vegetation and is not the thesis target",
+  "limitations": [
+    "Footprint intersection is not whole-L1 coverage",
+    "Separate tile start times are not independent acquisitions",
+    "78 UTCdays are not necessarily78 accepted-track acquisitions",
+    "No inference for 2017-2023 from this availability",
+    "No OPERA source-pixel/RTC/sigma0 equivalence established"
+  ]
+}

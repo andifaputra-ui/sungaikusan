@@ -2,7 +2,9 @@
 
 This is a **curated scientific-work backup**, not a full copy of the thesis datasets.
 
-Current status: the [8 October architecture](architecture/2026-10-08/ARCHITECTURE_DECISION_FOR_REVIEW.md) was approved on 9 October, with detector-informed/adversarial discovery allowed during development only. References remain independently interpreted and permanently development-only.
+Latest methodological recommendation,23October2026: [reassessment and proposed stronger comparison](architecture/2026-10-23/METHOD_DIRECTION.md). The owner reopened method choice. OPERA availability and pretrained releases were checked; the proposed method has not been run or adopted as the final detector. No scientific background job.
+
+Prior approved status: the [8 October architecture](architecture/2026-10-08/ARCHITECTURE_DECISION_FOR_REVIEW.md) was approved on 9 October, with detector-informed/adversarial discovery allowed during development only. References remain independently interpreted and permanently development-only.
 
 Read the [implementation findings](architecture/2026-10-09/IMPLEMENTATION_FINDINGS.md), [development evidence plan](architecture/2026-10-09/DEVELOPMENT_EVIDENCE_PLAN.md), and [continuation checkpoint](CHECKPOINT.md). No new probability sample, semantic A/B run, evaluation SAR, final reference release or method freeze occurred. The proposed acquisition budget is not automatically authorized.
 
