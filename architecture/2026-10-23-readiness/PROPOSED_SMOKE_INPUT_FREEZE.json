@@ -1,0 +1,28 @@
+{
+  "status": "PROPOSED_TECHNICAL_SMOKE_NOT_REFERENCE_SAMPLE",
+  "date_utc": "2024-09-01",
+  "date_selection": "Earliest UTC date in saved OPERA/legacy-catalogue metadata intersection; no outcome or optical-content selection",
+  "grid": {
+    "crs": "EPSG:32750",
+    "width": 512,
+    "height": 512,
+    "transform": [
+      10,
+      0,
+      368031.7721720397,
+      0,
+      -10,
+      9613405.8651008
+    ],
+    "C1_window_row_col_height_width": [
+      1185,
+      2023,
+      512,
+      512
+    ]
+  },
+  "purpose": "Native-model input/runtime/output support qualification only; no local accuracy or semantic release",
+  "role": "PERMANENT_DEVELOPMENT_ENGINEERING",
+  "input": "Single explicit COPERNICUS/S1_GRD scene, IW,VV/VH,descending,R105; no automatic same-day mosaic",
+  "acquisition_status": "NOT_AUTHORIZED_OR_EXECUTED"
+}

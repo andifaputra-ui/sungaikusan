@@ -1,0 +1,48 @@
+{
+  "status": "METADATA_IDENTITIES_AGREE_PAYLOAD_NOT_FETCHED",
+  "github_commit": "9548384d8744beda3f3ed3a1a96183260b2caa93",
+  "HF_resolved_commit": "7c497187a9b7f53488e6577621e7d0961c23dcfd",
+  "HF_tag": "v2-labelclass",
+  "files": [
+    {
+      "variant": "s1_only_resnet34",
+      "kind": "checkpoint",
+      "path": "variants/s1_only_k0_seed42/models/s1dw_resnet34_best.pth",
+      "bytes": 165058971,
+      "expected_sha256": "a5eab4f07d68256d5a7922a8943efb1b0a14cbc0a513315aff737426a57b6e68",
+      "metadata_digest_agrees": true,
+      "payload_verified": false
+    },
+    {
+      "variant": "s1_only_resnet34",
+      "kind": "normalization",
+      "path": "variants/s1_only_k0_seed42/band_stats.npz",
+      "bytes": 524,
+      "expected_sha256": "5e8aa167a4447887ca49fd1dac257e4df6911136277bf72e81ab9ef74b67c54d",
+      "metadata_digest_agrees": true,
+      "payload_verified": false
+    },
+    {
+      "variant": "s1aef_resnet34",
+      "kind": "checkpoint",
+      "path": "models/s1aef_bottleneck_resnet34_best.pth",
+      "bytes": 165516828,
+      "expected_sha256": "dd0252e2d08c693e3f88949a0a34a846f91dc7ab1668d91ba7ac0ddb688b06ec",
+      "metadata_digest_agrees": true,
+      "payload_verified": false
+    },
+    {
+      "variant": "s1aef_resnet34",
+      "kind": "normalization",
+      "path": "band_stats.npz",
+      "bytes": 1036,
+      "expected_sha256": "35c28cac98892702999847e721d7e63721056a754a0c1b016a25b641ba32fbaa",
+      "metadata_digest_agrees": true,
+      "payload_verified": false
+    }
+  ],
+  "s1_only_payload_bytes": 165059495,
+  "paired_payload_bytes": 330577359,
+  "trainer_raw_sha1": "cd991e7424ae8d74c4737bd339f1ca66e563e506",
+  "trainer_match_to_documentation": true
+}

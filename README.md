@@ -1,5 +1,7 @@
 # Kusan C2 research architecture backup
 
+Latest execution boundary, 24 October 2026: the one-scene [technical smoke](architecture/2026-10-24-smoke/RUN_SCOPE.md) is approved and launched locally. See [checkpoint](CHECKPOINT.md). This snapshot does not claim that inference has finished.
+
 This is a **curated scientific-work backup**, not a full copy of the thesis datasets.
 
 Latest methodological recommendation,23October2026: [reassessment and proposed stronger comparison](architecture/2026-10-23/METHOD_DIRECTION.md). The owner reopened method choice. OPERA availability and pretrained releases were checked; the proposed method has not been run or adopted as the final detector. No scientific background job.

@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "scope": "Saved projection geometry only; live source dimensions still checked before pixels",
+  "checks": [
+    {
+      "band": "VV_VH",
+      "planned_window": [
+        21911,
+        6964,
+        22426,
+        7479
+      ],
+      "inside_fixed_scope": true,
+      "minimum_indices_nonnegative": true
+    },
+    {
+      "band": "angle",
+      "planned_window": [
+        3,
+        0,
+        6,
+        3
+      ],
+      "inside_fixed_scope": true,
+      "minimum_indices_nonnegative": true
+    }
+  ]
+}

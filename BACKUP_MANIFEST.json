@@ -1,6 +1,6 @@
 {
-  "date_local": "2026-10-23",
-  "scope": "Curated C2 architecture, approved implementation and method reassessment",
+  "date_local": "2026-10-24",
+  "scope": "Curated architecture, reassessment, native readiness and approved smoke source/protocol snapshot",
   "not_a_full_dataset_backup": true,
   "repository_visibility": "public_at_previous_verification",
   "excluded": [
@@ -238,6 +238,121 @@
       "path": "architecture/2026-10-23/STATUS.json",
       "bytes": 927,
       "sha256": "cccad1e08e8a424dfd50966c0ab27c4dd9a6e577d4f66f6cdb0264c92ca25412"
+    },
+    {
+      "path": "architecture/2026-10-23-readiness/FROZEN_ARTIFACT_CONTRACT.json",
+      "bytes": 1755,
+      "sha256": "229de7a44f85dba6a88570e343dad0caabb8ceac207fe85deb48067d5c10f36d"
+    },
+    {
+      "path": "architecture/2026-10-23-readiness/input_contract.py",
+      "bytes": 3335,
+      "sha256": "451f8a0515a2797164027f031f770fee6e1f4b5797b822f5621026b8f5e8ce7c"
+    },
+    {
+      "path": "architecture/2026-10-23-readiness/INPUT_CONTRACT_TEST_RESULTS.json",
+      "bytes": 294,
+      "sha256": "cc87a92de2e8329ecfe166544e1cc578aa4602a973eb7089435071bcf763b2c8"
+    },
+    {
+      "path": "architecture/2026-10-23-readiness/PROPOSED_SMOKE_INPUT_FREEZE.json",
+      "bytes": 837,
+      "sha256": "7bdc70121262a555061e90109d7fe6816f2aa14224b2671099d12b12231bafba"
+    },
+    {
+      "path": "architecture/2026-10-23-readiness/READINESS_FINDINGS.md",
+      "bytes": 6189,
+      "sha256": "baf1bc34cf753ca97d2fe0f675afd8b9cb8853e33f75dc04af116e1d4541f4ef"
+    },
+    {
+      "path": "architecture/2026-10-23-readiness/SMOKE_TEST_PROTOCOL.md",
+      "bytes": 5542,
+      "sha256": "65107a276bd1585db031d4683e5d19e50c00d9cc71e9c4f27e9a50e3d16dbece"
+    },
+    {
+      "path": "architecture/2026-10-23-readiness/test_input_contract.py",
+      "bytes": 3926,
+      "sha256": "252872b2ad3f609f8a730c410b7b70f39ae599c965fcd122b7477bc59c8bb0ab"
+    },
+    {
+      "path": "architecture/2026-10-23-readiness/TRAINING_GEOGRAPHY_AUDIT.json",
+      "bytes": 1765,
+      "sha256": "82923a2c86afc2195aeae3bf0a064a5c07ab2fbc91b7c4c7f10174ace7f7690d"
+    },
+    {
+      "path": "architecture/2026-10-23-readiness/TRAINING_GRID_EXTENT_SANITY.json",
+      "bytes": 273,
+      "sha256": "2f81cdbfda93cb0da3a9a7ea93c3d3fae9190ed1358e667391189daa14506b02"
+    },
+    {
+      "path": "architecture/2026-10-23-readiness/UPSTREAM_IDENTITY_CHECK.json",
+      "bytes": 2036,
+      "sha256": "28f81bd356639b2a819fa7a9f2f6c0ad38a1b0f257bb6d2be71e43b6b3889217"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/acquire_input.py",
+      "bytes": 5280,
+      "sha256": "d7b61f02494ad801aafb753a45470c9316aed7d07c1847ce87fef2c81230545e"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/AUTHORIZATION.json",
+      "bytes": 531,
+      "sha256": "22d6f097a23a86f796752988051da250184998297c8ed8b5271230e05b8c4e3a"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/continue_after_setup.py",
+      "bytes": 2058,
+      "sha256": "0d7c33a41f7583c5c831b94716d8505ba8ea43016d1daa737bab8b4496b56e24"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/metered_pip.py",
+      "bytes": 1404,
+      "sha256": "0dc507f2dc50a4d8f5c8118a281cc469ffb51866237ef40609e0454a5a156fbe"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/prepare_public_backup.py",
+      "bytes": 4460,
+      "sha256": "0e5fb087bb88336b2675ea7bc9e238a6a9512bc23371bf0042f26c54e9ce5d18"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/prepare_runtime.py",
+      "bytes": 4179,
+      "sha256": "f29f9b5989a29acb35ee988cbb2282075b4ad261540955cd80cda218367ecb88"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/requirements_roots.txt",
+      "bytes": 289,
+      "sha256": "a6266ea9815dacef7b19895557641ca6c6dcc894366fc070b477043ca963acc4"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/resource_budget.py",
+      "bytes": 5670,
+      "sha256": "f064363ebe9a325f3826f6dfadf297c50b33c80144c504d01f4274b660d4cd2a"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/RESOURCE_TESTS.json",
+      "bytes": 86,
+      "sha256": "b39dee506c19abbeceac87b17d291f1c3750a80fdf236f8f20c4de1f1db7e1ed"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/run_inference.py",
+      "bytes": 7613,
+      "sha256": "e0f15570e95c195e7ba6e2655a74ee1e574d42bfbe9311d587a8da3b157eed07"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/RUN_SCOPE.md",
+      "bytes": 3914,
+      "sha256": "2f0ace1a2a6b7e9b35e894c7e60b03040a09ef7f0e7e03d60f11012dfda8b59b"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/SOURCE_SCOPE_OFFLINE_CHECK.json",
+      "bytes": 560,
+      "sha256": "5fe7b9211de1c6dfccc49a73a4fc617ae1a0156386ec9d2218e6542367bb1148"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/test_resource_budget.py",
+      "bytes": 1936,
+      "sha256": "36a31083b0ca41cc19bff89c921f864eb26197edc0978c7f1305a177a2da289e"
     }
   ]
 }

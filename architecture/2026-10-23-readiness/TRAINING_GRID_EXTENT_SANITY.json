@@ -1,0 +1,7 @@
+{
+  "river_rows": 4678,
+  "all_declared_crs_UTM_metre": true,
+  "maximum_sum_of_grid_side_lengths_m": 23000.0,
+  "all_river_grid_side_sum_below_50km": true,
+  "qualified_scope": "Bounds sanity of declared river grids; supplemental footprint extents not available"
+}

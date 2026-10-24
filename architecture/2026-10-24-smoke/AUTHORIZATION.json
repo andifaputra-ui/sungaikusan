@@ -1,0 +1,14 @@
+{
+  "date_local": "2026-10-24",
+  "human_decision": "Approve the bounded technical smoke test",
+  "source": "Direct user reply in current conversation",
+  "scope": "SMOKE_TEST_PROTOCOL.md, one frozen S1-only scene and 512x512 patch; isolated CPU runtime",
+  "transfer_ceiling_bytes": 2147483648,
+  "storage_ceiling_bytes": 6442450944,
+  "paid_spend": 0,
+  "Planet_quota": 0,
+  "no_training": true,
+  "no_final_reference": true,
+  "permanent_role": "DEVELOPMENT_ENGINEERING",
+  "prior_readiness_hashes_verified": 30
+}

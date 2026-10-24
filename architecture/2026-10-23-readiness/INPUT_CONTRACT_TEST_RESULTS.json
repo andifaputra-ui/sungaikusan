@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "tests_run": 10,
+  "failures": 0,
+  "errors": 0,
+  "scope": "SYNTHETIC_ARRAYS_AND_MEMORY_RASTER_ONLY; NO_NEURAL_MODEL_OR_RESEARCH_PIXELS",
+  "material_regression": "dataset_mask union can hide one required current band nodata; all-band conjunction rejects it"
+}

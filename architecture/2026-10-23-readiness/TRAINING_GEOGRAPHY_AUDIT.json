@@ -1,0 +1,45 @@
+{
+  "status": "DECLARED_TRAINING_METADATA_AUDITED_NOT_COMPLETE_MODEL_LINEAGE",
+  "source_commit": "9548384d8744beda3f3ed3a1a96183260b2caa93",
+  "metadata_features": 5278,
+  "sample_sets": {
+    "sword_river_node": 4678,
+    "open_water_supplement": 600
+  },
+  "split_counts": {
+    "valid": 1056,
+    "train": 4222
+  },
+  "river_grid_metadata_rows": 4678,
+  "supplement_grid_metadata": "NOT_PUBLISHED",
+  "local_candidate_centroids": 2,
+  "coarse_lonlat_prefilter": [
+    113.5,
+    -5.8,
+    118.2,
+    -1.2
+  ],
+  "distance_crs": "EPSG:32750",
+  "all_local_distances_metre_based": true,
+  "nearest_declared_centroid": {
+    "tile_name": "S1_20220912_52110000351.tif",
+    "sample_set": "sword_river_node",
+    "split": "train",
+    "source_date": "2022-09-12",
+    "date_basis": "legacy_indexed_date",
+    "centroid_distance_to_L1_m": 87802.84937155251,
+    "centroid_inside_L1": false,
+    "true_tile_overlap": false,
+    "tile_distance_to_L1_m": 82552.87659503974,
+    "intersection_area_m2": 0.0
+  },
+  "centroids_in_L1": 0,
+  "local_river_grids_intersecting_L1": 0,
+  "local_supplement_centroids_without_true_boundaries": 1,
+  "training_exposure_qualification": "Published centroids are not proof of complete training independence; supplemental boundaries, weak-label source and annual contextual pretraining exposure need disclosure.",
+  "final_inference_target": "Fixed-map probability audit is distinct from untouched-geography transfer; do not recategorize exposure or final evidence.",
+  "input_sha256": {
+    "training_centroids.geojson": "d44efaf06602c11c1c5bf3bc341660381a047dba09e988f972bd6b48b4181e0f",
+    "training_samples.csv": "4849fbd419dd5763ee6aee28340e110f92c4791a0ac575c47cdeecd945eec93a"
+  }
+}
