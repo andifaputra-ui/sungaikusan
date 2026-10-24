@@ -295,9 +295,19 @@
       "sha256": "141e2ed9fa1beaccb84cb8ffe6720671edf1832951a87f106dde5ffe10e74948"
     },
     {
+      "path": "architecture/2026-10-24-smoke/audit_completion.py",
+      "bytes": 6112,
+      "sha256": "78f18aee4b4a90f62c2c3d1bb974270330243f86cc7f7850186096a3a2d9ffac"
+    },
+    {
       "path": "architecture/2026-10-24-smoke/AUTHORIZATION.json",
       "bytes": 531,
       "sha256": "22d6f097a23a86f796752988051da250184998297c8ed8b5271230e05b8c4e3a"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/COMPLETION_AUDIT.json",
+      "bytes": 3304,
+      "sha256": "3f43bd88e1355453a0fe70cc027c91be2672b2252ccf771e1f2cf281beddbd20"
     },
     {
       "path": "architecture/2026-10-24-smoke/CONTINUATION_REPAIR.json",
@@ -310,6 +320,11 @@
       "sha256": "4d28267d94147ac063f14ac64de78ec893452416bc0bdf7b1c1b3a77718b8afd"
     },
     {
+      "path": "architecture/2026-10-24-smoke/FINDINGS_FOR_REVIEW.md",
+      "bytes": 6840,
+      "sha256": "5583f55ba60f151753693d51eb7ea0fbecdc27b3b545ecb65da630c414a57500"
+    },
+    {
       "path": "architecture/2026-10-24-smoke/INITIALIZATION_REGRESSION_TESTS.json",
       "bytes": 91,
       "sha256": "ca659fe43b83dacf585a492536c20348f58fd5e02cf9c9e96c770a7647c4d469"
@@ -320,9 +335,14 @@
       "sha256": "0dc507f2dc50a4d8f5c8118a281cc469ffb51866237ef40609e0454a5a156fbe"
     },
     {
+      "path": "architecture/2026-10-24-smoke/NEXT_DECISION.md",
+      "bytes": 6601,
+      "sha256": "4a8d7c7f27700a37ad1849a2adf48d7d8bfdfdfb5a1d51224b34d0de1f021431"
+    },
+    {
       "path": "architecture/2026-10-24-smoke/prepare_public_backup.py",
-      "bytes": 5150,
-      "sha256": "9506fd7a75cd55e3cf8f7e19d7f087b914147a01c0b4607f4566eeab4ccaf3c2"
+      "bytes": 6145,
+      "sha256": "a78207140161bcde0acab3da894fbc3d9fe22e922ab653d6ab782c525eff34fe"
     },
     {
       "path": "architecture/2026-10-24-smoke/prepare_runtime.py",
@@ -380,6 +400,11 @@
       "sha256": "b63e2f0e6c4683bca5a3f43a40158be8886bc9b72e7b556ef70ba40348b5b817"
     },
     {
+      "path": "architecture/2026-10-24-smoke/SMOKE_RESULT.json",
+      "bytes": 1803,
+      "sha256": "bb46e17d3608ba12f3c1aac7cfa3e5d2ee7c4423ae6c204541755ceb9449b072"
+    },
+    {
       "path": "architecture/2026-10-24-smoke/SOURCE_SCOPE_OFFLINE_CHECK.json",
       "bytes": 560,
       "sha256": "5fe7b9211de1c6dfccc49a73a4fc617ae1a0156386ec9d2218e6542367bb1148"
@@ -398,6 +423,11 @@
       "path": "architecture/2026-10-24-smoke/test_resource_budget.py",
       "bytes": 1936,
       "sha256": "36a31083b0ca41cc19bff89c921f864eb26197edc0978c7f1305a177a2da289e"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/VISUAL_QA_REVIEW.json",
+      "bytes": 1124,
+      "sha256": "6f47b589350804b80fef62ee70e3969a8cb01a93e473167a0d7bfc070e14294e"
     },
     {
       "path": "architecture/2026-10-24-smoke/WHEEL_RECEIPTS.json",

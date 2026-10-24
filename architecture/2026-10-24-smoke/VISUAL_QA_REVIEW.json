@@ -1,0 +1,15 @@
+{
+  "date_local": "2026-10-24",
+  "reviewer": "Codex assistant; engineering inspection only, not an independent reference interpreter",
+  "artifact": "ALIGNMENT_QA_TWO_SCALES.png",
+  "views_inspected": ["Frozen full 512 by 512 patch", "Frozen central 128 by 128 crop"],
+  "programmatic_result": "Exact grid and support checks passed at all three shared coordinate anchors",
+  "full_view": "No obvious rotation or gross displacement is visible between input and score panels. This is a source-relative visual check, not independently measured geographic accuracy.",
+  "central_view": "The model score is nearly uniform at the fixed display range. This crop is uninformative for visually checking fine score-boundary alignment; its numerical georeferencing still matches.",
+  "visual_status": "TWO_FIXED_VIEWS_INSPECTED; COARSE_SOURCE_RELATIVE_ALIGNMENT_PLAUSIBLE; FINE_BOUNDARY_ALIGNMENT_NOT_ESTABLISHED",
+  "absolute_registration": "NOT_MEASURED",
+  "water_accuracy": "NOT_MEASURED",
+  "reference_labels_created": false,
+  "threshold_or_display_limits_tuned": false,
+  "independent_optical_or_final_reference_used": false
+}

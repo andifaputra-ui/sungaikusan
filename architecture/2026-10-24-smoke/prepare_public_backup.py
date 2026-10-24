@@ -23,7 +23,9 @@ def main() -> None:
               'requirements_roots.txt','prepare_public_backup.py','test_initialization_order.py',
               'INITIALIZATION_REGRESSION_TESTS.json','test_request_mutation.py','REQUEST_MUTATION_TESTS.json',
               'CONTINUATION_REPAIR.json','RECEIPT_RECOVERY.json','RUNTIME_READY.json',
-              'requirements_lock.txt','WHEEL_RECEIPTS.json','render_alignment_qa.py']}
+              'requirements_lock.txt','WHEEL_RECEIPTS.json','render_alignment_qa.py',
+              'SMOKE_RESULT.json','COMPLETION_AUDIT.json','VISUAL_QA_REVIEW.json',
+              'FINDINGS_FOR_REVIEW.md','NEXT_DECISION.md','audit_completion.py']}
     for source,names in allowlists.items():
         destination=REPO/'architecture'/('2026-10-23-readiness' if source==PREP else '2026-10-24-smoke')
         destination.mkdir(parents=True,exist_ok=True)
@@ -34,18 +36,22 @@ def main() -> None:
             shutil.copyfile(path,destination/name)
     checkpoint='''# Approved technical smoke — 24 October 2026
 
-The user approved one isolated CPU S1-only technical test. Read architecture/2026-10-24-smoke/RUN_SCOPE.md and architecture/2026-10-23-readiness/SMOKE_TEST_PROTOCOL.md. Isolated setup and verified weight downloads completed. Two acquisition-wrapper defects were preserved and repaired: initialization before deadline configuration, and defensive copying of EE download parameters. The downloaded input was recovered without a second imagery request. At this backup snapshot one CPU inference is running; this repository does not assert a completed result. Current execution status and pixels remain local. No final detector, accuracy claim or method freeze is authorized.
+The approved one-scene smoke is COMPLETE: TECHNICAL_SMOKE_PASS; SCIENTIFIC_PERFORMANCE_UNKNOWN. Read architecture/2026-10-24-smoke/FINDINGS_FOR_REVIEW.md and NEXT_DECISION.md. All 262,144 pixels had current VV/VH/angle support; exact grid, release hashes, strict state loading and finite scores passed. Four-flip CPU computation46.094seconds, internal script281.375seconds, controller stage510.092seconds. Actual audited storage4.558GiB and charged transfer0.903GiB were within6/2GiB ceilings. No scientific job remains queued.
 
-The frozen package's 30 hashes were verified; its ten synthetic input tests remain recorded. Three resource-accounting, two initialization-order and two mutable-request regression tests pass offline. All three live native-window checks passed before the one imagery request. The original input file is retained unchanged. Separate two-scale QA code is prepared but not asserted executed in this snapshot.
+Two acquisition-wrapper defects were preserved and repaired; one original input was retained without a second imagery request. The two fixed QA views were inspected. No gross source-relative displacement was apparent, but the nearly uniform central score crop cannot establish fine boundary alignment. Absolute geographic accuracy and water accuracy remain unmeasured. No final detector, semantic comparison or method freeze is authorized.
+
+The frozen package's 30 hashes were verified; its ten synthetic input tests remain recorded. Three resource-accounting, two initialization-order and two mutable-request regression tests pass offline. All three live native-window checks passed before the one imagery request. Source pixels, weights and the local QA figure remain excluded from this public backup. The real patch has no missing current pixels; synthetic nodata checks are separate evidence and do not become empirical validation.
 
 Permanent development engineering only. Separate runtime on E:, 2 GiB response-body transfer accounting ceiling and 6 GiB storage ceiling, no paid/Planet use. Accepted scientific environment, SNAP/C1 products, original responses and sealed final reference evidence are preserved. Model weights, research pixels, raw public training geography, third-party trainer code, live logs, account data and reader identities are excluded from this curated backup.
 
-Resume by checking local NATIVE_MODEL_SMOKE_20261024/STATUS.json and the terminal result marker once. Do not relaunch setup/controller or download duplicates automatically. A successful run still requires two-scale visual QA and scientific review of the next comparison; a failure is retained rather than repaired into a positive finding.
+Resume at the scientific decision in NEXT_DECISION.md. Recommended next is a reference-linked development comparison of frozen S1-only and operational OPERA where actual observations can be paired; the unqualified annual-context arm is not a prerequisite. No new imagery acquisition, inference dates, thresholds, old VV A/B, final evidence or method freeze starts automatically. Do not relaunch the completed setup/controller.
 '''
     (REPO/'CHECKPOINT.md').write_text(checkpoint,encoding='utf-8')
     readme=REPO/'README.md'
     text=readme.read_text(encoding='utf-8')
-    prefix='Latest execution boundary, 24 October 2026: the one-scene [technical smoke](architecture/2026-10-24-smoke/RUN_SCOPE.md) is approved and launched locally. See [checkpoint](CHECKPOINT.md). This snapshot does not claim that inference has finished.\n\n'
+    obsolete='Latest execution boundary, 24 October 2026: the one-scene [technical smoke](architecture/2026-10-24-smoke/RUN_SCOPE.md) is approved and launched locally. See [checkpoint](CHECKPOINT.md). This snapshot does not claim that inference has finished.\n\n'
+    text=text.replace(obsolete,'')
+    prefix='Latest result, 24 October 2026: [native S1-only technical smoke passed](architecture/2026-10-24-smoke/FINDINGS_FOR_REVIEW.md). Scientific performance remains unknown. No background job is queued. Read the [next decision](architecture/2026-10-24-smoke/NEXT_DECISION.md) and [checkpoint](CHECKPOINT.md).\n\n'
     if prefix not in text:
         first,rest=text.split('\n\n',1)
         readme.write_text(first+'\n\n'+prefix+rest,encoding='utf-8')

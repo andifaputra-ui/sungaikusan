@@ -1,0 +1,105 @@
+{
+  "status": "FINAL_NUMERICAL_AND_RESOURCE_AUDIT_PASS",
+  "readiness_files_unchanged": 30,
+  "model_payloads": [
+    {
+      "file": "s1dw_resnet34_best.pth",
+      "bytes": 165058971,
+      "sha256": "a5eab4f07d68256d5a7922a8943efb1b0a14cbc0a513315aff737426a57b6e68"
+    },
+    {
+      "file": "band_stats.npz",
+      "bytes": 524,
+      "sha256": "5e8aa167a4447887ca49fd1dac257e4df6911136277bf72e81ab9ef74b67c54d"
+    }
+  ],
+  "rasters": [
+    {
+      "file": "CURRENT_INPUT.tif",
+      "bytes": 2954835,
+      "sha256": "b0015cc93f6902392378c03e89d951487cf665b94a6099bdab05604a5d3b88d9",
+      "band_names": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "nodata": null,
+      "dtype": [
+        "float32",
+        "float32",
+        "float32",
+        "float32",
+        "float32",
+        "float32"
+      ]
+    },
+    {
+      "file": "UNVALIDATED_SCORE.tif",
+      "bytes": 940950,
+      "sha256": "b129640f3b30cb51e0279c18bcb3dd06c25e55d9d97f65a34b420f7ed835068c",
+      "band_names": [
+        "Unvalidated released-model score; development engineering only"
+      ],
+      "nodata": -9999.0,
+      "dtype": [
+        "float32"
+      ]
+    },
+    {
+      "file": "CURRENT_SUPPORT.tif",
+      "bytes": 756,
+      "sha256": "3c091bc9c55c17259c7316f5f5a233a076ce61ba70486ba03bd74c29084447e6",
+      "band_names": [
+        null
+      ],
+      "nodata": null,
+      "dtype": [
+        "uint8"
+      ]
+    },
+    {
+      "file": "DISTANCE_TO_INVALID_OR_EDGE_PIXELS.tif",
+      "bytes": 9435,
+      "sha256": "39d6935093cb414db347f5b12a31d96a427a31bcbae3520a235c2fed8cb8804b",
+      "band_names": [
+        null
+      ],
+      "nodata": null,
+      "dtype": [
+        "float32"
+      ]
+    }
+  ],
+  "pre_read_band_guards_passed": 3,
+  "current_valid_pixels": 262144,
+  "current_total_pixels": 262144,
+  "actual_missing_current_pixels": 0,
+  "missing_current_test_qualification": "This patch has no missing current pixels; real nodata failure behaviour was not empirically exercised by this smoke. Existing synthetic guards are separate evidence.",
+  "normalization_verified": true,
+  "output_grid_verified": true,
+  "runtime_storage_bytes": 4888592702,
+  "run_artifact_storage_bytes": 4995587,
+  "storage_bytes_total": 4893588289,
+  "storage_ceiling_bytes": 6442450944,
+  "transfer_accounting": {
+    "limit_bytes": 2147483648,
+    "charged_bytes": 969932800,
+    "received_metered_bytes": 959123142,
+    "unmetered_metadata_reserve_bytes": 8388608,
+    "accounting": "Conservative response-body reservations; excludes transport headers/TLS overhead. Metadata API calls covered by a declared reserve, not exact metering."
+  },
+  "timing": {
+    "controller_phase_span_seconds": 510.091706,
+    "within_script_seconds": 281.375,
+    "four_flip_forward_seconds": 46.09400000000096,
+    "qualification": "Different clock boundaries; startup/launch/teardown difference not separately instrumented. No whole-scene/full-series runtime extrapolation."
+  },
+  "peak_memory": "NOT_MEASURED",
+  "accuracy": "NOT_MEASURED",
+  "independent_absolute_registration": "NOT_MEASURED",
+  "scientific_method_frozen": false,
+  "further_processing_queued": false
+}

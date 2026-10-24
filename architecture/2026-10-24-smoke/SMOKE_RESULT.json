@@ -1,0 +1,64 @@
+{
+  "status": "TECHNICAL_SMOKE_PASS",
+  "role": "PERMANENT_DEVELOPMENT_ENGINEERING",
+  "total_seconds": 281.375,
+  "four_flip_inference_seconds": 46.09400000000096,
+  "shape": [
+    512,
+    512
+  ],
+  "joint_current_support_pixels": 262144,
+  "total_pixels": 262144,
+  "valid_pixels_by_band": [
+    262144,
+    262144,
+    262144
+  ],
+  "score_min": 6.572237907676026e-06,
+  "score_max": 0.9968327879905701,
+  "score_quantiles": [
+    6.572237907676026e-06,
+    1.378704988383106e-05,
+    2.723289162531728e-05,
+    4.200771581963636e-05,
+    7.78661542426562e-05,
+    0.7793091118335731,
+    0.9968327879905701
+  ],
+  "torch": "2.8.0+cpu",
+  "cpu_threads": 4,
+  "strict_state_load": true,
+  "safe_weights_only_load": true,
+  "tta": "Mean logits across identity,H,V,HV then softmax",
+  "normalization": "Exact released three-band statistics; no local fitting",
+  "input_band_quantiles_on_joint_support": {
+    "VV": [
+      -29.202247619628906,
+      -16.286531658172606,
+      -9.120875835418701,
+      -3.934310221672053,
+      12.853384017944336
+    ],
+    "VH": [
+      -48.7548942565918,
+      -23.785357227325438,
+      -14.481136798858643,
+      -9.578667993545531,
+      1.6048080921173096
+    ],
+    "angle": [
+      34.0676383972168,
+      34.08929225921631,
+      34.269697189331055,
+      34.448978424072266,
+      34.470436096191406
+    ]
+  },
+  "limitations": [
+    "No independent reference comparison or accuracy claim",
+    "Scores are not locally calibrated probabilities",
+    "Missing/edge context can affect supported neighbours; distance output is descriptive, not a reliability mask",
+    "No claim of equivalence with accepted SNAP/C1 radiometry",
+    "Two-scale visual overlay QA pending actual inspection"
+  ]
+}
