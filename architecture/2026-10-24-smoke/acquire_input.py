@@ -1,6 +1,7 @@
 """One approved explicit EE image; pre-read source-window planning and masks."""
 from __future__ import annotations
 from pathlib import Path
+from copy import deepcopy
 from dataclasses import asdict
 from math import floor, ceil
 import json
@@ -17,6 +18,17 @@ sys.path.insert(0,str(GUARD))
 from role_guard import Evidence,Role,Actor,PixelScope,NativeWindow,check_native_window
 
 SCENE = 'COPERNICUS/S1_GRD/S1A_IW_GRDH_1SDV_20240901T220029_20240901T220054_055477_06C49D_489D'
+
+
+def initialize_earth_engine() -> None:
+    """Reuse existing credentials; initialize transport before configuring its deadline."""
+    ee.Initialize(project='gen-lang-client-0932704594')
+    ee.data.setDeadline(120000)
+
+
+def download_url_without_mutation(image, params: dict) -> str:
+    """Protect saved provenance from the EE client's in-place request mutation."""
+    return image.getDownloadURL(deepcopy(params))
 
 
 def main() -> None:
@@ -38,8 +50,7 @@ def main() -> None:
         'planning_halo_source_pixels':1,'padding':0,
         'limitations':'GEE internal tile/cache reads are provider-controlled and not observable. This validates a conservative planned source footprint, not a complete provider IO trace. No reference artifacts or final-validation evidence are accessed.'}
     (ROOT/'PRE_READ_SCOPE.json').write_text(json.dumps(scope_record,indent=2)+'\n',encoding='utf-8')
-    ee.data.setDeadline(120000)
-    ee.Initialize(project='gen-lang-client-0932704594')
+    initialize_earth_engine()
     image=ee.Image(SCENE)
     metadata=image.getInfo()
     props=metadata['properties']
@@ -79,8 +90,9 @@ def main() -> None:
              'role':'PERMANENT_DEVELOPMENT_ENGINEERING'}
     (ROOT/'INPUT_REQUEST.json').write_text(json.dumps(receipt,indent=2)+'\n',encoding='utf-8')
     # All native-window checks and the explicit authorization precede pixel request/access.
-    url=output.getDownloadURL(params)
+    url=download_url_without_mutation(output,params)
     receipt['payload']=Budget().fetch_bounded(url,ROOT/'CURRENT_INPUT.tif',16*1024**2)
+    (ROOT/'INPUT_PAYLOAD_RECEIPT.json').write_text(json.dumps(receipt['payload'],indent=2)+'\n',encoding='utf-8')
     (ROOT/'INPUT_RECEIPT.json').write_text(json.dumps(receipt,indent=2)+'\n',encoding='utf-8')
     print('INPUT_ACQUIRED',receipt['payload'],flush=True)
 

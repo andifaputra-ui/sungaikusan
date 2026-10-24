@@ -1,0 +1,10 @@
+{
+  "status": "RECOVERED_WITHOUT_REDOWNLOAD",
+  "prior_attempt": "attempts/02_receipt_serialization_failure",
+  "reason": "Installed ee.Image.getDownloadURL adds image to its params dictionary in place; saved INPUT_REQUEST predates mutation",
+  "input_sha256": "b0015cc93f6902392378c03e89d951487cf665b94a6099bdab05604a5d3b88d9",
+  "pre_read_guards": "3 PASS before original download",
+  "inference_attempts_to_date": 0,
+  "original_input_preserved": true,
+  "source": "https://github.com/google/earthengine-api/blob/master/python/ee/image.py"
+}

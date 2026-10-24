@@ -291,8 +291,8 @@
     },
     {
       "path": "architecture/2026-10-24-smoke/acquire_input.py",
-      "bytes": 5280,
-      "sha256": "d7b61f02494ad801aafb753a45470c9316aed7d07c1847ce87fef2c81230545e"
+      "bytes": 5796,
+      "sha256": "141e2ed9fa1beaccb84cb8ffe6720671edf1832951a87f106dde5ffe10e74948"
     },
     {
       "path": "architecture/2026-10-24-smoke/AUTHORIZATION.json",
@@ -300,9 +300,19 @@
       "sha256": "22d6f097a23a86f796752988051da250184998297c8ed8b5271230e05b8c4e3a"
     },
     {
+      "path": "architecture/2026-10-24-smoke/CONTINUATION_REPAIR.json",
+      "bytes": 721,
+      "sha256": "55ff46d6130407dd87af8a4fea0f939c463ece569cfac062290e180a33024577"
+    },
+    {
       "path": "architecture/2026-10-24-smoke/continue_after_setup.py",
-      "bytes": 2058,
-      "sha256": "0d7c33a41f7583c5c831b94716d8505ba8ea43016d1daa737bab8b4496b56e24"
+      "bytes": 3036,
+      "sha256": "4d28267d94147ac063f14ac64de78ec893452416bc0bdf7b1c1b3a77718b8afd"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/INITIALIZATION_REGRESSION_TESTS.json",
+      "bytes": 91,
+      "sha256": "ca659fe43b83dacf585a492536c20348f58fd5e02cf9c9e96c770a7647c4d469"
     },
     {
       "path": "architecture/2026-10-24-smoke/metered_pip.py",
@@ -311,13 +321,33 @@
     },
     {
       "path": "architecture/2026-10-24-smoke/prepare_public_backup.py",
-      "bytes": 4460,
-      "sha256": "0e5fb087bb88336b2675ea7bc9e238a6a9512bc23371bf0042f26c54e9ce5d18"
+      "bytes": 5150,
+      "sha256": "9506fd7a75cd55e3cf8f7e19d7f087b914147a01c0b4607f4566eeab4ccaf3c2"
     },
     {
       "path": "architecture/2026-10-24-smoke/prepare_runtime.py",
       "bytes": 4179,
       "sha256": "f29f9b5989a29acb35ee988cbb2282075b4ad261540955cd80cda218367ecb88"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/RECEIPT_RECOVERY.json",
+      "bytes": 555,
+      "sha256": "b416a77f01a8282e34a5176ee95f377015b695c5b210d9d193b76b9e33187969"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/render_alignment_qa.py",
+      "bytes": 4788,
+      "sha256": "0c908b191d87a1a243173b841f222c5311e22f446624dd4d538c9ac06c177d05"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/REQUEST_MUTATION_TESTS.json",
+      "bytes": 88,
+      "sha256": "d5660e22b21d139ba7fe70de903acc9b273badf3073e89a0c225088c1a074d8e"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/requirements_lock.txt",
+      "bytes": 15973,
+      "sha256": "330fdbf2ea8d063df9ce23ca3b0654175ab465f04238797cd52e81217746e0a4"
     },
     {
       "path": "architecture/2026-10-24-smoke/requirements_roots.txt",
@@ -341,8 +371,13 @@
     },
     {
       "path": "architecture/2026-10-24-smoke/RUN_SCOPE.md",
-      "bytes": 3914,
-      "sha256": "2f0ace1a2a6b7e9b35e894c7e60b03040a09ef7f0e7e03d60f11012dfda8b59b"
+      "bytes": 5771,
+      "sha256": "34d78c20f7ed90d7a3ede488f856aade591823a55c3c622f5918841a08659570"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/RUNTIME_READY.json",
+      "bytes": 740,
+      "sha256": "b63e2f0e6c4683bca5a3f43a40158be8886bc9b72e7b556ef70ba40348b5b817"
     },
     {
       "path": "architecture/2026-10-24-smoke/SOURCE_SCOPE_OFFLINE_CHECK.json",
@@ -350,9 +385,24 @@
       "sha256": "5fe7b9211de1c6dfccc49a73a4fc617ae1a0156386ec9d2218e6542367bb1148"
     },
     {
+      "path": "architecture/2026-10-24-smoke/test_initialization_order.py",
+      "bytes": 1408,
+      "sha256": "061142530f07fa1338d06e8721d0dbfeaa2e4c7a6cb4c312d791adde0ccbd7f6"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/test_request_mutation.py",
+      "bytes": 1435,
+      "sha256": "db936162de29f0195d414c3b38e4e955860962e63d96813f193262c1c72be2e3"
+    },
+    {
       "path": "architecture/2026-10-24-smoke/test_resource_budget.py",
       "bytes": 1936,
       "sha256": "36a31083b0ca41cc19bff89c921f864eb26197edc0978c7f1305a177a2da289e"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/WHEEL_RECEIPTS.json",
+      "bytes": 14005,
+      "sha256": "380c83741d7639dc746f50336d813f6e1e6ffffdd4ef28a12d89ff14d93a8abb"
     }
   ]
 }

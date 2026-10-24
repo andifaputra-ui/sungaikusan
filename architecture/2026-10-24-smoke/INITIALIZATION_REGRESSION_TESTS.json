@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "tests": 2,
+  "scope": "MOCK_EE_ONLY; NO_NETWORK_OR_PIXELS"
+}

@@ -23,3 +23,13 @@ Convolution can transmit the effect of missing/filled context to nearby supporte
 Two-scale visual/georegistration QA is still required after outputs exist; exact affine equality alone is not an independent geographic accuracy test. Do not interpret the result or start another arm automatically when returning later.
 
 Sources checked 24 October 2026: [official PyTorch version pairs](https://pytorch.org/get-started/previous-versions/) and [Earth Engine download grid semantics](https://developers.google.com/earth-engine/apidocs/ee-image-getdownloadurl). The model-specific contract remains the pinned source in the readiness package.
+
+## Continuation repairs, same day
+
+The initial controller stopped before any pixel read because `setDeadline()` was called before `ee.Initialize()`. The user's subsequent "continue" authorized routine troubleshooting within the same approved test. The failed attempt is retained in `attempts/01_initialization_order_failure`; call ordering was corrected and two mock regression checks pass.
+
+The next acquisition passed all three live native-window checks and downloaded 2,954,835 bytes, then stopped while writing its JSON receipt. Installed `ee.Image.getDownloadURL` mutates the provided dictionary by adding an Image object. This failure is retained in `attempts/02_receipt_serialization_failure`. A defensive deep copy now protects provenance; two mock regression tests reproduce and prevent the failure. The receipt was recovered from the pre-mutation saved request and exact existing input file, not from another imagery request. See `RECEIPT_RECOVERY.json`. The controller verifies that input's byte count and SHA256 before reusing it, and refuses to repeat an already attempted inference.
+
+The isolated runtime occupies 4,888,455,686 bytes at setup completion and pip check passes. Exact wheels and lock are saved. Neither acquisition-wrapper failure reached neural inference. After these repairs, the one approved inference was started; no automatic inference retry is authorized. A separate deterministic full-patch/central-crop alignment QA renderer is ready for use after numerical results exist.
+
+Sources for these repairs: [Earth Engine initialization guide](https://developers.google.com/earth-engine/guides/auth), the installed API source, and [official image.py](https://github.com/google/earthengine-api/blob/master/python/ee/image.py). No API upgrade, model change, input re-selection, budget reset or scientific-method change was made.

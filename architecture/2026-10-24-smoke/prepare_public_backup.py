@@ -20,7 +20,10 @@ def main() -> None:
         ROOT:['AUTHORIZATION.json','RUN_SCOPE.md','resource_budget.py','metered_pip.py',
               'prepare_runtime.py','acquire_input.py','run_inference.py','continue_after_setup.py',
               'test_resource_budget.py','RESOURCE_TESTS.json','SOURCE_SCOPE_OFFLINE_CHECK.json',
-              'requirements_roots.txt','prepare_public_backup.py']}
+              'requirements_roots.txt','prepare_public_backup.py','test_initialization_order.py',
+              'INITIALIZATION_REGRESSION_TESTS.json','test_request_mutation.py','REQUEST_MUTATION_TESTS.json',
+              'CONTINUATION_REPAIR.json','RECEIPT_RECOVERY.json','RUNTIME_READY.json',
+              'requirements_lock.txt','WHEEL_RECEIPTS.json','render_alignment_qa.py']}
     for source,names in allowlists.items():
         destination=REPO/'architecture'/('2026-10-23-readiness' if source==PREP else '2026-10-24-smoke')
         destination.mkdir(parents=True,exist_ok=True)
@@ -31,9 +34,9 @@ def main() -> None:
             shutil.copyfile(path,destination/name)
     checkpoint='''# Approved technical smoke — 24 October 2026
 
-The user approved one isolated CPU S1-only technical test. Read architecture/2026-10-24-smoke/RUN_SCOPE.md and architecture/2026-10-23-readiness/SMOKE_TEST_PROTOCOL.md. At this backup snapshot the local setup/controller were launched; this repository does not assert a completed result. Current execution status and pixels remain local. No final detector, accuracy claim or method freeze is authorized.
+The user approved one isolated CPU S1-only technical test. Read architecture/2026-10-24-smoke/RUN_SCOPE.md and architecture/2026-10-23-readiness/SMOKE_TEST_PROTOCOL.md. Isolated setup and verified weight downloads completed. Two acquisition-wrapper defects were preserved and repaired: initialization before deadline configuration, and defensive copying of EE download parameters. The downloaded input was recovered without a second imagery request. At this backup snapshot one CPU inference is running; this repository does not assert a completed result. Current execution status and pixels remain local. No final detector, accuracy claim or method freeze is authorized.
 
-The frozen package's 30 hashes were verified; its ten synthetic input tests remain recorded. Three new offline resource-accounting tests pass. A fixed source-scope geometry calculation passes for saved VV/VH and coarse-angle projections; live dimensions are checked before the actual pixel request.
+The frozen package's 30 hashes were verified; its ten synthetic input tests remain recorded. Three resource-accounting, two initialization-order and two mutable-request regression tests pass offline. All three live native-window checks passed before the one imagery request. The original input file is retained unchanged. Separate two-scale QA code is prepared but not asserted executed in this snapshot.
 
 Permanent development engineering only. Separate runtime on E:, 2 GiB response-body transfer accounting ceiling and 6 GiB storage ceiling, no paid/Planet use. Accepted scientific environment, SNAP/C1 products, original responses and sealed final reference evidence are preserved. Model weights, research pixels, raw public training geography, third-party trainer code, live logs, account data and reader identities are excluded from this curated backup.
 

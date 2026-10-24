@@ -2,6 +2,7 @@
 from pathlib import Path
 from datetime import datetime,timezone
 import json
+import hashlib
 import os
 import subprocess
 import sys
@@ -25,6 +26,8 @@ def run(python: Path,script: str,timeout: int) -> None:
 
 def main() -> None:
     """Wait for this setup only, acquire one input, and run one inference attempt."""
+    if (ROOT/'SMOKE_RESULT.json').exists() or (ROOT/'run_inference.py.stderr.log').exists():
+        raise RuntimeError('Inference already attempted; do not repeat it automatically')
     status('WAITING_FOR_ISOLATED_RUNTIME')
     deadline=time.monotonic()+7200
     while not (ROOT/'RUNTIME_READY.json').exists():
@@ -33,8 +36,18 @@ def main() -> None:
         if time.monotonic()>deadline:
             raise TimeoutError('Two-hour setup wait ended; no automatic continuation')
         time.sleep(30)
-    status('ACQUIRING_SINGLE_FROZEN_INPUT')
-    run(BASE,'acquire_input.py',600)
+    if (ROOT/'CURRENT_INPUT.tif').exists():
+        status('VERIFYING_EXISTING_FROZEN_INPUT_NO_NETWORK')
+        receipt=json.loads((ROOT/'INPUT_RECEIPT.json').read_text(encoding='utf-8'))
+        checks=json.loads((ROOT/'PRE_READ_WINDOW_CHECKS.json').read_text(encoding='utf-8'))
+        if len(checks)!=3 or any(c['check']['status']!='WINDOW_POLICY_CHECK_PASSED_NOT_AN_IO_OPERATION' for c in checks):
+            raise RuntimeError('Original pre-read window checks absent or failed')
+        original=ROOT/'CURRENT_INPUT.tif'
+        if original.stat().st_size!=receipt['payload']['bytes'] or hashlib.sha256(original.read_bytes()).hexdigest()!=receipt['payload']['sha256']:
+            raise RuntimeError('Existing input does not match its preserved receipt')
+    else:
+        status('ACQUIRING_SINGLE_FROZEN_INPUT')
+        run(BASE,'acquire_input.py',600)
     status('RUNNING_ONE_CPU_FOUR_FLIP_INFERENCE')
     run(MODEL,'run_inference.py',1800)
     status('TECHNICAL_SMOKE_FINISHED_REVIEW_REQUIRED',result='SMOKE_RESULT.json',no_further_work_queued=True)

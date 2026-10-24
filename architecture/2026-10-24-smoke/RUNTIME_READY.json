@@ -1,0 +1,19 @@
+{
+  "status": "READY_FOR_INPUT_AND_INFERENCE",
+  "python": "E:\\Bendungan_Kusan\\Model_Runtime\\s1_smoke_cpu_20261024\\venv\\Scripts\\python.exe",
+  "storage_bytes": 4888455686,
+  "model_payloads": [
+    {
+      "path": "E:\\Bendungan_Kusan\\Model_Runtime\\s1_smoke_cpu_20261024\\model\\s1dw_resnet34_best.pth",
+      "status": "VERIFIED_DOWNLOAD",
+      "bytes": 165058971,
+      "sha256": "a5eab4f07d68256d5a7922a8943efb1b0a14cbc0a513315aff737426a57b6e68"
+    },
+    {
+      "path": "E:\\Bendungan_Kusan\\Model_Runtime\\s1_smoke_cpu_20261024\\model\\band_stats.npz",
+      "status": "VERIFIED_DOWNLOAD",
+      "bytes": 524,
+      "sha256": "5e8aa167a4447887ca49fd1dac257e4df6911136277bf72e81ab9ef74b67c54d"
+    }
+  ]
+}
