@@ -1,0 +1,48 @@
+{
+  "status": "BOUNDED_REFERENCE_INFORMATION_RECOVERED; COMPARISON_ADEQUACY_NOT_DEMONSTRATED",
+  "all_case_count": 24,
+  "all_source_slots": 96,
+  "acquired_visual_views": 78,
+  "missing_slots_preserved": 18,
+  "visual_dispositions": {
+    "O": 46,
+    "MISSING": 18,
+    "U": 24,
+    "N": 5,
+    "W_SHORE": 2,
+    "W_SHORE_HAZY": 1
+  },
+  "temporal_tiers": {
+    "E0": 19,
+    "E2": 2,
+    "E1": 3
+  },
+  "conditional_cases": 2,
+  "E3_cases": 0,
+  "unconditional_acquisition_time_reference_count": 0,
+  "independent_interpreter_reliability": "UNMEASURED",
+  "supports": {
+    "10": {
+      "optical_views_with_positive_resolved_W_nominal": 0,
+      "optical_views_with_positive_resolved_N_nominal": 5,
+      "E2_cases_with_conditional_possible_water_upper_below_one": 1,
+      "E2_cases_with_positive_water_lower_across_displacements": 0
+    },
+    "30": {
+      "optical_views_with_positive_resolved_W_nominal": 2,
+      "optical_views_with_positive_resolved_N_nominal": 5,
+      "E2_cases_with_conditional_possible_water_upper_below_one": 1,
+      "E2_cases_with_positive_water_lower_across_displacements": 0
+    },
+    "50": {
+      "optical_views_with_positive_resolved_W_nominal": 2,
+      "optical_views_with_positive_resolved_N_nominal": 5,
+      "E2_cases_with_conditional_possible_water_upper_below_one": 1,
+      "E2_cases_with_positive_water_lower_across_displacements": 0
+    }
+  },
+  "comparison_gate": "CLOSED",
+  "no_candidate_scores_read": true,
+  "no_old_response_modified": true,
+  "panel_is_not_probability_accuracy_sample": true
+}

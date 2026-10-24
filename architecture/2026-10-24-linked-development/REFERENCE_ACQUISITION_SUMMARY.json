@@ -1,0 +1,18 @@
+{
+  "status": "REFERENCE_ACQUISITION_PASS_COMPLETE_NOT_ADJUDICATED",
+  "requests": 96,
+  "date_supports": 24,
+  "systems": 12,
+  "outcomes": {
+    "ACQUIRED_NOT_INTERPRETED": 78,
+    "NO_FIXED_SEARCH_OPPORTUNITY": 18
+  },
+  "source_matches": {
+    "EXACT_SOURCE_ID_MATCH": 20
+  },
+  "new_candidate_inference_runs": 0,
+  "new_reference_classes": 0,
+  "reader_exposure_rule": "Do not expose source context tags, scene water percentages, SAR scores or old responses in review packets",
+  "metadata_boundaries": "Posting grid10m; Landsat native30m and S2 QA native20m retained; no added information claimed",
+  "interpretation": "Reference pixel clarity, W/N/O/U bounds and temporal transfer remain to be adjudicated; no comparison is permitted yet."
+}

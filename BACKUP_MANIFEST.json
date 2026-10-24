@@ -1,6 +1,6 @@
 {
   "date_local": "2026-10-24",
-  "scope": "Curated source/protocol/aggregate findings including bounded linked development reference preparation",
+  "scope": "Curated source/protocol and aggregate completed-reference findings; no detailed responses, geography or imagery",
   "not_a_full_dataset_backup": true,
   "repository_visibility": "public_at_previous_verification",
   "excluded": [
@@ -290,9 +290,24 @@
       "sha256": "28f81bd356639b2a819fa7a9f2f6c0ad38a1b0f257bb6d2be71e43b6b3889217"
     },
     {
+      "path": "architecture/2026-10-24-linked-development/account_optical_responses.py",
+      "bytes": 5908,
+      "sha256": "c83ca765a455272082f5fca4ae591545d511cf404b5e29f749fa57bef06ef7bf"
+    },
+    {
       "path": "architecture/2026-10-24-linked-development/acquire_frozen_references.py",
       "bytes": 12681,
       "sha256": "17f5875b7989fa509524823be6d4c9ab15a7f0ef2c4bf359a47e1f93daa6c7d3"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/COMPLETED_SOURCE_HASHES.json",
+      "bytes": 1768,
+      "sha256": "3cf50e1560022ad1a4e2169e379303dadd5d616a5403f5fffebb48ec2494b5f8"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/COMPLETION_AUDIT.json",
+      "bytes": 749,
+      "sha256": "99160ee2f508c20f53faa201ffae0211db9f9f7ee28cbcf8f54254a3a6209d77"
     },
     {
       "path": "architecture/2026-10-24-linked-development/CURRENT_FINDINGS.md",
@@ -305,9 +320,59 @@
       "sha256": "6bc2374b3e0705d697b519fff0243132b2a592d2dbd75d236ac6bb9956c2a4a6"
     },
     {
+      "path": "architecture/2026-10-24-linked-development/finalize_reference_block.py",
+      "bytes": 10520,
+      "sha256": "be4f7c4848e61781f7fc015dc98576b6f59aa22bdeb5aadd68ef8daed2470eb8"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/FOCUSED_TEST_RESULTS.json",
+      "bytes": 330,
+      "sha256": "3283cf270530bf7abee4fcbcc2af03793291109a9f74a093c88dae3739575e68"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/make_visual_overviews.py",
+      "bytes": 1155,
+      "sha256": "6e6a31a44b4c654ca50e9a8a543eda8ecc5585e32312d912914eab74c465335c"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/NEXT_REFERENCE_DECISION.md",
+      "bytes": 5888,
+      "sha256": "ed227f13237e5c3825d65f7f4e8093774d1c066b91b35d35e934d6a9411fd4ec"
+    },
+    {
       "path": "architecture/2026-10-24-linked-development/OFFLINE_TEST_RESULTS.json",
       "bytes": 297,
       "sha256": "2e39ee34cd4c78b5314f43e0581c8e9eb367a3be796e39baa76dda2a567b39af"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/OPTICAL_PREPARATION_SUMMARY.json",
+      "bytes": 895,
+      "sha256": "4ceb5026c6c3a3fc55dd2e4a9b90e7b09fd681b60fe9672de81a4f005e277e27"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/optical_qa.py",
+      "bytes": 2230,
+      "sha256": "948dda3f828f516c62c2090784dfa3f4fd9c665776fb08fa026ee7a345206cf7"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/OPTICAL_RESPONSE_PROTOCOL_V1.md",
+      "bytes": 6392,
+      "sha256": "12abf11df6e39ff2c32fc61bb47c08f137a0b25c07f14ec651293f39e91474fa"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/PREPARATION_REPAIRS.json",
+      "bytes": 744,
+      "sha256": "ddb53dfcbbf14241f01e299102a7bf67b11d042b54895e4fef626c2ae12e50b7"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/prepare_optical_review.py",
+      "bytes": 14934,
+      "sha256": "f35c04b42fc76bfd7112339bcda22bf9f4d7dd90ccab471189d95d28728b0a0f"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/REFERENCE_ACQUISITION_SUMMARY.json",
+      "bytes": 767,
+      "sha256": "698606a3922bd23fbd72d7b65f270b1f8c5f1549f96d1896a47c711f4db72677"
     },
     {
       "path": "architecture/2026-10-24-linked-development/REFERENCE_EXECUTION_PROTOCOL.md",
@@ -315,9 +380,19 @@
       "sha256": "bd175d4bf6986de8a135b59576721aeb77aafedab11a423d61df43dafafa95f4"
     },
     {
+      "path": "architecture/2026-10-24-linked-development/REFERENCE_FINDINGS_FOR_REVIEW.md",
+      "bytes": 8125,
+      "sha256": "ae497466f287d578edfc971e6ebb569ef9526239b4252f77ebcbbe7481bcf177"
+    },
+    {
       "path": "architecture/2026-10-24-linked-development/REFERENCE_PANEL_FREEZE.sha256",
       "bytes": 66,
       "sha256": "21a7e9dcda9114a921105d2c11638c12facd2010e6785ec58bb1719776fc0394"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/REFERENCE_RESPONSE_SUMMARY.json",
+      "bytes": 1600,
+      "sha256": "1ba0db36009c3108f3120ae48d0b4ee36c324b71689237ab19091ea6a4cdb3f4"
     },
     {
       "path": "architecture/2026-10-24-linked-development/REFERENCE_SOURCE_AMENDMENT_01.json",
@@ -345,9 +420,19 @@
       "sha256": "98e43f0302c6b2fb7ac27abb1cea596c733b7c262bf1f60cc28df3937d12d285"
     },
     {
+      "path": "architecture/2026-10-24-linked-development/test_optical_qa.py",
+      "bytes": 1816,
+      "sha256": "e750fa81d353bf81f66a78b447fd9ba3f6a941f5829de5a552e0bbff48a7d9da"
+    },
+    {
       "path": "architecture/2026-10-24-linked-development/test_reference_preread.py",
       "bytes": 3523,
       "sha256": "521a7a029d1b30183766b7ad1c7228992440d4cec3f59b250667b0590f348518"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/test_response_accounting.py",
+      "bytes": 1164,
+      "sha256": "2b7682b38ef1c8e03e8267f251af8d21de21b08769ce60f74eb88259203bd584"
     },
     {
       "path": "architecture/2026-10-24-smoke/acquire_input.py",

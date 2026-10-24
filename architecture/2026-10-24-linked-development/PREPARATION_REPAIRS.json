@@ -1,0 +1,15 @@
+{
+  "stage": "BEFORE_FIRST_RENDER_OR_PIXEL_ARRAY_READ",
+  "issues": [
+    "Test fixture used bitwise OR on float; corrected test assignment, four tests then pass",
+    "Compilation caught missing whitespace in conditional expression; fixed before execution",
+    "Metadata-only header audit stopped on absent TIFF band descriptions; retained request-based order provenance with explicit caveat instead of claiming self-describing file bands"
+  ],
+  "sources": [
+    "https://developers.google.com/earth-engine/apidocs/ee-image-getdownloadurl",
+    "https://developers.google.com/earth-engine/apidocs/ee-image-addbands"
+  ],
+  "new_downloads": 0,
+  "reference_interpretation_before_repair": 0,
+  "source_bodies_modified": false
+}

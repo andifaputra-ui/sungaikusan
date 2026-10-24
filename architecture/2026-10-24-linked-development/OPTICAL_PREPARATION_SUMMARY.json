@@ -1,0 +1,23 @@
+{
+  "status": "TECHNICAL_QA_AND_OPTICAL_PACKET_PREPARED_NOT_INTERPRETED",
+  "completed_utc": "2026-10-24T15:46:27.100155+00:00",
+  "request_slots": 96,
+  "acquired": 78,
+  "absent_opportunities": 18,
+  "date_supports": 24,
+  "physical_locations": 12,
+  "grid_body_and_band_count_checks_passed": 78,
+  "local_pixel_preread_checks_passed": 78,
+  "band_identity_caveat": "TIFF descriptions absent; order traced from frozen ordered select/addBands request, not independently certified by file labels. QA ranges/binary flags checked.",
+  "all_sources_have_full_sr_support": false,
+  "provider_counts": {
+    "S2": 48,
+    "LS": 30
+  },
+  "primary30_nominal_available_unflagged_positive": 12,
+  "reference_classes_released": 0,
+  "comparison_gate": "CLOSED",
+  "source_roles_unchanged": true,
+  "reference_adequacy": "NOT_YET_ADJUDICATED",
+  "qa_is_not_reference_truth": true
+}

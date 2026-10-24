@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-24T15:59:30.181315+00:00",
+  "files": {
+    "OPTICAL_RESPONSE_PROTOCOL_V1.md": "12abf11df6e39ff2c32fc61bb47c08f137a0b25c07f14ec651293f39e91474fa",
+    "optical_qa.py": "948dda3f828f516c62c2090784dfa3f4fd9c665776fb08fa026ee7a345206cf7",
+    "test_optical_qa.py": "e750fa81d353bf81f66a78b447fd9ba3f6a941f5829de5a552e0bbff48a7d9da",
+    "prepare_optical_review.py": "f35c04b42fc76bfd7112339bcda22bf9f4d7dd90ccab471189d95d28728b0a0f",
+    "make_visual_overviews.py": "6e6a31a44b4c654ca50e9a8a543eda8ecc5585e32312d912914eab74c465335c",
+    "account_optical_responses.py": "c83ca765a455272082f5fca4ae591545d511cf404b5e29f749fa57bef06ef7bf",
+    "test_response_accounting.py": "2b7682b38ef1c8e03e8267f251af8d21de21b08769ce60f74eb88259203bd584",
+    "OPTICAL_PREPARATION_SUMMARY.json": "4ceb5026c6c3a3fc55dd2e4a9b90e7b09fd681b60fe9672de81a4f005e277e27",
+    "REFERENCE_RESPONSE_SUMMARY.json": "1ba0db36009c3108f3120ae48d0b4ee36c324b71689237ab19091ea6a4cdb3f4",
+    "REFERENCE_ACQUISITION_SUMMARY.json": "698606a3922bd23fbd72d7b65f270b1f8c5f1549f96d1896a47c711f4db72677",
+    "REFERENCE_FINDINGS_FOR_REVIEW.md": "ae497466f287d578edfc971e6ebb569ef9526239b4252f77ebcbbe7481bcf177",
+    "NEXT_REFERENCE_DECISION.md": "ed227f13237e5c3825d65f7f4e8093774d1c066b91b35d35e934d6a9411fd4ec",
+    "COMPLETION_AUDIT.json": "99160ee2f508c20f53faa201ffae0211db9f9f7ee28cbcf8f54254a3a6209d77",
+    "FOCUSED_TEST_RESULTS.json": "3283cf270530bf7abee4fcbcc2af03793291109a9f74a093c88dae3739575e68",
+    "PREPARATION_REPAIRS.json": "ddb53dfcbbf14241f01e299102a7bf67b11d042b54895e4fef626c2ae12e50b7",
+    "finalize_reference_block.py": "be4f7c4848e61781f7fc015dc98576b6f59aa22bdeb5aadd68ef8daed2470eb8"
+  },
+  "previous_execution_hashes_preserved": true
+}

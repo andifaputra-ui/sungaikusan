@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-24T15:59:30.181315+00:00",
+  "tests_run": 10,
+  "failures": 0,
+  "command": "python -X utf8 -m unittest discover -s LINKED_DEVELOPMENT_COMPARISON_20261024 -p test_*.py -v",
+  "not_semantic_validation": true,
+  "warning": "Affine multiplication pending deprecation; no effect on current calculations"
+}

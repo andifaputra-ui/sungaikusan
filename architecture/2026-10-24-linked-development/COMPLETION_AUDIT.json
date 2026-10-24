@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-24T15:59:30.181315+00:00",
+  "status": "BOUNDED_REFERENCE_INFORMATION_RECOVERED; COMPARISON_ADEQUACY_NOT_DEMONSTRATED",
+  "all_packet_hashes_verified": 51,
+  "response_hash_and_counts_verified": true,
+  "unique_optical_products": 20,
+  "S2_datatakes": 12,
+  "LS_satellite_path_day_overpasses": 5,
+  "overpasses_not_assumed_statistically_independent": true,
+  "artifact_file_bytes_at_audit": 17288744,
+  "artifact_storage_limit_bytes": 1073741824,
+  "image_body_bytes": 1410692,
+  "charged_additional_transfer_bytes": 70254592,
+  "additional_transfer_limit_bytes": 1073741824,
+  "no_new_candidate_inference": true,
+  "no_background_job_or_queue": true,
+  "comparison_gate": "CLOSED",
+  "method_freeze": false
+}
