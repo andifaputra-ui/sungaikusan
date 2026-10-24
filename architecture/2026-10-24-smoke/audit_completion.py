@@ -72,7 +72,10 @@ def main() -> None:
     budget=json.loads((ROOT/'RESOURCE_BUDGET.json').read_text(encoding='utf-8'))
     assert runtime_bytes+run_bytes<6*1024**3
     assert budget['charged_bytes']<=2*1024**3
-    finish=json.loads((ROOT/'STATUS.json').read_text(encoding='utf-8'))
+    completed_status=ROOT/'attempts/completed_controller_status.json'
+    finish=json.loads((completed_status if completed_status.exists() else ROOT/'STATUS.json').read_text(encoding='utf-8'))
+    if finish['phase']!='TECHNICAL_SMOKE_FINISHED_REVIEW_REQUIRED':
+        raise RuntimeError('Original completed-controller timing receipt is required')
     started=datetime.fromisoformat('2026-10-24T11:10:14.440228+00:00')
     ended=datetime.fromisoformat(finish['utc'])
     report={'status':'FINAL_NUMERICAL_AND_RESOURCE_AUDIT_PASS',

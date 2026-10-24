@@ -296,8 +296,8 @@
     },
     {
       "path": "architecture/2026-10-24-smoke/audit_completion.py",
-      "bytes": 6112,
-      "sha256": "78f18aee4b4a90f62c2c3d1bb974270330243f86cc7f7850186096a3a2d9ffac"
+      "bytes": 6388,
+      "sha256": "bd2981a58d53335f1fa99b3b8e10e0befc9516d9a337c53997c194610ad7c37f"
     },
     {
       "path": "architecture/2026-10-24-smoke/AUTHORIZATION.json",
@@ -318,6 +318,11 @@
       "path": "architecture/2026-10-24-smoke/continue_after_setup.py",
       "bytes": 3036,
       "sha256": "4d28267d94147ac063f14ac64de78ec893452416bc0bdf7b1c1b3a77718b8afd"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/finalize_handoff.py",
+      "bytes": 7165,
+      "sha256": "5171971f52f80dc5c33ad01995324d72bb5fe0e91e1d08f05e1c911b70f5c999"
     },
     {
       "path": "architecture/2026-10-24-smoke/FINDINGS_FOR_REVIEW.md",
@@ -341,8 +346,8 @@
     },
     {
       "path": "architecture/2026-10-24-smoke/prepare_public_backup.py",
-      "bytes": 6145,
-      "sha256": "a78207140161bcde0acab3da894fbc3d9fe22e922ab653d6ab782c525eff34fe"
+      "bytes": 6167,
+      "sha256": "6f5b42753ef2a32dd59771da1e8164af0ff5ba9acfc853c70325396561b2b8ca"
     },
     {
       "path": "architecture/2026-10-24-smoke/prepare_runtime.py",

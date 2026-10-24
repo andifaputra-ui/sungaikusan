@@ -25,7 +25,7 @@ def main() -> None:
               'CONTINUATION_REPAIR.json','RECEIPT_RECOVERY.json','RUNTIME_READY.json',
               'requirements_lock.txt','WHEEL_RECEIPTS.json','render_alignment_qa.py',
               'SMOKE_RESULT.json','COMPLETION_AUDIT.json','VISUAL_QA_REVIEW.json',
-              'FINDINGS_FOR_REVIEW.md','NEXT_DECISION.md','audit_completion.py']}
+              'FINDINGS_FOR_REVIEW.md','NEXT_DECISION.md','audit_completion.py','finalize_handoff.py']}
     for source,names in allowlists.items():
         destination=REPO/'architecture'/('2026-10-23-readiness' if source==PREP else '2026-10-24-smoke')
         destination.mkdir(parents=True,exist_ok=True)
