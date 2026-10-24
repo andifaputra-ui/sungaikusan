@@ -1,5 +1,7 @@
 # Kusan C2 research architecture backup
 
+Latest continuation: [linked development reference acquisition](architecture/2026-10-24-linked-development/CURRENT_FINDINGS.md) launched locally within frozen limits. See [checkpoint](CHECKPOINT.md); earlier technical-smoke no-job statements describe that completed job, not the new reference worker. No semantic comparison or final method release.
+
 Latest result, 24 October 2026: [native S1-only technical smoke passed](architecture/2026-10-24-smoke/FINDINGS_FOR_REVIEW.md). Scientific performance remains unknown. No background job is queued. Read the [next decision](architecture/2026-10-24-smoke/NEXT_DECISION.md) and [checkpoint](CHECKPOINT.md).
 
 This is a **curated scientific-work backup**, not a full copy of the thesis datasets.

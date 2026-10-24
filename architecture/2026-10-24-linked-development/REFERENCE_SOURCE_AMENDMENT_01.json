@@ -1,0 +1,24 @@
+{
+  "date_local": "2026-10-24",
+  "status": "PRE_PIXEL_AMENDMENT_NO_TARGET_REDRAW",
+  "original_panel_sha256": "9c429ecfc34a463351b2d492616c6081775f1fae87fecdf6407624d7ceaa0a26",
+  "changed": "Retain nearest S2 AND nearest Landsat before/after each fixed date-support, rather than S2 only",
+  "justification": "Independent timing-versus-spatial-support tradeoff. Saved metadata shows nearer Landsat opportunities for some cases and coarse/uncertain registration; S2 supplies finer detail. Both are inspected, rather than choosing a favourable provider after content.",
+  "research_pixels_seen_before_amendment": 0,
+  "new_candidate_predictions_seen": 0,
+  "unchanged": [
+    "12 target locations",
+    "24 target date-supports",
+    "30m primary and10/50m sensitivity",
+    "1GiB added transfer/storage ceilings",
+    "reference roles",
+    "UNKNOWN/MIXED rules",
+    "final sealing"
+  ],
+  "source_ranking": "Within each provider/side: nearest absolute acquisition offset, footprint covers target point, tie by item ID; no cloud/water/content ranking",
+  "new_maximum_chips": 96,
+  "comparison_units": 24,
+  "automatic_reference_classes": false,
+  "Landsat_limitation": "30m native information and tier/registration uncertainty retained. Posting on10m indexing grid creates no new information.",
+  "scene_class_percentages": "Internal raw metadata only; not selection factors, response truth or reader-packet fields"
+}

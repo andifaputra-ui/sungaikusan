@@ -1,0 +1,29 @@
+{
+  "date_local": "2026-10-24",
+  "user_instruction": "continue",
+  "interpretation": "Proceed with the linked development block described in NATIVE_MODEL_SMOKE_20261024/NEXT_DECISION.md; begin with reference feasibility and actual observation pairing. This is not final-method or final-validation approval.",
+  "maximum_physical_systems": 12,
+  "maximum_date_supports": 24,
+  "additional_transfer_ceiling_bytes": 1073741824,
+  "additional_storage_ceiling_bytes": 1073741824,
+  "paid_spend": 0,
+  "Planet_orders": 0,
+  "source_roles": {
+    "S1_only": "CANDIDATE_PIPELINE_DEVELOPMENT_ONLY",
+    "OPERA": "OPERATIONAL_CANDIDATE_IF_OBSERVATION_PAIRING_PASSES_ELSE_ASYNCHRONOUS_DIAGNOSTIC",
+    "dated_optical": "INDEPENDENT_DEVELOPMENT_REFERENCE_ONLY",
+    "annual_AEF": "DEFERRED_UNQUALIFIED_INPUT",
+    "existing_ancillaries": "DETECTOR_INDEPENDENT_CONTEXT_OR_SAMPLING_AUXILIARY; NOT_CURRENT_REFERENCE_TRUTH"
+  },
+  "gates": [
+    "SOURCE_OBSERVATION_PAIRING_BEFORE_PAIRED_CLAIMS",
+    "SYSTEMS_DATES_ROLES_AND_COSTS_FROZEN_BEFORE_NEW_PIXELS",
+    "NATIVE_WINDOW_ROUNDING_HALO_PADDING_CHECK_BEFORE_PIXEL_ACCESS",
+    "REFERENCE_RESPONSE_AND_CANDIDATE_SETTINGS_FROZEN_BEFORE_RESPONSE_PREDICTION_JOIN",
+    "UNKNOWN_MIXED_AND_INTERVAL_SUPPORT_RETAINED"
+  ],
+  "semantic_evaluation_gate": "CLOSED_PENDING_CONCRETE_PROTOCOL_AND_REFERENCE_ADEQUACY",
+  "final_probability_sample": "SEALED; NO_RANDOMIZATION_OR_RELEASE",
+  "forbidden": ["training", "local_threshold_optimization", "old_VV_AB_release", "final_reference_access", "full_series", "method_freeze", "unqualified_AEF_substitution"],
+  "initial_work": "Public/saved text metadata and existing evidence inventory only; no new research pixels or model inference at this stage"
+}

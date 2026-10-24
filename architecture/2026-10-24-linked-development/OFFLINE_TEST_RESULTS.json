@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-24T15:28:27.557544+00:00",
+  "tests": 3,
+  "failures": 0,
+  "execution": "python -X utf8 test_reference_preread.py",
+  "pixel_access": false,
+  "limitations": "Synthetic CRS/window and immutable plan accounting only; not provider geolocation or semantic validation."
+}

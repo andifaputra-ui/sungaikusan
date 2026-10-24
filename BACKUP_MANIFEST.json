@@ -1,6 +1,6 @@
 {
   "date_local": "2026-10-24",
-  "scope": "Curated architecture, reassessment, native readiness and approved smoke source/protocol snapshot",
+  "scope": "Curated source/protocol/aggregate findings including bounded linked development reference preparation",
   "not_a_full_dataset_backup": true,
   "repository_visibility": "public_at_previous_verification",
   "excluded": [
@@ -288,6 +288,66 @@
       "path": "architecture/2026-10-23-readiness/UPSTREAM_IDENTITY_CHECK.json",
       "bytes": 2036,
       "sha256": "28f81bd356639b2a819fa7a9f2f6c0ad38a1b0f257bb6d2be71e43b6b3889217"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/acquire_frozen_references.py",
+      "bytes": 12681,
+      "sha256": "17f5875b7989fa509524823be6d4c9ab15a7f0ef2c4bf359a47e1f93daa6c7d3"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/CURRENT_FINDINGS.md",
+      "bytes": 4700,
+      "sha256": "9e74d9a16ca7f308c102dfef6b764cbab52a60fed80e48e28cce78200761e588"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/EXECUTION_SOURCE_HASHES.json",
+      "bytes": 1095,
+      "sha256": "6bc2374b3e0705d697b519fff0243132b2a592d2dbd75d236ac6bb9956c2a4a6"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/OFFLINE_TEST_RESULTS.json",
+      "bytes": 297,
+      "sha256": "2e39ee34cd4c78b5314f43e0581c8e9eb367a3be796e39baa76dda2a567b39af"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/REFERENCE_EXECUTION_PROTOCOL.md",
+      "bytes": 4440,
+      "sha256": "bd175d4bf6986de8a135b59576721aeb77aafedab11a423d61df43dafafa95f4"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/REFERENCE_PANEL_FREEZE.sha256",
+      "bytes": 66,
+      "sha256": "21a7e9dcda9114a921105d2c11638c12facd2010e6785ec58bb1719776fc0394"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/REFERENCE_SOURCE_AMENDMENT_01.json",
+      "bytes": 1444,
+      "sha256": "ee997e10786055f6c3233cc7c31579049ee25b4cabc2304dfdb95c330f0ea974"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/REFERENCE_SOURCE_PLAN_V2.sha256",
+      "bytes": 66,
+      "sha256": "5b66e164936c4398bbc4db757bd1869e93d9def7eb45bdde09824ed86184a33f"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/run_reference_batch.py",
+      "bytes": 1152,
+      "sha256": "cf28e979848b73191f855887f839f2618c9aa06c3a3d8587cdd848ee1e3c1dd0"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/save_handoff_and_backup.py",
+      "bytes": 6565,
+      "sha256": "05cffb4c6ae3e5656d30f00d426c1fdf7f66f00914d0b116bb56d1b2f7dfb289"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/SCOPE.json",
+      "bytes": 1729,
+      "sha256": "98e43f0302c6b2fb7ac27abb1cea596c733b7c262bf1f60cc28df3937d12d285"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/test_reference_preread.py",
+      "bytes": 3523,
+      "sha256": "521a7a029d1b30183766b7ad1c7228992440d4cec3f59b250667b0590f348518"
     },
     {
       "path": "architecture/2026-10-24-smoke/acquire_input.py",

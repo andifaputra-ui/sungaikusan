@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-24T15:28:27.557544+00:00",
+  "files": {
+    "acquire_frozen_references.py": "17f5875b7989fa509524823be6d4c9ab15a7f0ef2c4bf359a47e1f93daa6c7d3",
+    "run_reference_batch.py": "cf28e979848b73191f855887f839f2618c9aa06c3a3d8587cdd848ee1e3c1dd0",
+    "test_reference_preread.py": "521a7a029d1b30183766b7ad1c7228992440d4cec3f59b250667b0590f348518",
+    "SCOPE.json": "98e43f0302c6b2fb7ac27abb1cea596c733b7c262bf1f60cc28df3937d12d285",
+    "REFERENCE_EXECUTION_PROTOCOL.md": "bd175d4bf6986de8a135b59576721aeb77aafedab11a423d61df43dafafa95f4",
+    "CURRENT_FINDINGS.md": "9e74d9a16ca7f308c102dfef6b764cbab52a60fed80e48e28cce78200761e588",
+    "REFERENCE_SOURCE_AMENDMENT_01.json": "ee997e10786055f6c3233cc7c31579049ee25b4cabc2304dfdb95c330f0ea974",
+    "REFERENCE_PANEL_FREEZE.sha256": "21a7e9dcda9114a921105d2c11638c12facd2010e6785ec58bb1719776fc0394",
+    "REFERENCE_SOURCE_PLAN_V2.sha256": "5b66e164936c4398bbc4db757bd1869e93d9def7eb45bdde09824ed86184a33f",
+    "save_handoff_and_backup.py": "05cffb4c6ae3e5656d30f00d426c1fdf7f66f00914d0b116bb56d1b2f7dfb289"
+  }
+}
