@@ -85,6 +85,7 @@ def main() -> None:
     inference_start=time.monotonic()
     with torch.inference_mode():
         logits=infer.forward_logits(model,torch.from_numpy(prepared[None].astype(np.float32)),device,False,True).numpy()[0]
+    inference_seconds=time.monotonic()-inference_start
     if logits.shape!=(2,512,512) or not np.isfinite(logits).all():
         raise RuntimeError('Invalid output logits')
     scores=infer.softmax_water_probability(logits)
@@ -109,7 +110,7 @@ def main() -> None:
         saved=output.read(1)
         assert np.all(saved[~support]==-9999)
     result={'status':'TECHNICAL_SMOKE_PASS','role':'PERMANENT_DEVELOPMENT_ENGINEERING',
-        'total_seconds':time.monotonic()-start,'four_flip_inference_seconds':time.monotonic()-inference_start,
+        'total_seconds':time.monotonic()-start,'four_flip_inference_seconds':inference_seconds,
         'shape':[512,512],'joint_current_support_pixels':int(support.sum()),'total_pixels':int(support.size),
         'valid_pixels_by_band':[int(v.sum()) for v in band_valid],
         'score_min':float(scores[support].min()),'score_max':float(scores[support].max()),
