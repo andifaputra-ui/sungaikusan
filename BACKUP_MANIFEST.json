@@ -1,6 +1,6 @@
 {
   "date_local": "2026-10-25",
-  "scope": "Curated code/protocol/aggregate four-reference results; imagery, detailed source geometry and reader returns excluded",
+  "scope": "Curated scientific code/protocol/aggregate results including completed reference-date metadata assessment; no imagery, detailed geometries or reader returns",
   "not_a_full_dataset_backup": true,
   "repository_visibility": "public_at_previous_verification",
   "excluded": [
@@ -15,14 +15,19 @@
   ],
   "files": [
     {
+      "path": "CHECKPOINT.md",
+      "bytes": 3104,
+      "sha256": "b2de6d072393b5192fd7b7a4f7f7d16d10d6203c8031fe4eb3b51fc491a6ca63"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4883,
+      "sha256": "0336346e197be79b42991e909fff5e570e7a486d78fc1eb36e610de5c78ccc69"
+    },
+    {
       "path": "architecture/2026-10-08/ARCHITECTURE_CHECK_RESULTS.json",
       "bytes": 7107,
       "sha256": "dc43dcb1e1b42593f3310969b051d6f92f414ef0d3f341f0b758d5ed0533d69d"
-    },
-    {
-      "path": "architecture/2026-10-08/architecture_checks.py",
-      "bytes": 7947,
-      "sha256": "857b5004746fc92e358852e82d4742812c0c5116a1b7c29c4c7b6e89fae9aebf"
     },
     {
       "path": "architecture/2026-10-08/ARCHITECTURE_DECISION_FOR_REVIEW.md",
@@ -38,11 +43,6 @@
       "path": "architecture/2026-10-08/AUTHORIZATION_AND_SCOPE.json",
       "bytes": 1339,
       "sha256": "c7dc4463c60526b9568fdfd6677c692453881bcd68c5986a0e7ad36a71c27ff6"
-    },
-    {
-      "path": "architecture/2026-10-08/interval_accounting_checks.py",
-      "bytes": 2431,
-      "sha256": "0fda6b8f853a10b5c4e76f77e355e7247b76a1a1d3d16dbe363e641181e5af34"
     },
     {
       "path": "architecture/2026-10-08/INTERVAL_ACCOUNTING_RESULTS.json",
@@ -75,24 +75,29 @@
       "sha256": "53513b613fe8c7e2849b59006cb644de9f9ccfeab01d030060e96aab1b8ec8fd"
     },
     {
-      "path": "architecture/2026-10-08/synthetic_strata_checks.py",
-      "bytes": 2842,
-      "sha256": "234f0706866b669a0afff8aae45777d15da96d0f6743b5cda5ca0201c79e990d"
-    },
-    {
       "path": "architecture/2026-10-08/SYNTHETIC_STRATA_RESULTS.json",
       "bytes": 3230,
       "sha256": "e170b1d0fd1e3baf623f36c78deffd1776e7a65e4773232cfa98907a54d1a00e"
     },
     {
+      "path": "architecture/2026-10-08/architecture_checks.py",
+      "bytes": 7947,
+      "sha256": "857b5004746fc92e358852e82d4742812c0c5116a1b7c29c4c7b6e89fae9aebf"
+    },
+    {
+      "path": "architecture/2026-10-08/interval_accounting_checks.py",
+      "bytes": 2431,
+      "sha256": "0fda6b8f853a10b5c4e76f77e355e7247b76a1a1d3d16dbe363e641181e5af34"
+    },
+    {
+      "path": "architecture/2026-10-08/synthetic_strata_checks.py",
+      "bytes": 2842,
+      "sha256": "234f0706866b669a0afff8aae45777d15da96d0f6743b5cda5ca0201c79e990d"
+    },
+    {
       "path": "architecture/2026-10-09/APPROVED_ARCHITECTURE_PRESERVATION.json",
       "bytes": 61,
       "sha256": "5ef51c2f34cb6d41308eebe65d020ef7d6d72413d83b4309a0d1893aede61032"
-    },
-    {
-      "path": "architecture/2026-10-09/audit_saved_display.py",
-      "bytes": 8108,
-      "sha256": "82cff2c9b2cb4670da48336ca44e417c9e97f0883999fcdfd45f1440f7caa8d4"
     },
     {
       "path": "architecture/2026-10-09/AUTHORIZATION_AND_MIGRATION.json",
@@ -140,11 +145,6 @@
       "sha256": "1a470600a1178919eae5b1430a3f1d4d40d1fdbaabdaea44cecf2b46b5a3a07a"
     },
     {
-      "path": "architecture/2026-10-09/OPTICAL_CONTRACT/optical_display_contract.py",
-      "bytes": 6779,
-      "sha256": "bb0bfc78d335a9e4cf64f48c75101cb184ca54cfb73a1ca478e42eb9bf142642"
-    },
-    {
       "path": "architecture/2026-10-09/OPTICAL_CONTRACT/OPTICAL_DISPLAY_CONTRACT_FINDINGS.md",
       "bytes": 12072,
       "sha256": "9df73f4287cce7e1a21a4b7feb2e5e177098e93ee9c14b121ede89de2de0b5c8"
@@ -153,6 +153,11 @@
       "path": "architecture/2026-10-09/OPTICAL_CONTRACT/SYNTHETIC_TEST_RESULTS.json",
       "bytes": 1001,
       "sha256": "5369c7d1ab46241009de65ee562be51d97e41f9e2862fac63e932f0ca8fdcb71"
+    },
+    {
+      "path": "architecture/2026-10-09/OPTICAL_CONTRACT/optical_display_contract.py",
+      "bytes": 6779,
+      "sha256": "bb0bfc78d335a9e4cf64f48c75101cb184ca54cfb73a1ca478e42eb9bf142642"
     },
     {
       "path": "architecture/2026-10-09/OPTICAL_CONTRACT/test_optical_display_contract.py",
@@ -165,19 +170,9 @@
       "sha256": "0bc5d8063d9ae92c088d755073d4549f035016c63d33d449be317021710fe6a1"
     },
     {
-      "path": "architecture/2026-10-09/record_approval_and_inventory.py",
-      "bytes": 8263,
-      "sha256": "5b9fbf59c067ec1d6a426824e3b350fd3b732a865228e49931f6a4969656a7ee"
-    },
-    {
       "path": "architecture/2026-10-09/RESOURCE_RECEIPT.json",
       "bytes": 774,
       "sha256": "2cd4e35837a4cf3b7685e9d8bff42e565f8044868c4555c8d41b9fc31f2ea9a5"
-    },
-    {
-      "path": "architecture/2026-10-09/ROLE_GUARD/role_guard.py",
-      "bytes": 14765,
-      "sha256": "fc1eaad8ca06a28dd6075586fa91248fd88b2691e750109bfb49a4eefc7eec34"
     },
     {
       "path": "architecture/2026-10-09/ROLE_GUARD/ROLE_GUARD_REPORT.md",
@@ -188,6 +183,11 @@
       "path": "architecture/2026-10-09/ROLE_GUARD/SYNTHETIC_ROLE_GUARD_RESULTS.json",
       "bytes": 4673,
       "sha256": "114d68fd17f330b80175cae369a996d67391fad602db3ccb4139eb3532d19819"
+    },
+    {
+      "path": "architecture/2026-10-09/ROLE_GUARD/role_guard.py",
+      "bytes": 14765,
+      "sha256": "fc1eaad8ca06a28dd6075586fa91248fd88b2691e750109bfb49a4eefc7eec34"
     },
     {
       "path": "architecture/2026-10-09/ROLE_GUARD/test_role_guard.py",
@@ -205,49 +205,19 @@
       "sha256": "d1b463977eab07d8856ab1fc0407c4991fd0898ce9a43a535c12d798cbfe318a"
     },
     {
-      "path": "architecture/2026-10-23/AEF_AVAILABILITY_SUMMARY.json",
-      "bytes": 1479,
-      "sha256": "bf145ccf68bc97fd270d29f007d98fc8fef72d57798cbb7903d301f52a2da8f8"
+      "path": "architecture/2026-10-09/audit_saved_display.py",
+      "bytes": 8108,
+      "sha256": "82cff2c9b2cb4670da48336ca44e417c9e97f0883999fcdfd45f1440f7caa8d4"
     },
     {
-      "path": "architecture/2026-10-23/AVAILABILITY_SUMMARY.json",
-      "bytes": 2019,
-      "sha256": "75ad7e0ddeded2536e9e477aec7b1c269776d9678610bd42ae3e7a73b3819b14"
-    },
-    {
-      "path": "architecture/2026-10-23/earth_engine_metadata_probe.py",
-      "bytes": 1834,
-      "sha256": "ed251c434235f7ab5d9860a26755eeff4f9ef036cf9a3174a55d20a53c3e6fdc"
-    },
-    {
-      "path": "architecture/2026-10-23/METHOD_DIRECTION.md",
-      "bytes": 15100,
-      "sha256": "f9e59147097a31a5513151b8afc76ced8a4e4d9ca99ec3c292e8083c7856efbe"
-    },
-    {
-      "path": "architecture/2026-10-23/MODEL_RELEASE_AUDIT.json",
-      "bytes": 5052,
-      "sha256": "f2cd37120894df200bf5893a040dced692f687a3ab184623b0788fb933458e0d"
-    },
-    {
-      "path": "architecture/2026-10-23/SOURCES_AND_READ_SCOPE.md",
-      "bytes": 3276,
-      "sha256": "6332cbcdbc7e2f2e02e603fe82fbc20241d42ce9a55bcb61f21094a134fa35cb"
-    },
-    {
-      "path": "architecture/2026-10-23/STATUS.json",
-      "bytes": 927,
-      "sha256": "cccad1e08e8a424dfd50966c0ab27c4dd9a6e577d4f66f6cdb0264c92ca25412"
+      "path": "architecture/2026-10-09/record_approval_and_inventory.py",
+      "bytes": 8263,
+      "sha256": "5b9fbf59c067ec1d6a426824e3b350fd3b732a865228e49931f6a4969656a7ee"
     },
     {
       "path": "architecture/2026-10-23-readiness/FROZEN_ARTIFACT_CONTRACT.json",
       "bytes": 1755,
       "sha256": "229de7a44f85dba6a88570e343dad0caabb8ceac207fe85deb48067d5c10f36d"
-    },
-    {
-      "path": "architecture/2026-10-23-readiness/input_contract.py",
-      "bytes": 3335,
-      "sha256": "451f8a0515a2797164027f031f770fee6e1f4b5797b822f5621026b8f5e8ce7c"
     },
     {
       "path": "architecture/2026-10-23-readiness/INPUT_CONTRACT_TEST_RESULTS.json",
@@ -270,11 +240,6 @@
       "sha256": "65107a276bd1585db031d4683e5d19e50c00d9cc71e9c4f27e9a50e3d16dbece"
     },
     {
-      "path": "architecture/2026-10-23-readiness/test_input_contract.py",
-      "bytes": 3926,
-      "sha256": "252872b2ad3f609f8a730c410b7b70f39ae599c965fcd122b7477bc59c8bb0ab"
-    },
-    {
       "path": "architecture/2026-10-23-readiness/TRAINING_GEOGRAPHY_AUDIT.json",
       "bytes": 1765,
       "sha256": "82923a2c86afc2195aeae3bf0a064a5c07ab2fbc91b7c4c7f10174ace7f7690d"
@@ -290,14 +255,49 @@
       "sha256": "28f81bd356639b2a819fa7a9f2f6c0ad38a1b0f257bb6d2be71e43b6b3889217"
     },
     {
-      "path": "architecture/2026-10-24-linked-development/account_optical_responses.py",
-      "bytes": 5908,
-      "sha256": "c83ca765a455272082f5fca4ae591545d511cf404b5e29f749fa57bef06ef7bf"
+      "path": "architecture/2026-10-23-readiness/input_contract.py",
+      "bytes": 3335,
+      "sha256": "451f8a0515a2797164027f031f770fee6e1f4b5797b822f5621026b8f5e8ce7c"
     },
     {
-      "path": "architecture/2026-10-24-linked-development/acquire_frozen_references.py",
-      "bytes": 12681,
-      "sha256": "17f5875b7989fa509524823be6d4c9ab15a7f0ef2c4bf359a47e1f93daa6c7d3"
+      "path": "architecture/2026-10-23-readiness/test_input_contract.py",
+      "bytes": 3926,
+      "sha256": "252872b2ad3f609f8a730c410b7b70f39ae599c965fcd122b7477bc59c8bb0ab"
+    },
+    {
+      "path": "architecture/2026-10-23/AEF_AVAILABILITY_SUMMARY.json",
+      "bytes": 1479,
+      "sha256": "bf145ccf68bc97fd270d29f007d98fc8fef72d57798cbb7903d301f52a2da8f8"
+    },
+    {
+      "path": "architecture/2026-10-23/AVAILABILITY_SUMMARY.json",
+      "bytes": 2019,
+      "sha256": "75ad7e0ddeded2536e9e477aec7b1c269776d9678610bd42ae3e7a73b3819b14"
+    },
+    {
+      "path": "architecture/2026-10-23/METHOD_DIRECTION.md",
+      "bytes": 15100,
+      "sha256": "f9e59147097a31a5513151b8afc76ced8a4e4d9ca99ec3c292e8083c7856efbe"
+    },
+    {
+      "path": "architecture/2026-10-23/MODEL_RELEASE_AUDIT.json",
+      "bytes": 5052,
+      "sha256": "f2cd37120894df200bf5893a040dced692f687a3ab184623b0788fb933458e0d"
+    },
+    {
+      "path": "architecture/2026-10-23/SOURCES_AND_READ_SCOPE.md",
+      "bytes": 3276,
+      "sha256": "6332cbcdbc7e2f2e02e603fe82fbc20241d42ce9a55bcb61f21094a134fa35cb"
+    },
+    {
+      "path": "architecture/2026-10-23/STATUS.json",
+      "bytes": 927,
+      "sha256": "cccad1e08e8a424dfd50966c0ab27c4dd9a6e577d4f66f6cdb0264c92ca25412"
+    },
+    {
+      "path": "architecture/2026-10-23/earth_engine_metadata_probe.py",
+      "bytes": 1834,
+      "sha256": "ed251c434235f7ab5d9860a26755eeff4f9ef036cf9a3174a55d20a53c3e6fdc"
     },
     {
       "path": "architecture/2026-10-24-linked-development/COMPLETED_SOURCE_HASHES.json",
@@ -320,19 +320,9 @@
       "sha256": "6bc2374b3e0705d697b519fff0243132b2a592d2dbd75d236ac6bb9956c2a4a6"
     },
     {
-      "path": "architecture/2026-10-24-linked-development/finalize_reference_block.py",
-      "bytes": 10520,
-      "sha256": "be4f7c4848e61781f7fc015dc98576b6f59aa22bdeb5aadd68ef8daed2470eb8"
-    },
-    {
       "path": "architecture/2026-10-24-linked-development/FOCUSED_TEST_RESULTS.json",
       "bytes": 330,
       "sha256": "3283cf270530bf7abee4fcbcc2af03793291109a9f74a093c88dae3739575e68"
-    },
-    {
-      "path": "architecture/2026-10-24-linked-development/make_visual_overviews.py",
-      "bytes": 1155,
-      "sha256": "6e6a31a44b4c654ca50e9a8a543eda8ecc5585e32312d912914eab74c465335c"
     },
     {
       "path": "architecture/2026-10-24-linked-development/NEXT_REFERENCE_DECISION.md",
@@ -350,11 +340,6 @@
       "sha256": "4ceb5026c6c3a3fc55dd2e4a9b90e7b09fd681b60fe9672de81a4f005e277e27"
     },
     {
-      "path": "architecture/2026-10-24-linked-development/optical_qa.py",
-      "bytes": 2230,
-      "sha256": "948dda3f828f516c62c2090784dfa3f4fd9c665776fb08fa026ee7a345206cf7"
-    },
-    {
       "path": "architecture/2026-10-24-linked-development/OPTICAL_RESPONSE_PROTOCOL_V1.md",
       "bytes": 6392,
       "sha256": "12abf11df6e39ff2c32fc61bb47c08f137a0b25c07f14ec651293f39e91474fa"
@@ -363,11 +348,6 @@
       "path": "architecture/2026-10-24-linked-development/PREPARATION_REPAIRS.json",
       "bytes": 744,
       "sha256": "ddb53dfcbbf14241f01e299102a7bf67b11d042b54895e4fef626c2ae12e50b7"
-    },
-    {
-      "path": "architecture/2026-10-24-linked-development/prepare_optical_review.py",
-      "bytes": 14934,
-      "sha256": "f35c04b42fc76bfd7112339bcda22bf9f4d7dd90ccab471189d95d28728b0a0f"
     },
     {
       "path": "architecture/2026-10-24-linked-development/REFERENCE_ACQUISITION_SUMMARY.json",
@@ -405,6 +385,41 @@
       "sha256": "5b66e164936c4398bbc4db757bd1869e93d9def7eb45bdde09824ed86184a33f"
     },
     {
+      "path": "architecture/2026-10-24-linked-development/SCOPE.json",
+      "bytes": 1729,
+      "sha256": "98e43f0302c6b2fb7ac27abb1cea596c733b7c262bf1f60cc28df3937d12d285"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/account_optical_responses.py",
+      "bytes": 5908,
+      "sha256": "c83ca765a455272082f5fca4ae591545d511cf404b5e29f749fa57bef06ef7bf"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/acquire_frozen_references.py",
+      "bytes": 12681,
+      "sha256": "17f5875b7989fa509524823be6d4c9ab15a7f0ef2c4bf359a47e1f93daa6c7d3"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/finalize_reference_block.py",
+      "bytes": 10520,
+      "sha256": "be4f7c4848e61781f7fc015dc98576b6f59aa22bdeb5aadd68ef8daed2470eb8"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/make_visual_overviews.py",
+      "bytes": 1155,
+      "sha256": "6e6a31a44b4c654ca50e9a8a543eda8ecc5585e32312d912914eab74c465335c"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/optical_qa.py",
+      "bytes": 2230,
+      "sha256": "948dda3f828f516c62c2090784dfa3f4fd9c665776fb08fa026ee7a345206cf7"
+    },
+    {
+      "path": "architecture/2026-10-24-linked-development/prepare_optical_review.py",
+      "bytes": 14934,
+      "sha256": "f35c04b42fc76bfd7112339bcda22bf9f4d7dd90ccab471189d95d28728b0a0f"
+    },
+    {
       "path": "architecture/2026-10-24-linked-development/run_reference_batch.py",
       "bytes": 1152,
       "sha256": "cf28e979848b73191f855887f839f2618c9aa06c3a3d8587cdd848ee1e3c1dd0"
@@ -413,11 +428,6 @@
       "path": "architecture/2026-10-24-linked-development/save_handoff_and_backup.py",
       "bytes": 6565,
       "sha256": "05cffb4c6ae3e5656d30f00d426c1fdf7f66f00914d0b116bb56d1b2f7dfb289"
-    },
-    {
-      "path": "architecture/2026-10-24-linked-development/SCOPE.json",
-      "bytes": 1729,
-      "sha256": "98e43f0302c6b2fb7ac27abb1cea596c733b7c262bf1f60cc28df3937d12d285"
     },
     {
       "path": "architecture/2026-10-24-linked-development/test_optical_qa.py",
@@ -435,16 +445,6 @@
       "sha256": "2b7682b38ef1c8e03e8267f251af8d21de21b08769ce60f74eb88259203bd584"
     },
     {
-      "path": "architecture/2026-10-24-smoke/acquire_input.py",
-      "bytes": 5796,
-      "sha256": "141e2ed9fa1beaccb84cb8ffe6720671edf1832951a87f106dde5ffe10e74948"
-    },
-    {
-      "path": "architecture/2026-10-24-smoke/audit_completion.py",
-      "bytes": 6388,
-      "sha256": "bd2981a58d53335f1fa99b3b8e10e0befc9516d9a337c53997c194610ad7c37f"
-    },
-    {
       "path": "architecture/2026-10-24-smoke/AUTHORIZATION.json",
       "bytes": 531,
       "sha256": "22d6f097a23a86f796752988051da250184998297c8ed8b5271230e05b8c4e3a"
@@ -460,16 +460,6 @@
       "sha256": "55ff46d6130407dd87af8a4fea0f939c463ece569cfac062290e180a33024577"
     },
     {
-      "path": "architecture/2026-10-24-smoke/continue_after_setup.py",
-      "bytes": 3036,
-      "sha256": "4d28267d94147ac063f14ac64de78ec893452416bc0bdf7b1c1b3a77718b8afd"
-    },
-    {
-      "path": "architecture/2026-10-24-smoke/finalize_handoff.py",
-      "bytes": 7165,
-      "sha256": "5171971f52f80dc5c33ad01995324d72bb5fe0e91e1d08f05e1c911b70f5c999"
-    },
-    {
       "path": "architecture/2026-10-24-smoke/FINDINGS_FOR_REVIEW.md",
       "bytes": 6840,
       "sha256": "5583f55ba60f151753693d51eb7ea0fbecdc27b3b545ecb65da630c414a57500"
@@ -480,14 +470,79 @@
       "sha256": "ca659fe43b83dacf585a492536c20348f58fd5e02cf9c9e96c770a7647c4d469"
     },
     {
-      "path": "architecture/2026-10-24-smoke/metered_pip.py",
-      "bytes": 1404,
-      "sha256": "0dc507f2dc50a4d8f5c8118a281cc469ffb51866237ef40609e0454a5a156fbe"
-    },
-    {
       "path": "architecture/2026-10-24-smoke/NEXT_DECISION.md",
       "bytes": 6601,
       "sha256": "4a8d7c7f27700a37ad1849a2adf48d7d8bfdfdfb5a1d51224b34d0de1f021431"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/RECEIPT_RECOVERY.json",
+      "bytes": 555,
+      "sha256": "b416a77f01a8282e34a5176ee95f377015b695c5b210d9d193b76b9e33187969"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/REQUEST_MUTATION_TESTS.json",
+      "bytes": 88,
+      "sha256": "d5660e22b21d139ba7fe70de903acc9b273badf3073e89a0c225088c1a074d8e"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/RESOURCE_TESTS.json",
+      "bytes": 86,
+      "sha256": "b39dee506c19abbeceac87b17d291f1c3750a80fdf236f8f20c4de1f1db7e1ed"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/RUNTIME_READY.json",
+      "bytes": 740,
+      "sha256": "b63e2f0e6c4683bca5a3f43a40158be8886bc9b72e7b556ef70ba40348b5b817"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/RUN_SCOPE.md",
+      "bytes": 5771,
+      "sha256": "34d78c20f7ed90d7a3ede488f856aade591823a55c3c622f5918841a08659570"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/SMOKE_RESULT.json",
+      "bytes": 1803,
+      "sha256": "bb46e17d3608ba12f3c1aac7cfa3e5d2ee7c4423ae6c204541755ceb9449b072"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/SOURCE_SCOPE_OFFLINE_CHECK.json",
+      "bytes": 560,
+      "sha256": "5fe7b9211de1c6dfccc49a73a4fc617ae1a0156386ec9d2218e6542367bb1148"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/VISUAL_QA_REVIEW.json",
+      "bytes": 1124,
+      "sha256": "6f47b589350804b80fef62ee70e3969a8cb01a93e473167a0d7bfc070e14294e"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/WHEEL_RECEIPTS.json",
+      "bytes": 14005,
+      "sha256": "380c83741d7639dc746f50336d813f6e1e6ffffdd4ef28a12d89ff14d93a8abb"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/acquire_input.py",
+      "bytes": 5796,
+      "sha256": "141e2ed9fa1beaccb84cb8ffe6720671edf1832951a87f106dde5ffe10e74948"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/audit_completion.py",
+      "bytes": 6388,
+      "sha256": "bd2981a58d53335f1fa99b3b8e10e0befc9516d9a337c53997c194610ad7c37f"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/continue_after_setup.py",
+      "bytes": 3036,
+      "sha256": "4d28267d94147ac063f14ac64de78ec893452416bc0bdf7b1c1b3a77718b8afd"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/finalize_handoff.py",
+      "bytes": 7165,
+      "sha256": "5171971f52f80dc5c33ad01995324d72bb5fe0e91e1d08f05e1c911b70f5c999"
+    },
+    {
+      "path": "architecture/2026-10-24-smoke/metered_pip.py",
+      "bytes": 1404,
+      "sha256": "0dc507f2dc50a4d8f5c8118a281cc469ffb51866237ef40609e0454a5a156fbe"
     },
     {
       "path": "architecture/2026-10-24-smoke/prepare_public_backup.py",
@@ -500,19 +555,9 @@
       "sha256": "f29f9b5989a29acb35ee988cbb2282075b4ad261540955cd80cda218367ecb88"
     },
     {
-      "path": "architecture/2026-10-24-smoke/RECEIPT_RECOVERY.json",
-      "bytes": 555,
-      "sha256": "b416a77f01a8282e34a5176ee95f377015b695c5b210d9d193b76b9e33187969"
-    },
-    {
       "path": "architecture/2026-10-24-smoke/render_alignment_qa.py",
       "bytes": 4788,
       "sha256": "0c908b191d87a1a243173b841f222c5311e22f446624dd4d538c9ac06c177d05"
-    },
-    {
-      "path": "architecture/2026-10-24-smoke/REQUEST_MUTATION_TESTS.json",
-      "bytes": 88,
-      "sha256": "d5660e22b21d139ba7fe70de903acc9b273badf3073e89a0c225088c1a074d8e"
     },
     {
       "path": "architecture/2026-10-24-smoke/requirements_lock.txt",
@@ -530,34 +575,9 @@
       "sha256": "f064363ebe9a325f3826f6dfadf297c50b33c80144c504d01f4274b660d4cd2a"
     },
     {
-      "path": "architecture/2026-10-24-smoke/RESOURCE_TESTS.json",
-      "bytes": 86,
-      "sha256": "b39dee506c19abbeceac87b17d291f1c3750a80fdf236f8f20c4de1f1db7e1ed"
-    },
-    {
       "path": "architecture/2026-10-24-smoke/run_inference.py",
       "bytes": 7653,
       "sha256": "0f2d9a0186e1963170b84df772cbb21e772faffa7720fff9c8a3aeb10734d272"
-    },
-    {
-      "path": "architecture/2026-10-24-smoke/RUN_SCOPE.md",
-      "bytes": 5771,
-      "sha256": "34d78c20f7ed90d7a3ede488f856aade591823a55c3c622f5918841a08659570"
-    },
-    {
-      "path": "architecture/2026-10-24-smoke/RUNTIME_READY.json",
-      "bytes": 740,
-      "sha256": "b63e2f0e6c4683bca5a3f43a40158be8886bc9b72e7b556ef70ba40348b5b817"
-    },
-    {
-      "path": "architecture/2026-10-24-smoke/SMOKE_RESULT.json",
-      "bytes": 1803,
-      "sha256": "bb46e17d3608ba12f3c1aac7cfa3e5d2ee7c4423ae6c204541755ceb9449b072"
-    },
-    {
-      "path": "architecture/2026-10-24-smoke/SOURCE_SCOPE_OFFLINE_CHECK.json",
-      "bytes": 560,
-      "sha256": "5fe7b9211de1c6dfccc49a73a4fc617ae1a0156386ec9d2218e6542367bb1148"
     },
     {
       "path": "architecture/2026-10-24-smoke/test_initialization_order.py",
@@ -575,14 +595,34 @@
       "sha256": "36a31083b0ca41cc19bff89c921f864eb26197edc0978c7f1305a177a2da289e"
     },
     {
-      "path": "architecture/2026-10-24-smoke/VISUAL_QA_REVIEW.json",
-      "bytes": 1124,
-      "sha256": "6f47b589350804b80fef62ee70e3969a8cb01a93e473167a0d7bfc070e14294e"
+      "path": "architecture/2026-10-25-four-reference/AUTHORIZATION.json",
+      "bytes": 1087,
+      "sha256": "ff01458c59fa54ec056309378fcef466b81d420a3ea8abfc3d44b8ddfd0e5a41"
     },
     {
-      "path": "architecture/2026-10-24-smoke/WHEEL_RECEIPTS.json",
-      "bytes": 14005,
-      "sha256": "380c83741d7639dc746f50336d813f6e1e6ffffdd4ef28a12d89ff14d93a8abb"
+      "path": "architecture/2026-10-25-four-reference/COMPLETION_AUDIT.json",
+      "bytes": 1518,
+      "sha256": "8a500c895774197e817afb9115be10202f0d2706ef49371343ad7ccdc7cfa6f5"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/FINDINGS_AND_DECISION.md",
+      "bytes": 8703,
+      "sha256": "fe4094aa72e012fd0ef0385dc064ad46cbc26006f3eb4985b68b87972104f0aa"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/OVERLAP_ENCODING_DIAGNOSTIC_PLAN.json",
+      "bytes": 1472,
+      "sha256": "36dcbd7783747143fe2068c610cff7d7fda0b4f24bc33d3e5e807c16fb941867"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/OVERLAP_ENCODING_RESULT.json",
+      "bytes": 3308,
+      "sha256": "05fe325fc51ace037c704f122f00a211b2590cee8e466efc3a5c5a2ac729cc77"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/PUBLIC_SOURCE_HASHES.json",
+      "bytes": 1414,
+      "sha256": "2314853c0d7140ad6bc46e9fe6cbc5463092123fbce561221c32a6d1cc6dcb6e"
     },
     {
       "path": "architecture/2026-10-25-four-reference/account_four_responses.py",
@@ -605,16 +645,6 @@
       "sha256": "508593b379901ae0eb3a67170f92b27ec893aaefeef3b4d4d2932ab87cc4cff1"
     },
     {
-      "path": "architecture/2026-10-25-four-reference/AUTHORIZATION.json",
-      "bytes": 1087,
-      "sha256": "ff01458c59fa54ec056309378fcef466b81d420a3ea8abfc3d44b8ddfd0e5a41"
-    },
-    {
-      "path": "architecture/2026-10-25-four-reference/COMPLETION_AUDIT.json",
-      "bytes": 1518,
-      "sha256": "8a500c895774197e817afb9115be10202f0d2706ef49371343ad7ccdc7cfa6f5"
-    },
-    {
       "path": "architecture/2026-10-25-four-reference/diagnose_source_version.py",
       "bytes": 1881,
       "sha256": "7861b86f308282f5ee7bed1ec88e608358188c63c6834a85ceab98445e373dbb"
@@ -625,29 +655,9 @@
       "sha256": "90d141879eb7087880852a77adf8a02e97e7d8ad48879b692817e977fb637698"
     },
     {
-      "path": "architecture/2026-10-25-four-reference/FINDINGS_AND_DECISION.md",
-      "bytes": 8703,
-      "sha256": "fe4094aa72e012fd0ef0385dc064ad46cbc26006f3eb4985b68b87972104f0aa"
-    },
-    {
       "path": "architecture/2026-10-25-four-reference/freeze_current_reference_metadata.py",
       "bytes": 3046,
       "sha256": "ec0f144d20c88871d8449b3e68d84e64faf6930973f7659e6dc843f587fe2b7e"
-    },
-    {
-      "path": "architecture/2026-10-25-four-reference/OVERLAP_ENCODING_DIAGNOSTIC_PLAN.json",
-      "bytes": 1472,
-      "sha256": "36dcbd7783747143fe2068c610cff7d7fda0b4f24bc33d3e5e807c16fb941867"
-    },
-    {
-      "path": "architecture/2026-10-25-four-reference/OVERLAP_ENCODING_RESULT.json",
-      "bytes": 3308,
-      "sha256": "05fe325fc51ace037c704f122f00a211b2590cee8e466efc3a5c5a2ac729cc77"
-    },
-    {
-      "path": "architecture/2026-10-25-four-reference/PUBLIC_SOURCE_HASHES.json",
-      "bytes": 1414,
-      "sha256": "2314853c0d7140ad6bc46e9fe6cbc5463092123fbce561221c32a6d1cc6dcb6e"
     },
     {
       "path": "architecture/2026-10-25-four-reference/test_four_chip_contract.py",
@@ -655,19 +665,69 @@
       "sha256": "6203e323c79b3354df1a0fd05ec7a85f026503ef237fa1fc072b1b14f99cd6e2"
     },
     {
+      "path": "architecture/2026-10-25-reference-date-metadata/ASF_COMPLETENESS_AMENDMENT.json",
+      "bytes": 744,
+      "sha256": "85eac6ccf08be6bfb108af49af8e4ff3da1ed3d749c050d6214022deea19f6d9"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-date-metadata/COMPLETION_AUDIT.json",
+      "bytes": 2851,
+      "sha256": "9fd626eef24c72397a22ae44e364b89728f86070358e88cdfd5621b3c0e6ae95"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-date-metadata/FEASIBILITY_SUMMARY.json",
+      "bytes": 1329,
+      "sha256": "3b57a86be90d6bfb108a98fdcb1f78f1d6e2e2b53a76b0208d6c6a8220b07aa6"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-date-metadata/FINDINGS_AND_NEXT_DECISION.md",
+      "bytes": 7393,
+      "sha256": "01d6b5223a02650df6cf8a639e34ceba3d97eca9bcdaa894e2e8bec9bdfb1c20"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-date-metadata/SCOPE.json",
+      "bytes": 2076,
+      "sha256": "3f395328d81c9cd9c311ea32747319393d506c8cf96087ebf4701d0106efc0db"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-date-metadata/STATUS.json",
+      "bytes": 476,
+      "sha256": "533508541a0ce4d6175eadbe9496b7fd97fef248036a5e5ecb4dd4829d5b8f9a"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-date-metadata/TEST_RESULTS.json",
+      "bytes": 391,
+      "sha256": "ddba6affc2f072210dbd6d8a7b5a66417af6b79508b0e4d110da0d3454b68f60"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-date-metadata/analyze_metadata_feasibility.py",
+      "bytes": 9998,
+      "sha256": "b208ea5f6f9aec2aed432b8f6fe6248f5e911f4d3332bac9d9e15ac50458d1b0"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-date-metadata/prepare_next_reference_metadata.py",
+      "bytes": 4242,
+      "sha256": "ac7a82f7a61edb2070bbe7f19527aeb396e06f27c693023bdf6cb22c3c570e71"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-date-metadata/query_asf_metadata.py",
+      "bytes": 2088,
+      "sha256": "332458518477cde4081dba85bfad4f8d1a5463b41c7563fca4b297b6756dbf15"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-date-metadata/query_opera_metadata.py",
+      "bytes": 2020,
+      "sha256": "6e038a44b18b15e13e5376ca09bb0520a72f30504aedeeb6165fb726ec1b5ab7"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-date-metadata/test_metadata_contract.py",
+      "bytes": 2516,
+      "sha256": "717531927b20d12a72ba75bcc4a657945833a5a3e924fbbb1fe2dbec6a6f3e7c"
+    },
+    {
       "path": "architecture/2026-10-25-reference-led/COMPLETION_SUMMARY.json",
       "bytes": 1064,
       "sha256": "e85c93cfccf51f217e6dee3d50cd8d0858abf94b144fd059ba659c33b380b496"
-    },
-    {
-      "path": "architecture/2026-10-25-reference-led/enlarge_saved_discovery.py",
-      "bytes": 1400,
-      "sha256": "584026b5f2e9e23693fab42b693aa11e2c75bf0ae75e64f396908e10c4a74ab6"
-    },
-    {
-      "path": "architecture/2026-10-25-reference-led/finalize_reference_led.py",
-      "bytes": 8763,
-      "sha256": "042e2a712fe11943be732d15148828d06609f30ed4ab97600c569ce1b3637423"
     },
     {
       "path": "architecture/2026-10-25-reference-led/FINDINGS_AND_NEXT_SOURCE_DECISION.md",
@@ -675,19 +735,9 @@
       "sha256": "ecfbe7de24b759f91d485ff1ae61c9961784ad8e19883b467851d84d8d03da8a"
     },
     {
-      "path": "architecture/2026-10-25-reference-led/freeze_nominations.py",
-      "bytes": 5300,
-      "sha256": "90d262a3f068463d5cd3e961196cdfbf1a6926f11cea39a13343bf920b8c5e64"
-    },
-    {
       "path": "architecture/2026-10-25-reference-led/NOMINATION_FREEZE.sha256",
       "bytes": 66,
       "sha256": "b106d8d72c3ec20a024a4da027d1da5929a6f063677813432f65608322539c8f"
-    },
-    {
-      "path": "architecture/2026-10-25-reference-led/prepare_bounded_source_request.py",
-      "bytes": 6355,
-      "sha256": "3311d7fd318e9cc74f1b1165b599dd9a9380b4e9823c2524ad411e54c1579b74"
     },
     {
       "path": "architecture/2026-10-25-reference-led/PROPOSED_FOUR_CHIP_SOURCE_PLAN.sha256",
@@ -700,6 +750,31 @@
       "sha256": "45dd2cebe62d9f6af9b54a21d8926bd8222c1b9a8f070d89337694ce24a92d4c"
     },
     {
+      "path": "architecture/2026-10-25-reference-led/SCOPE.json",
+      "bytes": 1769,
+      "sha256": "8cf1f649737645dfa45d82de05d32cdd9b499ad4e6006da7c2de213bf8f6665a"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/enlarge_saved_discovery.py",
+      "bytes": 1400,
+      "sha256": "584026b5f2e9e23693fab42b693aa11e2c75bf0ae75e64f396908e10c4a74ab6"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/finalize_reference_led.py",
+      "bytes": 8763,
+      "sha256": "042e2a712fe11943be732d15148828d06609f30ed4ab97600c569ce1b3637423"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/freeze_nominations.py",
+      "bytes": 5300,
+      "sha256": "90d262a3f068463d5cd3e961196cdfbf1a6926f11cea39a13343bf920b8c5e64"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/prepare_bounded_source_request.py",
+      "bytes": 6355,
+      "sha256": "3311d7fd318e9cc74f1b1165b599dd9a9380b4e9823c2524ad411e54c1579b74"
+    },
+    {
       "path": "architecture/2026-10-25-reference-led/qualify_control_accounting.py",
       "bytes": 2013,
       "sha256": "be7fefd148821014ef2d3fa9ef3f26bb5817869ae4d65e7d6a19be7aee96197f"
@@ -708,11 +783,6 @@
       "path": "architecture/2026-10-25-reference-led/qualify_saved_controls.py",
       "bytes": 6345,
       "sha256": "a0b4d1ffc525ccc818c009cee13a2f7702d9fc5e447fe4672535c1355bcfe70c"
-    },
-    {
-      "path": "architecture/2026-10-25-reference-led/SCOPE.json",
-      "bytes": 1769,
-      "sha256": "8cf1f649737645dfa45d82de05d32cdd9b499ad4e6006da7c2de213bf8f6665a"
     },
     {
       "path": "architecture/2026-10-25-reference-led/screen_legacy_views.py",

@@ -1,0 +1,9 @@
+{
+  "purpose": "Independent raw-archive completeness cross-check after GEE/OPERA returned onlyMay11",
+  "changed": "Add one public ASFSearchAPI metadata query for the identical bounded date/area window",
+  "unchanged": ["frozen sites", "optical evidence", "no new pixels", "no date adoption", "no sensor/radiometry change", "source roles", "final sealing"],
+  "selection": "SENTINEL-1 family,IW,GRD_HD/GRD_HS; all tracks/platforms; max40records; no SAR intensity or predictions",
+  "metadata_cap_bytes": 8388608,
+  "provider_docs": "https://docs.asf.alaska.edu/api/keywords/",
+  "interpretation": "Cross-archive absence is evidence of bounded catalogue availability, never proof no acquisition exists anywhere. No data asset links followed."
+}

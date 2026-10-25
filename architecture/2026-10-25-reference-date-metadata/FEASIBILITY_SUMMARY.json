@@ -1,0 +1,33 @@
+{
+  "status": "NO_CLOSER_COMPATIBLE_IW_GRD_ACQUISITION_FOUND_IN_BOUNDED_PUBLIC_CATALOGUES",
+  "window_UTC": [
+    "2025-05-07",
+    "2025-05-21"
+  ],
+  "native_GEE_scenes": 1,
+  "ASF_IW_GRD_records": 1,
+  "cross_archive_exact_ID_matches": 1,
+  "native_acquisition_days": 1,
+  "DSWx_product_records": 4,
+  "local_RTC_records": 4,
+  "nearest_existing_scene": "S1A_IW_GRDH_1SDV_20250511T220024_20250511T220049_059152_0756E5_4873",
+  "nearest_optical_offsets_hours": {
+    "N03": 52.809375277777775,
+    "N04": 28.643485555555554
+  },
+  "alternative_tracks_or_platforms_returned": 0,
+  "new_images_or_predictions": 0,
+  "new_reference_labels": 0,
+  "date_substitutions": 0,
+  "public_metadata_response_body_bytes": 158370,
+  "GEE_serialized_metadata_bytes": 2491,
+  "comparison_gate": "CLOSED",
+  "frozen_reference_eligibility_unchanged": true,
+  "claim_limit": "Bounded catalogue availability for compatibleIWGRD, not proof no mission observation exists in other modes, uncatalogued holdings or outside this window",
+  "no_SAR_pixel_validity_or_classifier_equivalence_claim": true,
+  "minimum_absolute_offset_outside_search_window_hours": {
+    "N03": 165.18395805555554,
+    "N04": 146.6501522222222
+  },
+  "window_is_wide_enough_to_find_any_closer_record_if_present_in_queried_catalogues": true
+}

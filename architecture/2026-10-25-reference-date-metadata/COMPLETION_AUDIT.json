@@ -1,0 +1,51 @@
+{
+  "completed_utc": "2026-10-25T08:51:03.383895+00:00",
+  "status": "NO_CLOSER_COMPATIBLE_IW_GRD_ACQUISITION_FOUND_IN_BOUNDED_PUBLIC_CATALOGUES",
+  "new_imagery": 0,
+  "new_predictions": 0,
+  "new_reference_labels": 0,
+  "native_GEE_records": 1,
+  "ASF_records": 1,
+  "DSWx_records": 4,
+  "RTC_records": 4,
+  "distinct_compatible_native_acquisition_days": 1,
+  "public_metadata_response_body_bytes": 158370,
+  "GEE_serialized_result_bytes_not_exact_HTTP_meter": 2491,
+  "reference_charge_bytes_unchanged": 72351744,
+  "budget_file_sha256": "7b74ee71c359923ba7e060c5b797152cbf0c284e386c75d92bea6c6ff03b4d27",
+  "planet_query_prepared_but_not_submitted": true,
+  "no_planet_quota_order_activation_or_download": true,
+  "comparison_gate": "CLOSED",
+  "background_job": null,
+  "test_results": {
+    "executed_utc_recorded": "2026-10-25T08:51:03.383895+00:00",
+    "offline_tests_passed": 5,
+    "failures": 0,
+    "suite": "test_metadata_contract.py",
+    "checks": [
+      "GRD acquisition interval",
+      "parent-file deduplication",
+      "nearest-date search interval",
+      "query calls are metadata-only",
+      "frozen nomination/control and optical response locks unchanged"
+    ]
+  },
+  "files": {
+    "SCOPE.json": "3f395328d81c9cd9c311ea32747319393d506c8cf96087ebf4701d0106efc0db",
+    "ASF_COMPLETENESS_AMENDMENT.json": "85eac6ccf08be6bfb108af49af8e4ff3da1ed3d749c050d6214022deea19f6d9",
+    "S1_METADATA.json": "0bb336f79a8d0a6bc5ee7a61eaa519ccf4d726e1075a06c3322b58bf6149ea20",
+    "S1_METADATA_RECEIPT.json": "9e6430fd6da03e8505982b895a6eb767c1a760c26f9260c7e6c775f74de4464b",
+    "ASF_METADATA.json": "bc27e8023d2a55e6dc1c9703b19963fc5e4f9e2218f8a2b1ba5697c36b5cca7b",
+    "ASF_METADATA_RECEIPT.json": "cb56fdc78832e390b9290ab1cc98f4aa0fafb8f1337eae8a9f28b4c6da8c6522",
+    "DSWX_METADATA.json": "058a83cfa56bdd221a717917ce18be78d6e375e5b686b2ba22189d031cb5e316",
+    "DSWX_METADATA_RECEIPT.json": "6e1280050505df01b1fc3093fa6783ea4df965936e7f086b2feea51d8287fac1",
+    "RTC_METADATA.json": "7c73f7f0b10ff7176ff7caf7311a9e7b13b40896188de0f8c78eddf826d80dcd",
+    "RTC_METADATA_RECEIPT.json": "29b7f6133808ddcbde1a0a14ad0d6b0aa04a4be84392a8df3dfe4c1204fc66a0",
+    "FEASIBILITY_LEDGER.json": "e21486f5b146e4fc849801a1f386f37a11593224028e8ed70911124c829c58ac",
+    "FEASIBILITY_SUMMARY.json": "3b57a86be90d6bfb108a98fdcb1f78f1d6e2e2b53a76b0208d6c6a8220b07aa6",
+    "PROPOSED_PLANET_METADATA_CHECK.json": "a502ee8bcb002ae8e91064168af357099d525b1111f5e7a02c58dd352eeab4c6",
+    "PLANET_METADATA_SEARCH_AOIS.geojson": "a5478e4073031f65e27dbc0cec0f147637743410bac490d162120740c44d48fc",
+    "TEST_RESULTS.json": "ddba6affc2f072210dbd6d8a7b5a66417af6b79508b0e4d110da0d3454b68f60",
+    "FINDINGS_AND_NEXT_DECISION.md": "01d6b5223a02650df6cf8a639e34ceba3d97eca9bcdaa894e2e8bec9bdfb1c20"
+  }
+}

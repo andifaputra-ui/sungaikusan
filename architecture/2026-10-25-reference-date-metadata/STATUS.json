@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETED",
+  "updated_utc": "2026-10-25T08:51:03.383895+00:00",
+  "background_job": null,
+  "scientific_result": "NO_CLOSER_COMPATIBLE_IW_GRD_ACQUISITION_FOUND_IN_BOUNDED_PUBLIC_CATALOGUES",
+  "comparison_gate": "CLOSED",
+  "next": "One targeted Planet metadata/access-only check is proposed, not executed. Keep sites, target date, independent optical responses and UNKNOWN transfer unchanged. No image order, SAR processing or model run is queued."
+}

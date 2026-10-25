@@ -1,0 +1,18 @@
+{
+  "date_local": "2026-10-25",
+  "authorization": "User continue after FOUR_CHIP_EXECUTION/FINDINGS_AND_DECISION.md metadata-only recommendation",
+  "purpose": "Assess whether already clear optical observations have closer compatible Sentinel-1/OPERA acquisitions, without inspecting SAR outcomes",
+  "frozen_objects": "REFERENCE_LED_DEVELOPMENT_20261025/NOMINATION_FREEZE.json, unchanged",
+  "primary_references": {"N03":"2025-05-14T02:48:57.751Z","N04":"2025-05-13T02:39:00.548Z"},
+  "metadata_interval_UTC": ["2025-05-07T00:00:00Z","2025-05-21T00:00:00Z"],
+  "interval_end_exclusive_for_GEE": true,
+  "sources": ["COPERNICUS/S1_GRD metadata","Public CMR OPERA_L3_DSWX-S1_V1 and OPERA_L2_RTC-S1_V1 metadata"],
+  "catalogue_bound": "At most40native S1records,50DSWxproducts,100RTCgranules,8MiB per public metadata response; no automatic pagination beyond bound",
+  "ranking": "Report every bounded catalogue record and source variant. Nearest absolute optical/SAR offset may rank metadata opportunities only; no automatic hour-based truth or state transfer",
+  "accepted_geometry_comparator": "S1A IW relativeorbit105 VV/VH preferred; other tracks/passes/platforms listed as alternatives requiring explicit scientific comparability review, not adopted",
+  "support": "Frozen90m support/position neighbourhood footprint overlap is metadata feasibility only; actual masks/observability not verified",
+  "forbidden": ["new SAR pixels","new optical pixels","Planet orders","candidate inference","threshold tuning","semantic comparison","rewriting references","date substitution","final validation release","method freeze"],
+  "reference_roles": "Independent dated optical evidence only; SAR/OPERA metadata cannot supply class truth",
+  "resource_accounting": "Existing64MiB metadata reserve retained; log public response bodies separately. No new image transfer; do not reset cumulative reference charges",
+  "stop": "Return a concrete temporal/source/geometry feasibility decision, including absence of a suitable pair. No automatic processing even if a closer scene exists"
+}

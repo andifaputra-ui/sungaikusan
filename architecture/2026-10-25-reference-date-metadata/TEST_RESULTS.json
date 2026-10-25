@@ -1,0 +1,13 @@
+{
+  "executed_utc_recorded": "2026-10-25T08:51:03.383895+00:00",
+  "offline_tests_passed": 5,
+  "failures": 0,
+  "suite": "test_metadata_contract.py",
+  "checks": [
+    "GRD acquisition interval",
+    "parent-file deduplication",
+    "nearest-date search interval",
+    "query calls are metadata-only",
+    "frozen nomination/control and optical response locks unchanged"
+  ]
+}
