@@ -1,0 +1,19 @@
+{
+  "date_local": "2026-10-25",
+  "status": "PREPARATION_TESTED; MANUAL_AUTH_REQUIRED",
+  "browser_observation": "Planet Account redirects to a login page. Current browser authentication has not been established; the cause is not inferred.",
+  "browser_tab": "Planet Account in the in-app browser, retained for manual login",
+  "api_worker_readiness_check": "MANUAL_API_AUTH_REQUIRED; NO_REQUEST_MADE; exit 2",
+  "authenticated_scene_queries": 0,
+  "asset_metadata_queries": 0,
+  "research_images_or_previews": 0,
+  "orders_or_activations": 0,
+  "labels_or_predictions": 0,
+  "new_scene_availability_conclusion": "UNASSESSED; authentication failure is not absence",
+  "offline_tests_passed": 6,
+  "new_installations_or_credentials_created": false,
+  "scientific_job_running": false,
+  "comparison_gate": "CLOSED",
+  "reference_charge_bytes_unchanged": 72351744,
+  "next": "User signs in through retained Account tab. Verify current account access, then use existing API authentication through hidden local prompt if necessary; never put credentials in chat or logs. Run exact bounded worker once and inspect sanitized results. Do not order or download anything."
+}

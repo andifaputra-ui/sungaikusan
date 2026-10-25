@@ -1,0 +1,16 @@
+{
+  "recorded_utc": "2026-10-25T08:58:38.791745+00:00",
+  "offline_tests_passed": 6,
+  "failures": 0,
+  "real_Planet_requests": 0,
+  "worker_no_auth_readiness": "MANUAL_API_AUTH_REQUIRED; NO_REQUEST_MADE",
+  "no_credentials_in_artifacts": true,
+  "files": {
+    "README.md": "f3b00bc4cbc2e8f7dbfa5757562eae6ac558035d9fdc5cd96dec731b6af6f15c",
+    "STATUS.json": "720f565720b4f16e505471c5d7e447e8597a115855c1d5b60f2c98218d697865",
+    "FINDINGS_AND_HANDOFF.md": "1745ba272215935fb34d29d1830d5971fb6b2b6e863738f3b8ef7c1edb1c3616",
+    "query_targeted_metadata.py": "fccce70d790dc56e6467c8550cb341207f57029b121f0f903dee20549cd252dc",
+    "test_metadata_safety.py": "d3c5aa64abe1037f786d8443610d150b6603c694614d8fae0a9b44f7a71e7e11",
+    "Run-TargetedPlanetMetadata.ps1": "14e157d381b1f2c257163f0a6b09000ab80e88c7cfaac88eb6ae39ead54375ed"
+  }
+}

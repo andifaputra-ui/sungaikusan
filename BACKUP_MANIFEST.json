@@ -1,6 +1,6 @@
 {
   "date_local": "2026-10-25",
-  "scope": "Curated scientific code/protocol/aggregate results including completed reference-date metadata assessment; no imagery, detailed geometries or reader returns",
+  "scope": "Curated code/protocol/aggregate results and pending Planet-authentication preparation; no imagery, exact-site metadata, raw account receipts, keys or reader returns",
   "not_a_full_dataset_backup": true,
   "repository_visibility": "public_at_previous_verification",
   "excluded": [
@@ -16,13 +16,13 @@
   "files": [
     {
       "path": "CHECKPOINT.md",
-      "bytes": 3104,
-      "sha256": "b2de6d072393b5192fd7b7a4f7f7d16d10d6203c8031fe4eb3b51fc491a6ca63"
+      "bytes": 2131,
+      "sha256": "2b41104545368a6ef5240ab3e7885aa3b1c4bea0adfc2c03374bcd4d649490a9"
     },
     {
       "path": "README.md",
-      "bytes": 4883,
-      "sha256": "0336346e197be79b42991e909fff5e570e7a486d78fc1eb36e610de5c78ccc69"
+      "bytes": 5205,
+      "sha256": "31ffbd86a7a736e3ed33900a0db4c2fb3ea4080b2a93a45b8721ba6c4010e83b"
     },
     {
       "path": "architecture/2026-10-08/ARCHITECTURE_CHECK_RESULTS.json",
@@ -663,6 +663,41 @@
       "path": "architecture/2026-10-25-four-reference/test_four_chip_contract.py",
       "bytes": 3749,
       "sha256": "6203e323c79b3354df1a0fd05ec7a85f026503ef237fa1fc072b1b14f99cd6e2"
+    },
+    {
+      "path": "architecture/2026-10-25-planet-metadata-preparation/FINDINGS_AND_HANDOFF.md",
+      "bytes": 3814,
+      "sha256": "1745ba272215935fb34d29d1830d5971fb6b2b6e863738f3b8ef7c1edb1c3616"
+    },
+    {
+      "path": "architecture/2026-10-25-planet-metadata-preparation/PREPARATION_CHECKS.json",
+      "bytes": 857,
+      "sha256": "cf9e09d335922d8ee51fc15979974dce2e7e8b569a51ca63a26514595914acad"
+    },
+    {
+      "path": "architecture/2026-10-25-planet-metadata-preparation/README.md",
+      "bytes": 2358,
+      "sha256": "f3b00bc4cbc2e8f7dbfa5757562eae6ac558035d9fdc5cd96dec731b6af6f15c"
+    },
+    {
+      "path": "architecture/2026-10-25-planet-metadata-preparation/Run-TargetedPlanetMetadata.ps1",
+      "bytes": 812,
+      "sha256": "14e157d381b1f2c257163f0a6b09000ab80e88c7cfaac88eb6ae39ead54375ed"
+    },
+    {
+      "path": "architecture/2026-10-25-planet-metadata-preparation/STATUS.json",
+      "bytes": 1165,
+      "sha256": "720f565720b4f16e505471c5d7e447e8597a115855c1d5b60f2c98218d697865"
+    },
+    {
+      "path": "architecture/2026-10-25-planet-metadata-preparation/query_targeted_metadata.py",
+      "bytes": 11091,
+      "sha256": "fccce70d790dc56e6467c8550cb341207f57029b121f0f903dee20549cd252dc"
+    },
+    {
+      "path": "architecture/2026-10-25-planet-metadata-preparation/test_metadata_safety.py",
+      "bytes": 4948,
+      "sha256": "d3c5aa64abe1037f786d8443610d150b6603c694614d8fae0a9b44f7a71e7e11"
     },
     {
       "path": "architecture/2026-10-25-reference-date-metadata/ASF_COMPLETENESS_AMENDMENT.json",
