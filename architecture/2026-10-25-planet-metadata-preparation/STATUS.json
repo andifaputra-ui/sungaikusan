@@ -1,6 +1,6 @@
 {
   "date_local": "2026-10-25",
-  "status": "PREPARATION_TESTED; MANUAL_AUTH_REQUIRED",
+  "status": "CLEAN_STOPPED_AT_USER_REQUEST",
   "browser_observation": "Planet Account redirects to a login page. Current browser authentication has not been established; the cause is not inferred.",
   "browser_tab": "Planet Account in the in-app browser, retained for manual login",
   "api_worker_readiness_check": "MANUAL_API_AUTH_REQUIRED; NO_REQUEST_MADE; exit 2",
@@ -15,5 +15,6 @@
   "scientific_job_running": false,
   "comparison_gate": "CLOSED",
   "reference_charge_bytes_unchanged": 72351744,
-  "next": "User signs in through retained Account tab. Verify current account access, then use existing API authentication through hidden local prompt if necessary; never put credentials in chat or logs. Run exact bounded worker once and inspect sanitized results. Do not order or download anything."
+  "next": "Wait for an explicit later continuation. Then check current account/API authentication and run only the prepared bounded metadata inventory. Do not query, order, download, process or monitor during this clean stop.",
+  "user_login_status": "User will sign in; completion not independently checked"
 }

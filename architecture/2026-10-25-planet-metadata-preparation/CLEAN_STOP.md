@@ -1,0 +1,7 @@
+# User-requested clean stop — 25 October 2026
+
+The user will sign in to Planet but explicitly requested a clean stop and continuation later. Login completion has NOT been checked. Do not touch the browser while the user signs in, start the prepared worker, poll authentication, launch background work or schedule a continuation. No scientific job is running or queued; no process needs termination.
+
+Resume only after the user explicitly says to continue. Read Check_point_2/PLANET_REFERENCE_METADATA_20261025/FINDINGS_AND_HANDOFF.md and STATUS.json. Six offline safeguards passed; two frozen-site Planet metadata queries for 10–12 May 2025 are prepared, with at most four asset-metadata checks and an 8 MiB ceiling inside the existing metadata reserve. Zero authenticated scene/asset queries have occurred. No preview, image, activation, order, SAR processing, prediction or label is authorized by this preparation. Current API authentication may still require the existing-key hidden local prompt; never put credentials in chat or save/reset keys.
+
+The completed SAR metadata assessment found no closer compatible scene than 11 May. N03/N04 acquisition-time transfer remains UNKNOWN, comparison CLOSED, and final probability evidence sealed. Frozen sites, original responses and the 69 MiB cumulative reference charge remain unchanged. Historical running/proposal/login-request entries are superseded by this clean stop. Previous verified curated GitHub backup: 0c47379c8a927edfa03f5d821298300fd17dd82b; the clean-stop update is backed up separately.

@@ -1,5 +1,7 @@
 # Kusan C2 research architecture backup
 
+Current status: **user-requested clean stop**. Planet login will be completed manually; no authentication polling, metadata worker or scientific job is running. Resume only after explicit user continuation. Read [checkpoint](CHECKPOINT.md).
+
 Latest continuation: [Planet metadata preparation](architecture/2026-10-25-planet-metadata-preparation/FINDINGS_AND_HANDOFF.md) passes six offline checks; manual authentication is pending. No Planet scene queries, imagery, orders or scientific job. Read [checkpoint](CHECKPOINT.md). Older results below are historical.
 
 Latest completed result: [reference-date SAR metadata assessment](architecture/2026-10-25-reference-date-metadata/FINDINGS_AND_NEXT_DECISION.md) found no closer compatible observation than the existing 11 May pass. Optical-time findings remain useful; target-time transfer and detector comparison remain unresolved. Targeted Planet metadata queries are prepared, not submitted. No scientific job is running. Read [checkpoint](CHECKPOINT.md). Older status entries below are historical.
