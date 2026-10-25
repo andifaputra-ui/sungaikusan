@@ -1,0 +1,21 @@
+{
+  "date_local": "2026-10-25",
+  "user_instruction": "continue",
+  "interpretation": "Proceed with the concrete four-chip reference-only request presented in FINDINGS_AND_NEXT_SOURCE_DECISION.md",
+  "frozen_plan": "../PROPOSED_FOUR_CHIP_SOURCE_PLAN.json",
+  "maximum_new_response_body_bytes": 4194304,
+  "maximum_per_response_body_bytes": 1048576,
+  "use_existing_cumulative_budget": "../../LINKED_DEVELOPMENT_COMPARISON_20261024/REFERENCE_TRANSFER.json",
+  "do_not_reset_previous_charges": true,
+  "storage_scope": "Parent linked package plus reference-led branch together under existing1GiB ceiling",
+  "only_sources_and_centres_in_plan": true,
+  "roles": "Independent optical development evidence; never automatic reference truth",
+  "no_fallback_replacement_or_automatic_retry": true,
+  "new_SAR_processing": false,
+  "candidate_inference_or_comparison": false,
+  "Planet_orders": 0,
+  "paid_orders": 0,
+  "post_acquisition": "Source/radiometry/display/support/time qualification, then stop at evidence-adequacy decision",
+  "final_validation": "SEALED",
+  "method_freeze": false
+}

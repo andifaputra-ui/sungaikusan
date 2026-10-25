@@ -1,5 +1,7 @@
 # Kusan C2 research architecture backup
 
+Latest completed result: [four targeted optical references](architecture/2026-10-25-four-reference/FINDINGS_AND_DECISION.md) recovered optical-time basin water and artificial land, but May11 acquisition-time adequacy remains unproven. No job/model evaluation running. Read [checkpoint](CHECKPOINT.md). Earlier source-request/running entries are historical.
+
 Latest result,25October2026: [saved reference-led qualification](architecture/2026-10-25-reference-led/FINDINGS_AND_NEXT_SOURCE_DECISION.md) recovered two conditional controls and a concrete inland basin lead. Four tiny optical reference chips are proposed, not acquired. No job or detector comparison running. See [checkpoint](CHECKPOINT.md).
 
 Latest completed block: [reference evidence findings](architecture/2026-10-24-linked-development/REFERENCE_FINDINGS_FOR_REVIEW.md). Acquisition/QA completed; reference adequacy for detector comparison is not demonstrated. No job running. Read the [new consequential decision](architecture/2026-10-24-linked-development/NEXT_REFERENCE_DECISION.md) and [checkpoint](CHECKPOINT.md). Earlier running entries are historical.

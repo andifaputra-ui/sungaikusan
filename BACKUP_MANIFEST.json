@@ -1,6 +1,6 @@
 {
   "date_local": "2026-10-25",
-  "scope": "Curated code, protocols and aggregate saved-evidence reference-led findings; detailed geography/responses/images excluded",
+  "scope": "Curated code/protocol/aggregate four-reference results; imagery, detailed source geometry and reader returns excluded",
   "not_a_full_dataset_backup": true,
   "repository_visibility": "public_at_previous_verification",
   "excluded": [
@@ -583,6 +583,76 @@
       "path": "architecture/2026-10-24-smoke/WHEEL_RECEIPTS.json",
       "bytes": 14005,
       "sha256": "380c83741d7639dc746f50336d813f6e1e6ffffdd4ef28a12d89ff14d93a8abb"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/account_four_responses.py",
+      "bytes": 1749,
+      "sha256": "b7a5795c987a53f59f72e361a95defad607bf7afae81918c4d0575cc78928bac"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/acquire_four.py",
+      "bytes": 11129,
+      "sha256": "86bd28dcee87758913a8f94aaa17086c54a7a817f51b90d13f110fb9f728c748"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/acquire_four_initial_version_guard.py",
+      "bytes": 10395,
+      "sha256": "dbf3f03b1734b1ca88a3c78c46b677cb75308f57d165d19d8d6a82ad090612b5"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/audit_and_render_four.py",
+      "bytes": 10389,
+      "sha256": "508593b379901ae0eb3a67170f92b27ec893aaefeef3b4d4d2932ab87cc4cff1"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/AUTHORIZATION.json",
+      "bytes": 1087,
+      "sha256": "ff01458c59fa54ec056309378fcef466b81d420a3ea8abfc3d44b8ddfd0e5a41"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/COMPLETION_AUDIT.json",
+      "bytes": 1518,
+      "sha256": "8a500c895774197e817afb9115be10202f0d2706ef49371343ad7ccdc7cfa6f5"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/diagnose_source_version.py",
+      "bytes": 1881,
+      "sha256": "7861b86f308282f5ee7bed1ec88e608358188c63c6834a85ceab98445e373dbb"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/finalize_four_reference.py",
+      "bytes": 11029,
+      "sha256": "90d141879eb7087880852a77adf8a02e97e7d8ad48879b692817e977fb637698"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/FINDINGS_AND_DECISION.md",
+      "bytes": 8703,
+      "sha256": "fe4094aa72e012fd0ef0385dc064ad46cbc26006f3eb4985b68b87972104f0aa"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/freeze_current_reference_metadata.py",
+      "bytes": 3046,
+      "sha256": "ec0f144d20c88871d8449b3e68d84e64faf6930973f7659e6dc843f587fe2b7e"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/OVERLAP_ENCODING_DIAGNOSTIC_PLAN.json",
+      "bytes": 1472,
+      "sha256": "36dcbd7783747143fe2068c610cff7d7fda0b4f24bc33d3e5e807c16fb941867"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/OVERLAP_ENCODING_RESULT.json",
+      "bytes": 3308,
+      "sha256": "05fe325fc51ace037c704f122f00a211b2590cee8e466efc3a5c5a2ac729cc77"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/PUBLIC_SOURCE_HASHES.json",
+      "bytes": 1414,
+      "sha256": "2314853c0d7140ad6bc46e9fe6cbc5463092123fbce561221c32a6d1cc6dcb6e"
+    },
+    {
+      "path": "architecture/2026-10-25-four-reference/test_four_chip_contract.py",
+      "bytes": 3749,
+      "sha256": "6203e323c79b3354df1a0fd05ec7a85f026503ef237fa1fc072b1b14f99cd6e2"
     },
     {
       "path": "architecture/2026-10-25-reference-led/COMPLETION_SUMMARY.json",

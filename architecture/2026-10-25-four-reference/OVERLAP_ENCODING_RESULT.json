@@ -1,0 +1,73 @@
+{
+  "nominal_source_item": "S2C_50MLB_20250514_0_L2A",
+  "old_acquisition_utc": "2025-05-14T02:48:57.751000Z",
+  "overlapping_index_centres": 1400,
+  "bands": [
+    {
+      "band": "red",
+      "joint_valid_pairs": 1400,
+      "DN_difference_min_max": [
+        0.0,
+        0.0
+      ],
+      "exact0DN_count": 1400,
+      "exact1000DN_count": 0,
+      "H1_no_extra_offset_max_abs_error_SR": 0.0,
+      "H2_literal_minus0point1_max_abs_error_SR": 0.1
+    },
+    {
+      "band": "green",
+      "joint_valid_pairs": 1400,
+      "DN_difference_min_max": [
+        0.0,
+        0.0
+      ],
+      "exact0DN_count": 1400,
+      "exact1000DN_count": 0,
+      "H1_no_extra_offset_max_abs_error_SR": 0.0,
+      "H2_literal_minus0point1_max_abs_error_SR": 0.1
+    },
+    {
+      "band": "blue",
+      "joint_valid_pairs": 1400,
+      "DN_difference_min_max": [
+        0.0,
+        0.0
+      ],
+      "exact0DN_count": 1400,
+      "exact1000DN_count": 0,
+      "H1_no_extra_offset_max_abs_error_SR": 0.0,
+      "H2_literal_minus0point1_max_abs_error_SR": 0.1
+    },
+    {
+      "band": "nir",
+      "joint_valid_pairs": 1400,
+      "DN_difference_min_max": [
+        0.0,
+        0.0
+      ],
+      "exact0DN_count": 1400,
+      "exact1000DN_count": 0,
+      "H1_no_extra_offset_max_abs_error_SR": 0.0,
+      "H2_literal_minus0point1_max_abs_error_SR": 0.1
+    }
+  ],
+  "diagnostic_plan": {
+    "status": "FROZEN_BEFORE_NEW_PIXEL_ARRAY_READ_OR_RENDER",
+    "purpose": "Bounded same-footprint/same-date export-encoding comparison, not water classification or calibration fitting",
+    "sources": "Existing L29 cached EarthSearch S2C_50MLB_20250514_0_L2A and new authorized N03 S2May14 harmonized chip",
+    "identity_gate": "Check recorded source-item ID, ESA product URI if retained, acquisition/date, baseline, grids and exact overlapping pixel centres. If original full ESA generation identity is not recorded, retain that limitation and do not claim exact-source calibration proof.",
+    "fixed_hypotheses": [
+      "H1: legacy rawDN*1e-4 agrees with GEE harmonized rawDN*1e-4, consistent with an already-applied offset",
+      "H2: legacy rawDN*1e-4-0.1 agrees with GEE harmonized rawDN*1e-4, consistent with literal STAC raster offset"
+    ],
+    "report": "Joint-valid overlapping RGB/NIR sample counts, integer DN difference distribution, exact counts for fixed0 and1000DN differences, fixed-hypothesis errors. No fitted offset, tolerance optimization or choice based on a water/non-water interpretation.",
+    "roles": "These are the same nominal optical acquisition, not independent class votes or extra temporal observations",
+    "limits": "A local encoding relationship is not absolute reflectance validation or global proof for322legacy views; provider ingestion-version change is retained. Original arrays, responses and historical display contracts stay unchanged."
+  },
+  "new_export_uses_current_recorded_ingestion_revision": true,
+  "identity_limit": "NominalSTACitem/date/baseline match; original full ESA generation URI not asserted here. No global/absolute calibration proof.",
+  "no_fitted_offset_or_class_tuning": true,
+  "no_extra_temporal_observation": true,
+  "legacy_arrays_responses_and_contract_unchanged": true
+}

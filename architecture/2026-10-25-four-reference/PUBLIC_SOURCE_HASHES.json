@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-25T08:09:34.564137+00:00",
+  "files": {
+    "AUTHORIZATION.json": "ff01458c59fa54ec056309378fcef466b81d420a3ea8abfc3d44b8ddfd0e5a41",
+    "acquire_four.py": "86bd28dcee87758913a8f94aaa17086c54a7a817f51b90d13f110fb9f728c748",
+    "acquire_four_initial_version_guard.py": "dbf3f03b1734b1ca88a3c78c46b677cb75308f57d165d19d8d6a82ad090612b5",
+    "diagnose_source_version.py": "7861b86f308282f5ee7bed1ec88e608358188c63c6834a85ceab98445e373dbb",
+    "freeze_current_reference_metadata.py": "ec0f144d20c88871d8449b3e68d84e64faf6930973f7659e6dc843f587fe2b7e",
+    "audit_and_render_four.py": "508593b379901ae0eb3a67170f92b27ec893aaefeef3b4d4d2932ab87cc4cff1",
+    "OVERLAP_ENCODING_DIAGNOSTIC_PLAN.json": "36dcbd7783747143fe2068c610cff7d7fda0b4f24bc33d3e5e807c16fb941867",
+    "OVERLAP_ENCODING_RESULT.json": "05fe325fc51ace037c704f122f00a211b2590cee8e466efc3a5c5a2ac729cc77",
+    "test_four_chip_contract.py": "6203e323c79b3354df1a0fd05ec7a85f026503ef237fa1fc072b1b14f99cd6e2",
+    "account_four_responses.py": "b7a5795c987a53f59f72e361a95defad607bf7afae81918c4d0575cc78928bac",
+    "FINDINGS_AND_DECISION.md": "fe4094aa72e012fd0ef0385dc064ad46cbc26006f3eb4985b68b87972104f0aa",
+    "COMPLETION_AUDIT.json": "8a500c895774197e817afb9115be10202f0d2706ef49371343ad7ccdc7cfa6f5",
+    "finalize_four_reference.py": "90d141879eb7087880852a77adf8a02e97e7d8ad48879b692817e977fb637698"
+  }
+}
