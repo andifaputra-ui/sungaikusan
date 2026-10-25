@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-25T07:45:29.797564+00:00",
+  "files": {
+    "SCOPE.json": "8cf1f649737645dfa45d82de05d32cdd9b499ad4e6006da7c2de213bf8f6665a",
+    "screen_legacy_views.py": "63536618aa529ae27c9e10cc7917b081bffbea310dc7d9daa0b4c6fb3246a97e",
+    "enlarge_saved_discovery.py": "584026b5f2e9e23693fab42b693aa11e2c75bf0ae75e64f396908e10c4a74ab6",
+    "freeze_nominations.py": "90d262a3f068463d5cd3e961196cdfbf1a6926f11cea39a13343bf920b8c5e64",
+    "qualify_saved_controls.py": "a0b4d1ffc525ccc818c009cee13a2f7702d9fc5e447fe4672535c1355bcfe70c",
+    "prepare_bounded_source_request.py": "3311d7fd318e9cc74f1b1165b599dd9a9380b4e9823c2524ad411e54c1579b74",
+    "qualify_control_accounting.py": "be7fefd148821014ef2d3fa9ef3f26bb5817869ae4d65e7d6a19be7aee96197f",
+    "test_reference_led_contract.py": "2a457b70d39700f2b7ec6d53e8971b17bfe2cf4d7201644a00ee8314fc53a383",
+    "FINDINGS_AND_NEXT_SOURCE_DECISION.md": "ecfbe7de24b759f91d485ff1ae61c9961784ad8e19883b467851d84d8d03da8a",
+    "COMPLETION_SUMMARY.json": "e85c93cfccf51f217e6dee3d50cd8d0858abf94b144fd059ba659c33b380b496",
+    "NOMINATION_FREEZE.sha256": "b106d8d72c3ec20a024a4da027d1da5929a6f063677813432f65608322539c8f",
+    "PROPOSED_FOUR_CHIP_SOURCE_PLAN.sha256": "52593fd379e33da15c3b5d5e1a8e5c36f10123cbdd5441682de965f6ccf9869a",
+    "finalize_reference_led.py": "042e2a712fe11943be732d15148828d06609f30ed4ab97600c569ce1b3637423"
+  }
+}

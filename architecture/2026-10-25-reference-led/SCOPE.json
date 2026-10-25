@@ -1,0 +1,20 @@
+{
+  "date_local": "2026-10-25",
+  "authorization": "Latest user instruction: continue, following NEXT_REFERENCE_DECISION.md",
+  "interpretation": "Proceed with the proposed saved-evidence-first development qualification amendment; no automatic detector evaluation",
+  "permanent_role": "DEVELOPMENT_ONLY; CONTENT_INFORMED_OPTICAL_DISCOVERY; NOT_PROBABILITY_VALIDATION",
+  "maximum_nominated_systems": 4,
+  "maximum_nominated_date_supports": 8,
+  "source_screen": "All78 newly acquired views plus all62 legacy saved views with the same four operational2025 target dates; dates selected by metadata overlap, never SAR predictions",
+  "screened_views_are_not_nominated_systems": true,
+  "new_imagery_acquisition": false,
+  "Planet_orders": 0,
+  "new_SAR_processing": false,
+  "candidate_predictions_opened": false,
+  "parent_panel": "LINKED_DEVELOPMENT_COMPARISON_20261024, preserved unchanged",
+  "reference_protocol": "Use existing W/N/O/U,30m primary,10/50m sensitivities,25position scenarios, separate optical/support/time eligibility",
+  "legacy_radiometry": "DISPLAY_PROXY only; unresolved exact-asset offsets cannot silently become quantitative reflectance",
+  "minimum_context_need": "Observable inland water AND a physically defensible difficult land case before claiming this addresses detector-selection bottleneck; ordinary vegetation/coastal controls insufficient",
+  "resource_accounting": "Zero new network pixel transfer; count derived artifacts together with parent's additional1GiB storage ceiling. No reset of parent's67MiB charged transfer.",
+  "stop": "Specific missing-context/source-support decision if saved evidence cannot qualify required cases; no convenient replacement, imagery rescue, comparison, final validation release or method freeze"
+}

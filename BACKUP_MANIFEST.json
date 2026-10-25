@@ -1,6 +1,6 @@
 {
-  "date_local": "2026-10-24",
-  "scope": "Curated source/protocol and aggregate completed-reference findings; no detailed responses, geography or imagery",
+  "date_local": "2026-10-25",
+  "scope": "Curated code, protocols and aggregate saved-evidence reference-led findings; detailed geography/responses/images excluded",
   "not_a_full_dataset_backup": true,
   "repository_visibility": "public_at_previous_verification",
   "excluded": [
@@ -583,6 +583,76 @@
       "path": "architecture/2026-10-24-smoke/WHEEL_RECEIPTS.json",
       "bytes": 14005,
       "sha256": "380c83741d7639dc746f50336d813f6e1e6ffffdd4ef28a12d89ff14d93a8abb"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/COMPLETION_SUMMARY.json",
+      "bytes": 1064,
+      "sha256": "e85c93cfccf51f217e6dee3d50cd8d0858abf94b144fd059ba659c33b380b496"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/enlarge_saved_discovery.py",
+      "bytes": 1400,
+      "sha256": "584026b5f2e9e23693fab42b693aa11e2c75bf0ae75e64f396908e10c4a74ab6"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/finalize_reference_led.py",
+      "bytes": 8763,
+      "sha256": "042e2a712fe11943be732d15148828d06609f30ed4ab97600c569ce1b3637423"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/FINDINGS_AND_NEXT_SOURCE_DECISION.md",
+      "bytes": 8761,
+      "sha256": "ecfbe7de24b759f91d485ff1ae61c9961784ad8e19883b467851d84d8d03da8a"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/freeze_nominations.py",
+      "bytes": 5300,
+      "sha256": "90d262a3f068463d5cd3e961196cdfbf1a6926f11cea39a13343bf920b8c5e64"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/NOMINATION_FREEZE.sha256",
+      "bytes": 66,
+      "sha256": "b106d8d72c3ec20a024a4da027d1da5929a6f063677813432f65608322539c8f"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/prepare_bounded_source_request.py",
+      "bytes": 6355,
+      "sha256": "3311d7fd318e9cc74f1b1165b599dd9a9380b4e9823c2524ad411e54c1579b74"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/PROPOSED_FOUR_CHIP_SOURCE_PLAN.sha256",
+      "bytes": 66,
+      "sha256": "52593fd379e33da15c3b5d5e1a8e5c36f10123cbdd5441682de965f6ccf9869a"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/PUBLIC_SOURCE_HASHES.json",
+      "bytes": 1412,
+      "sha256": "45dd2cebe62d9f6af9b54a21d8926bd8222c1b9a8f070d89337694ce24a92d4c"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/qualify_control_accounting.py",
+      "bytes": 2013,
+      "sha256": "be7fefd148821014ef2d3fa9ef3f26bb5817869ae4d65e7d6a19be7aee96197f"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/qualify_saved_controls.py",
+      "bytes": 6345,
+      "sha256": "a0b4d1ffc525ccc818c009cee13a2f7702d9fc5e447fe4672535c1355bcfe70c"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/SCOPE.json",
+      "bytes": 1769,
+      "sha256": "8cf1f649737645dfa45d82de05d32cdd9b499ad4e6006da7c2de213bf8f6665a"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/screen_legacy_views.py",
+      "bytes": 6701,
+      "sha256": "63536618aa529ae27c9e10cc7917b081bffbea310dc7d9daa0b4c6fb3246a97e"
+    },
+    {
+      "path": "architecture/2026-10-25-reference-led/test_reference_led_contract.py",
+      "bytes": 2917,
+      "sha256": "2a457b70d39700f2b7ec6d53e8971b17bfe2cf4d7201644a00ee8314fc53a383"
     }
   ]
 }
