@@ -1,5 +1,7 @@
 # Kusan C2 research architecture backup
 
+Latest completed result: [Planet metadata and source alternatives](architecture/2026-10-27-planet-metadata-findings/COMPLETED_FINDINGS_20261027.md). Catalogue opportunities exist but checked account asset access is unavailable; no imagery or labels acquired. Earlier Education entitlement and expired trial are distinct records. Nothing scientific running. Read [checkpoint](CHECKPOINT.md). Older entries below are historical.
+
 Current status: **user-requested clean stop**. Planet login will be completed manually; no authentication polling, metadata worker or scientific job is running. Resume only after explicit user continuation. Read [checkpoint](CHECKPOINT.md).
 
 Latest continuation: [Planet metadata preparation](architecture/2026-10-25-planet-metadata-preparation/FINDINGS_AND_HANDOFF.md) passes six offline checks; manual authentication is pending. No Planet scene queries, imagery, orders or scientific job. Read [checkpoint](CHECKPOINT.md). Older results below are historical.

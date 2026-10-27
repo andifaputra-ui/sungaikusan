@@ -1,0 +1,27 @@
+{
+  "completed_utc": "2026-10-27T03:18:04.772667+00:00",
+  "offline_client_safeguards_previously_passed": 6,
+  "unchanged_frozen_worker_hash_verified_against_live_attempt": true,
+  "protected_nomination_control_response_hashes_verified": 12,
+  "live_response_accounting_and_nested_coverage_assertions": "PASS",
+  "queries_complete_below_declared_limits_without_pagination_or_redirects": true,
+  "no_source_raster_or_reference_response_modified": true,
+  "files": {
+    "ATTEMPT_01/PLAN_LOCK.json": "a59ed80c71a1bd7c38088d0fdb26baa3bf1a68c42410bdbd71bc73734f95c4bd",
+    "ATTEMPT_01/STATUS.json": "1427dc303d5bfe1659b3b2090a245d1f8a70ce7d3de2bce247b69b5c85395f89",
+    "ATTEMPT_01/ACCOUNT.json": "a0baefafb2afdf68529648d174dafc01f78bf3f791c18eec658462f49a32f267",
+    "ATTEMPT_01/N03_INVENTORY.json": "6143778177cf393120cc63493b8153e96cc7f95504bc207273d723d2a05024f8",
+    "ATTEMPT_01/N04_INVENTORY.json": "0be96294ded2e85855bcebfb4749a134bf041e4730ee899ba30f4438677f0641",
+    "METADATA_OPPORTUNITY_LEDGER.json": "12250dde5cbbaed75b576a2b0527b8727f4a353fed2f19c4d1169bbf719243c5",
+    "METADATA_FINDINGS_SUMMARY.json": "227e9ceb521142ea4f4a459d4e845e5cf384e45c276416395f14b4a341d8b073",
+    "LOCAL_PLANET_FILE_INVENTORY.json": "c45c1f95c217ebc42d4fa2b7398d4bebdd9e32886f0102da22c90ce1b7e28294",
+    "CURRENT_PLAN_DISPLAY_20261027.json": "2f943333912a6d4e27293cc979a883c4bf5e87915055ded989076471be6cf21c",
+    "COMPLETED_FINDINGS_20261027.md": "36256ae5559b5d66e97bda63f987b7283c48ce4ab2eac7c6fc4ac5fba107f50f",
+    "STATUS.json": "1cfad34db144e388d3df8abdaae69cf5c0d11359594b94b2379825c90592a022",
+    "ATTEMPT_01/RECEIPT_01.json": "b7e0d3a867400a3b5848e5c0c92897f77ae791e083e8fa5991a051894a3f8201",
+    "ATTEMPT_01/RECEIPT_02.json": "2f7d6868acd9b80e0c767807298ccdbe0fb153f07a3b32e6db3935ad13ea258a",
+    "ATTEMPT_01/RECEIPT_03.json": "eb9357becf223eb3f780e9865c5ca26ef0a890b47789c19ef529896d47ed7747",
+    "ATTEMPT_01/RECEIPT_04.json": "49a2ec6e329a90068deeef73ae82df2b6dcf8f1e8906b484b3a2dc82bde60c71",
+    "ATTEMPT_01/RECEIPT_05.json": "73d1db8c9e006b507f01c644f942da5ad29c8eec1b97f717b11aea7fe3e3d73f"
+  }
+}

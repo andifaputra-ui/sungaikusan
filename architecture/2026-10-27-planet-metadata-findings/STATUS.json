@@ -1,0 +1,21 @@
+{
+  "date_local": "2026-10-27",
+  "status": "BOUNDED_METADATA_CHECK_COMPLETE; CURRENT_ASSET_ACCESS_UNAVAILABLE",
+  "browser_authentication": "CONFIRMED",
+  "API_metadata_authentication": "FIVE_HTTP_200_REQUESTS",
+  "scene_items": 9,
+  "download_permission_bearing_items": 0,
+  "asset_lists_checked": 3,
+  "nonempty_asset_lists": 0,
+  "new_research_images_predictions_labels_orders": 0,
+  "current_plan_display": "Trial expired 26 October; no active products. Earlier Education-through-2028 receipt remains a separate historical record; discrepancy unresolved.",
+  "user_update": "User noticed ended trial and requested saved-Planet recovery and BIG Piksel/alternative assessment",
+  "local_recovery": "No matching native Planet image/archive filename in scanned project; external or renamed files not excluded",
+  "Piksel": "Official documentation assessed. Actual Kusan collection/date/asset feasibility unverified; no pixels or repeated date census.",
+  "reference_state_transfer": "UNCHANGED_UNKNOWN",
+  "comparison_gate": "CLOSED",
+  "reference_charge_bytes_unchanged": 72351744,
+  "scientific_job_running_or_queued": false,
+  "console_note": "The local credential-entry console may remain idle after return; not an acquisition job. Key not saved or logged.",
+  "next": "Clarify existing Education account/workspace entitlement before dismissing it or buying access. Optional next bounded metadata alternatives: Piksel collection inventory for a defined unmet need, or dated SPOT/Pleiades archive availability at the same sites. No orders, images, new SAR, classifier run or redesign is queued."
+}

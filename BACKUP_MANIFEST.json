@@ -1,6 +1,6 @@
 {
-  "date_local": "2026-10-25",
-  "scope": "Curated code/protocol/aggregate results and pending Planet-authentication preparation; no imagery, exact-site metadata, raw account receipts, keys or reader returns",
+  "date_local": "2026-10-27",
+  "scope": "Curated code/protocol/aggregate metadata access findings and alternative-source research; no credentials, raw account receipts, source pixels, site geometries or reader returns",
   "not_a_full_dataset_backup": true,
   "repository_visibility": "public_at_previous_verification",
   "excluded": [
@@ -16,13 +16,13 @@
   "files": [
     {
       "path": "CHECKPOINT.md",
-      "bytes": 1564,
-      "sha256": "38956176df97a87877fc3b2b157c5dd082319b0d461d8d1ca560e07325864464"
+      "bytes": 4024,
+      "sha256": "244ad21c6192b5ed79be9fb3fc7582abe5618e30a9370457ec0f791f880093a3"
     },
     {
       "path": "README.md",
-      "bytes": 5449,
-      "sha256": "1114d4127d4c58cc5aa09f58e6515769b5479871077251984fd2550c1b1a3631"
+      "bytes": 5879,
+      "sha256": "0cd2f8d8b113fc4395c43f362410df25cb0876a2ea9bf00267d1eb2c4575cb67"
     },
     {
       "path": "architecture/2026-10-08/ARCHITECTURE_CHECK_RESULTS.json",
@@ -833,6 +833,36 @@
       "path": "architecture/2026-10-25-reference-led/test_reference_led_contract.py",
       "bytes": 2917,
       "sha256": "2a457b70d39700f2b7ec6d53e8971b17bfe2cf4d7201644a00ee8314fc53a383"
+    },
+    {
+      "path": "architecture/2026-10-27-planet-metadata-findings/COMPLETED_FINDINGS_20261027.md",
+      "bytes": 8877,
+      "sha256": "36256ae5559b5d66e97bda63f987b7283c48ce4ab2eac7c6fc4ac5fba107f50f"
+    },
+    {
+      "path": "architecture/2026-10-27-planet-metadata-findings/COMPLETION_AUDIT_20261027.json",
+      "bytes": 2140,
+      "sha256": "ed166eb2bf7249b88f4fc4eee93cf8fd7c1f9df7d9222cf71324854795f19754"
+    },
+    {
+      "path": "architecture/2026-10-27-planet-metadata-findings/CURRENT_PLAN_DISPLAY_20261027.json",
+      "bytes": 1178,
+      "sha256": "2f943333912a6d4e27293cc979a883c4bf5e87915055ded989076471be6cf21c"
+    },
+    {
+      "path": "architecture/2026-10-27-planet-metadata-findings/METADATA_FINDINGS_SUMMARY.json",
+      "bytes": 1856,
+      "sha256": "227e9ceb521142ea4f4a459d4e845e5cf384e45c276416395f14b4a341d8b073"
+    },
+    {
+      "path": "architecture/2026-10-27-planet-metadata-findings/STATUS.json",
+      "bytes": 1623,
+      "sha256": "1cfad34db144e388d3df8abdaae69cf5c0d11359594b94b2379825c90592a022"
+    },
+    {
+      "path": "architecture/2026-10-27-planet-metadata-findings/analyze_saved_metadata.py",
+      "bytes": 7787,
+      "sha256": "7f311e8e961edf77bf57032f0b9fc1e5193e51b2b7c29d88dbd030b7d10153af"
     }
   ]
 }

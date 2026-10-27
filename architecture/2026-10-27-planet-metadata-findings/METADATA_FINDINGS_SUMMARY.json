@@ -1,0 +1,50 @@
+{
+  "date_local": "2026-10-27",
+  "status": "CATALOGUE_OPPORTUNITIES_FOUND; CURRENT_ACCOUNT_ASSET_ACCESS_NOT_AVAILABLE_IN_CHECKED_METADATA",
+  "sites": {
+    "N03": {
+      "scene_items": 4,
+      "before_items": 1,
+      "after_items": 3,
+      "distinct_strip_groups": 3,
+      "nearest_before_hours": 42.96853434222223,
+      "nearest_after_hours": 4.931790855,
+      "full90m_coverage_items": 4,
+      "full490m_coverage_items": 4,
+      "permission_bearing_scene_items": 0,
+      "asset_metadata_checks": 1,
+      "nonempty_checked_asset_lists": 0,
+      "local_reference_clarity_state_transfer": "UNASSESSED_NO_PIXELS"
+    },
+    "N04": {
+      "scene_items": 5,
+      "before_items": 3,
+      "after_items": 2,
+      "distinct_strip_groups": 4,
+      "nearest_before_hours": 19.534768227222223,
+      "nearest_after_hours": 5.067456753888889,
+      "full90m_coverage_items": 4,
+      "full490m_coverage_items": 4,
+      "permission_bearing_scene_items": 0,
+      "asset_metadata_checks": 2,
+      "nonempty_checked_asset_lists": 0,
+      "local_reference_clarity_state_transfer": "UNASSESSED_NO_PIXELS"
+    }
+  },
+  "scene_items": 9,
+  "distinct_site_strip_groups_not_claimed_statistically_independent": 7,
+  "scene_items_with_download_permissions": 0,
+  "checked_asset_lists": 3,
+  "nonempty_checked_asset_lists": 0,
+  "requests": 5,
+  "response_body_bytes": 16580,
+  "reserved_metadata_bytes": 7340032,
+  "reference_charge_bytes_unchanged": 72351744,
+  "new_imagery_predictions_labels_orders": 0,
+  "protected_files_verified": 12,
+  "source_pixel_validity_and_absolute_registration": "UNASSESSED",
+  "temporal_transfer_and_reference_eligibility": "UNCHANGED_UNKNOWN",
+  "comparison_gate": "CLOSED",
+  "scientific_job_running": false,
+  "no_claim_that_the_Education_licence_itself_expired": true
+}

@@ -1,0 +1,17 @@
+{
+  "date_local": "2026-10-27",
+  "source_role": "ACCOUNT_ACCESS_DIAGNOSTIC_ONLY; NOT_REFERENCE_EVIDENCE",
+  "current_account_UI": "Authenticated Planet Account; sole displayed organization active; Downloads shows No plans",
+  "legacy_plan_UI": "Authenticated Planet Insights My Plan; Trial expired on October 26, 2026; My Plan and My Products tables show No active products",
+  "read_method": "Normal visible account navigation, then read-only DOM snapshot for legacy page after native accessibility timeouts",
+  "earlier_record": "PLANET_ACCESS_RECEIPT.json observed 4 October 2026 described Education and Research Basic with validity through 27 September 2028",
+  "interpretation": "Current account/workspace display differs from earlier receipt; licence identity, workspace mapping and reason are not established",
+  "not_claimed": [
+    "that the Education licence itself expired",
+    "that no other account or workspace has access",
+    "that catalogue scenes are absent",
+    "that reference imagery is locally clear or acquisition-time truth"
+  ],
+  "no_purchase_plan_change_key_reset_or_support_message": true,
+  "no_account_identity_or_credential_saved_here": true
+}

@@ -1,0 +1,44 @@
+# Planet metadata complete; access unresolved; alternatives assessed
+
+27 October 2026. **CATALOGUE OPPORTUNITIES FOUND; NO DOWNLOAD PERMISSIONS OR USABLE ASSET ACCESS RETURNED UNDER THE CHECKED CREDENTIALS.** The fixed metadata inventory succeeded. No research imagery, preview, activation, order, SAR processing, prediction or new reference label was used.
+
+## Actual scene opportunities and access
+
+| Frozen site | Items returned | Before / after 11 May SAR | Nearest before / after | Full 90 m metadata coverage | Asset lists checked |
+|---|---:|---:|---:|---:|---:|
+| N03 inland basin hypothesis | 4 | 1 / 3 | 42.97 h / 4.93 h | 4 | 1 |
+| N04 runway/artificial-land hypothesis | 5 | 3 / 2 | 19.53 h / 5.07 h | 4 | 2 |
+
+All nine scene records have empty download-permission lists. All three asset-list requests returned HTTP 200 and `{}` (two response bytes each), rather than a credential error or a populated asset list. This establishes the result for those requests; do not generalize it to all Planet accounts, all products or all dates. The [official search schema](https://docs.planet.com/develop/apis/data/item-search/) defines `_permissions` as the applicable item asset-download permissions.
+
+The ninth item intersects the wider search context but has zero overlap with the frozen 90 m neighbourhood. It remains in the inventory and cannot support interpretation at the target centre. Eight items fully cover both the 90 m and 490 m metadata neighbourhoods. Source footprint coverage is not native-pixel validity or measured absolute registration. Adjacent items from the same strip are not independent observations: nine items represent seven site/strip groups, without claiming statistical independence of those groups.
+
+Whole-scene quality metadata include haze, cloud, shadow and some `test` categories. They were retained without content-based filtering. They cannot establish local optical clarity. The approximately five-hour after-pass opportunities are genuinely closer in catalogue time than the previously acquired clear optical views, but no pixels were accessed and no temporal-transfer conclusion follows. N03/N04 therefore remain UNKNOWN at the May 11 acquisition; the existing optical responses and conditional controls are unchanged.
+
+Five bounded HTTP requests completed, with 16,580 response-body bytes and 7 MiB conservatively reserved within the 8 MiB metadata allowance. Headers/TLS and browser/web traffic are not exact-body metering. The existing cumulative reference charge stays 69 MiB, including its original metadata reserve; it was not reset or refunded. The original worker/query hashes and twelve protected nomination/control/response files verified. Six prior offline client safeguards remain the tests of the unchanged worker; the current live responses establish actual catalogue/access results. A/B and method freeze remain blocked.
+
+## Account evidence and earlier work
+
+The current authenticated Account page shows no Downloads plans in its sole displayed organization. The legacy My Plan page shows a Trial expired on **26 October 2026** and no active products. The user confirmed noticing the ended trial. However, the saved 4 October receipt separately recorded **Education and Research Basic, 3,000 km²/month, valid through 27 September 2028**, as well as the separate October 26 monitoring-credit trial. Expiration of that trial does not by itself prove the Education entitlement expired. Account/workspace mapping or a missing entitlement remains a possible explanation, not an established cause. No key reset, new credential, purchase, plan change or external support message was performed.
+
+The earlier [order-conservation checkpoint](../../Gpt_6_Astra_historical_reasoning/PLANET_ORDER_CONSERVATION_20260930.md) records two December 31, 2018 Explorer selections as **unsubmitted**, with no agent order or download. These were access-test selections, not May 2025 references or a probability sample. The existing account/source research is preserved; it should not be repeated as if it had never happened. The filename-only recovery inventory is recorded separately, with limitations for external folders, renamed archives and untraversed links. Do not open arbitrary images or reader/final-reference evidence merely to look for an alternative provider.
+
+The completed `rg` filename scan found **zero matching Planet-native TIFF/JP2/NTF/ZIP names** within Thesis_Project, including ignored/hidden paths. This is a scoped recovery result, not proof that no download exists elsewhere or in a renamed archive. An initially slow recursive Python inventory was stopped before producing a result or reaching its proposed Piksel HTTP request; the successful `rg` replacement and that limitation are recorded in LOCAL_PLANET_FILE_INVENTORY.json. Do not restart the slow helper.
+
+## Is BIG Piksel a good alternative?
+
+The official spelling/address is [Piksel, `piksel.big.go.id`](https://piksel.big.go.id/). Its [official overview](https://piksel.big.go.id/docs/overview/) describes Sentinel-1, Sentinel-2 and Landsat archives, surface-reflectance products, Sentinel-1 backscatter, temporal composites and coastal products. Its public catalogue and processing infrastructure could be useful for access, reproducibility and later bounded technical work.
+
+It is **not established as a replacement for independent high-resolution Planet reference observations**. Another copy or processing of the same Sentinel-2/Landsat acquisition does not add an independent temporal observation, recover an unrecorded date, or prove that a cloud-obscured support was clear. A composite or annual GeoMAD product cannot serve as current-acquisition water truth. Using a new Sentinel-1 product as detector input would also require the existing processing/radiometry review, not an automatic provider switch.
+
+Piksel's [published STAC guide](https://staging.piksel.big.go.id/docs/services/explorer/stac-api/) identifies the public Explorer STAC endpoint. This guide is on its staging documentation host; the production overview corroborates the broad service description. Direct web-tool access to the production STAC collections endpoint was unsuccessful in this check. That is a technical-access limitation, not evidence of an empty archive. Actual collection versions, source lineage, Kusan footprint/date coverage and native assets remain unverified. No new Piksel date search or pixels were acquired, and no exhausted Sentinel-2/Landsat imagery search was repeated.
+
+## Recommended order of work
+
+1. **Recover or clarify the already recorded Education entitlement first.** The earlier 2028 validity record makes this a better first action than buying another subscription. If a different account/workspace carries it, verify that actual account and selected-asset permissions. No purchase or reset is needed to investigate. A bounded entitlement recheck, if justified, must preserve the current failed/empty results rather than overwrite them.
+2. **Use Piksel as an optional public-data/access route, with a small collection-metadata check first.** Adopt it only for a defined unmet technical need or genuinely additional source coverage. Do not run another generic optical rescue or introduce composites as dated truth. The existing saved Sentinel-2/Landsat evidence remains usable without a Planet subscription.
+3. **For genuinely different optical observations, prioritize a dated SPOT/Pléiades archive feasibility check at the same frozen sites.** Airbus documents [Pléiades/SPOT archive search and separate commercial access options](https://space-solutions.airbus.com/imagery/how-to-order-imagery-and-data/?id=41255). This is a concrete candidate archive, not a claim that Kusan has clear images on the required dates or that academic access is free. Use metadata/provenance first, not an order. BRIN's historical national archive is a possible institutional enquiry route, but current 2025 holdings/access were not verified here and must not be presented as ready.
+
+Do not claim the research hypothesis failed because an account cannot deliver images. Conversely, catalogue coverage alone is no evidence of detector success or reference adequacy. If entitlement and a genuinely independent dated archive cannot resolve the missing evidence, return the consequential choice of narrower conditional falsification or a different reference programme rather than repeatedly rescuing these objects. No semantic or final-method decision is made by this report.
+
+The user has been asked about the Education account/workspace. No scientific processing is queued. A console opened for local hidden credential entry may remain idle after the worker returned; do not confuse it with an active acquisition job or relaunch the worker. Credentials were entered locally and were not placed in receipts, chat, command arguments or the public backup.
