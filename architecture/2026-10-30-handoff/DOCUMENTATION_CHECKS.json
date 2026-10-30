@@ -1,0 +1,22 @@
+{
+  "date_local": "2026-10-30",
+  "task": "DOCUMENTATION_HANDOFF_ONLY",
+  "bytes": 163523,
+  "words": 19518,
+  "lines": 943,
+  "sha256": "18389c3947f19bd2e27bc6f0eff32ea369cffb45a270dc519db452a1b73b6329",
+  "absolute_local_markdown_links_checked": 17,
+  "missing_link_targets": [],
+  "historical_research_cutoff": "2026-10-27",
+  "no_new_research_processing_or_pixels": true,
+  "public_backup_policy": "Full document local only because it includes detailed development sites and reader provenance; only sanitized handoff summary may enter public curated backup",
+  "editorial_consistency_review": {
+    "type": "Model-assisted documentation review only, not independent reference interpretation",
+    "result": "No material scientific/status contradiction found in reviewed counts, reader caveats, current firewall/inference roles and latest smoke timing",
+    "lookup_corrections_applied": [
+      "QGIS project filename spacing",
+      "R01/R03 identifier spacing"
+    ],
+    "no_new_scientific_result": true
+  }
+}

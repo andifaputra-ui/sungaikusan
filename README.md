@@ -1,5 +1,7 @@
 # Kusan C2 research architecture backup
 
+Latest update, 30 October: [complete local handoff summary](architecture/2026-10-30-handoff/HANDOFF_SUMMARY.md). The detailed new-chat briefing is local only; scientific status remains the 27 October completion. Documentation did not launch research. Read [checkpoint](CHECKPOINT.md).
+
 Latest completed result: [Planet metadata and source alternatives](architecture/2026-10-27-planet-metadata-findings/COMPLETED_FINDINGS_20261027.md). Catalogue opportunities exist but checked account asset access is unavailable; no imagery or labels acquired. Earlier Education entitlement and expired trial are distinct records. Nothing scientific running. Read [checkpoint](CHECKPOINT.md). Older entries below are historical.
 
 Current status: **user-requested clean stop**. Planet login will be completed manually; no authentication polling, metadata worker or scientific job is running. Resume only after explicit user continuation. Read [checkpoint](CHECKPOINT.md).

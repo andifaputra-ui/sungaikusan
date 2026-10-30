@@ -1,6 +1,6 @@
 {
-  "date_local": "2026-10-27",
-  "scope": "Curated code/protocol/aggregate metadata access findings and alternative-source research; no credentials, raw account receipts, source pixels, site geometries or reader returns",
+  "date_local": "2026-10-30",
+  "scope": "Curated code/text/aggregate research and sanitized full-handoff summary; detailed handoff, imagery, coordinates, reader returns and credentials remain local",
   "not_a_full_dataset_backup": true,
   "repository_visibility": "public_at_previous_verification",
   "excluded": [
@@ -16,13 +16,13 @@
   "files": [
     {
       "path": "CHECKPOINT.md",
-      "bytes": 4024,
-      "sha256": "244ad21c6192b5ed79be9fb3fc7582abe5618e30a9370457ec0f791f880093a3"
+      "bytes": 2044,
+      "sha256": "6a7adee9068ea68565a40cd46adced94ebd675918ba2b8796f1cceef1770b81d"
     },
     {
       "path": "README.md",
-      "bytes": 5879,
-      "sha256": "0cd2f8d8b113fc4395c43f362410df25cb0876a2ea9bf00267d1eb2c4575cb67"
+      "bytes": 6167,
+      "sha256": "df89a50dc76f191b539ed934e936d9c3df857fef07f6e4eb9150a346b21bec32"
     },
     {
       "path": "architecture/2026-10-08/ARCHITECTURE_CHECK_RESULTS.json",
@@ -863,6 +863,16 @@
       "path": "architecture/2026-10-27-planet-metadata-findings/analyze_saved_metadata.py",
       "bytes": 7787,
       "sha256": "7f311e8e961edf77bf57032f0b9fc1e5193e51b2b7c29d88dbd030b7d10153af"
+    },
+    {
+      "path": "architecture/2026-10-30-handoff/DOCUMENTATION_CHECKS.json",
+      "bytes": 1039,
+      "sha256": "5c8201f2fb41bf25e0a5a66154e36d9bb92690ac035459cada4f8b7a48fc8a92"
+    },
+    {
+      "path": "architecture/2026-10-30-handoff/HANDOFF_SUMMARY.md",
+      "bytes": 2044,
+      "sha256": "6a7adee9068ea68565a40cd46adced94ebd675918ba2b8796f1cceef1770b81d"
     }
   ]
 }
